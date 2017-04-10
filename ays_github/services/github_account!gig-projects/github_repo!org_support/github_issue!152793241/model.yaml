@@ -1,0 +1,20 @@
+assignee: davshafik
+body: '### Part of Story: #1
+
+
+  '
+comments:
+- {body: "@hofkensj I have sit with my team and with nayer to discuss the ON-Call\
+    \ Schedule and here is what we come up with , please have a look and let me know\
+    \ if you have and comments , feedback , etc...  \r\n[GiG-Support-Oncall-sheet](https://docs.google.com/spreadsheets/d/1gc5I9qqOR5qT-AXwewX21a7AmgkfrqQoLUn-_kXJNsk/edit#gid=1503706155)\r\
+    \n ", id: 218705080, time: '2016/05/12 09:25:05', url: 'https://api.github.com/repos/gig-projects/org_support/issues/comments/218705080',
+  user: davshafik}
+id: 152793241
+labels: [priority_urgent, state_inprogress, type_task]
+milestone: 6:may
+number: 14
+open: true
+state: open
+time: 2016/05/03 14:50:01
+title: 'supportprocess: put calendar in place for on-call service for May / June'
+url: https://github.com/gig-projects/org_support/issues/14

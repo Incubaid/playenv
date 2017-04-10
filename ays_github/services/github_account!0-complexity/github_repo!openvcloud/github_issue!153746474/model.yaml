@@ -1,0 +1,24 @@
+assignee: ''
+body: "**Description:**\r\nCreate VM with empty name by cloning the Vm.\r\n\r\nSequance:\r\
+  \n1- Create a VM from the portal\r\n2- Stop this VM\r\n3- Press on \"Clone\" \r\n\
+  4- Leave all fields empty\r\n5- Press on \"Create\"\r\n6- Check the cloud space\
+  \ VM\r\n\r\n**Actual Results:-**\r\nYou will find that there is a machine with an\
+  \ empty name\r\n![screenshot from 2016-05-09 12-24-20](https://cloud.githubusercontent.com/assets/17981089/15110424/784d24e8-15e9-11e6-90bc-6f6ed6e5bc9a.png)\r\
+  \n\r\n**Expected Result:-**\r\nClone name must be mandatory\r\n\r\n**Software:-**\r\
+  \nJumpScale\r\n\r\n    Core: 7.0.5rc3\r\n    Portal: 7.0.5rc3\r\n\r\nOpenvCloud\r\
+  \n\r\n    Core: 2.0.5rc3\r\n\r\nOpenvStorage:\r\n\r\n    openvstorage-backend-core:\
+  \ 1.6.1-eugene-updates.4-1\r\n    alba: 0.8.1\r\n    openvstorage-webapps: 2.6.1-eugene-updates.20-1\r\
+  \n    openvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\n    openvstorage-core:\
+  \ 2.6.1-eugene-updates.20-1\r\n    openvstorage-hc: 1.6.1-eugene-updates.4-1\r\n\
+  \    openvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\n    openvstorage: 2.6.1-eugene-updates.20-1\r\
+  \n    openvstorage-backend: 1.6.1-eugene-updates.4-1\r\n    openvstorage-sdm: 1.5.1-eugene-updates.1-1"
+comments: []
+id: 153746474
+labels: [priority_normal, state_verification, type_bug]
+milestone: 2:ovc2.1_beta
+number: 124
+open: true
+state: open
+time: 2016/05/09 10:26:10
+title: Create VM with empty name
+url: https://github.com/0-complexity/openvcloud/issues/124

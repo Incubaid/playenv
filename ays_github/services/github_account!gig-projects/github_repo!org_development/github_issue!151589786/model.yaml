@@ -1,0 +1,17 @@
+assignee: ''
+body: "### Part of Story: #13\r\n\r\n## GOAL:\r\n\r\nMake sure everything in JumpScale8\
+  \ works against Ubuntu 16.04\r\n\r\n## DESCRIPTION:...\r\n\r\n"
+comments:
+- {body: "JS8 installs on Xenial with no issues.\r\nAgent, controller and syncthing\
+    \ fine.\r\n\r\nWeave currently not verified.\r\n\r\nPortal still needs verification\
+    \ as well", id: 218504316, time: '2016/05/11 15:56:37', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218504316',
+  user: rkhamis}
+id: 151589786
+labels: [type_task]
+milestone: ''
+number: 92
+open: true
+state: open
+time: 2016/04/28 09:24:11
+title: '1604: Make JumpScale8 work.'
+url: https://github.com/gig-projects/org_development/issues/92

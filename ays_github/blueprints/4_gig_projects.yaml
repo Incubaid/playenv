@@ -1,0 +1,31 @@
+github_repo__proj_centrilogic:
+  repo.type : 'proj'
+  repo.account : 'gig-projects'
+  milestone.category : 'gig'  
+
+github_repo__proj_onlanta:
+  repo.type : 'proj'
+  repo.account : 'gig-projects'
+  milestone.category : 'gig'  
+
+github_repo__proj_mauritius:
+  repo.type : 'proj'
+  repo.account : 'gig-projects'
+  milestone.category : 'gig'  
+
+github_repo__proj_russiantowers:
+  repo.type : 'proj'
+  repo.account : 'gig-projects'
+  milestone.category : 'gig'  
+
+github_repo__proj_artilium:
+  repo.type : 'proj'
+  repo.account : 'gig-projects'
+  milestone.category : 'gig'  
+
+
+github_repo__home_gig:
+  repo.name : 'home'
+  repo.type : 'proj'
+  repo.account : 'gig-projects'
+  milestone.category : ''  

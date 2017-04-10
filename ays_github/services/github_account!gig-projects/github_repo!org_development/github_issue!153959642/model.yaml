@@ -1,0 +1,19 @@
+assignee: ahussein
+body: "## GOAL: \r\nHave introductory documentation to JumpScale Framework\r\n\r\n\
+  ## DESCRIPTION:\r\n\r\n- Introduce the framework\r\n- Use cases (when to use the\
+  \ framework) + Examples\r\n- How to use it\r\n- What SALs are\r\n- How to use SALs\r\
+  \n- Available SALs\r\n- How to add SALs\r\n- Examples (showcase power of sals)\r\
+  \n\r\n\r\n"
+comments:
+- {body: 'Feel free to involve me for reviewing, tx', id: 218375933, time: '2016/05/11
+    06:46:20', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218375933',
+  user: yveskerwyn}
+id: 153959642
+labels: [state_inprogress, type_task]
+milestone: ''
+number: 121
+open: true
+state: open
+time: 2016/05/10 09:15:45
+title: 'js8beta: Improve JS Framework documentation [1.5d]'
+url: https://github.com/gig-projects/org_development/issues/121

@@ -1,0 +1,32 @@
+assignee: despiegk
+body: "- better architecture required for more IO on cockpit\r\n- also scalability\
+  \ need to go up"
+comments:
+- {body: "see\r\nhttps://github.com/Jumpscale/jscockpit/blob/master/specs/geventbased_robot.md\r\
+    \n", id: 216450613, time: '2016/05/03 06:37:23', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216450613',
+  user: despiegk}
+- {body: '@despiegk is this enhancement to the cockpit critical for 2.1 beta ?', id: 216516272,
+  time: '2016/05/03 12:46:19', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216516272',
+  user: FastGeert}
+- {body: "think so, lets discuss\n\nOn Tue, May 3, 2016 at 4:46 PM, Geert Audenaert\
+    \ <notifications@github.com>\nwrote:\n\n> @despiegk <https://github.com/despiegk>\
+    \ is this enhancement to the\n> cockpit critical for 2.1 beta ?\n>\n> \u2014\n\
+    > You are receiving this because you were mentioned.\n> Reply to this email directly\
+    \ or view it on GitHub\n> <https://github.com/gig-projects/org_research/issues/5#issuecomment-216516272>\n\
+    >\n\n\n\n-- \n------------------------\nKristof De Spiegeleer\n+971525609014\n\
+    +201206927877\n+32 475405474\nskype: despiegk\n", id: 216597588, time: '2016/05/03
+    17:07:05', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216597588',
+  user: despiegk}
+- {body: 'If does not add functionality, it might be better to push these optimalisations
+    to 2.1 ga, so that we can now focus more on creating the beta, so that you can
+    start your demo''s', id: 216820159, time: '2016/05/04 10:11:05', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216820159',
+  user: FastGeert}
+id: 150781953
+labels: [priority_critical, state_inprogress, type_story]
+milestone: 3:may
+number: 5
+open: true
+state: open
+time: 2016/04/25 08:04:12
+title: cockpit with better IO (events, mail, ...) & scalability (cockpitNG)
+url: https://github.com/gig-projects/org_research/issues/5

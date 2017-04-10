@@ -1,0 +1,24 @@
+assignee: rkhamis
+body: ''
+comments:
+- {body: "This is the json representing the dashboard for the statistics of the agents.\r\
+    \n\r\n[dashboard.txt](https://github.com/0-complexity/g8cockpit/files/202504/dashboard.txt)\r\
+    \n", id: 205298370, time: '2016/04/04 13:36:57', url: 'https://api.github.com/repos/Jumpscale/jscockpit/issues/comments/205298370',
+  user: mie00}
+- {body: It is now integrated with cockpit deployer., id: 209294210, time: '2016/04/13
+    08:08:03', url: 'https://api.github.com/repos/Jumpscale/jscockpit/issues/comments/209294210',
+  user: mie00}
+- {body: "This is a good start.\r\nCan we also make some macros that shows statistics\
+    \ by host on a dedicated page.\r\nLike we do in the grid portal for the nodes\
+    \ (https://be-scale-1.demo.greenitglobe.com/grid/Node%20Stats?id=5&gid=101)",
+  id: 209295985, time: '2016/04/13 08:13:34', url: 'https://api.github.com/repos/Jumpscale/jscockpit/issues/comments/209295985',
+  user: zaibon}
+id: 143806270
+labels: []
+milestone: ''
+number: 8
+open: true
+state: open
+time: 2016/03/27 12:54:31
+title: Create dashboard templates for different types of statistics
+url: https://github.com/Jumpscale/jscockpit/issues/8

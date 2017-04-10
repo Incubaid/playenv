@@ -1,0 +1,38 @@
+assignee: zaibon
+body: '- ...
+
+
+  |status|title                                                         |link|
+
+  |------|--------------------------------------------------------------|----|
+
+  |open  |cockpit: Refactor blueprint type from the name into a property|#14 |
+
+  |open  |cockpit: let js8 & js7 work next to each other in ubuntu 15.10|#12 |
+
+  |open  |cockpit: finish/review robot                                  |#7  |
+
+  |open  |cockpit: enable ays7 inside cockpit                           |#6  |
+
+  |open  |cockpit: new dns infrastructure                               |#5  |
+
+  |open  |cockpit: get incoming email interface working                 |#4  |'
+comments:
+- {body: '@zaibon please add estimates to the tasks in this story.
+
+
+    See https://gig.gitbooks.io/agile/content/tickets_tasks.html for information on
+    the notation.
+
+
+    Thanks.', id: 216536456, time: '2016/05/03 13:59:56', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216536456',
+  user: FastGeert}
+id: 149435594
+labels: [priority_critical, state_inprogress, type_story]
+milestone: 7:G8-2.1-beta
+number: 3
+open: true
+state: open
+time: 2016/04/19 11:48:49
+title: Cockpit 0.9 in beta (cockpit)
+url: https://github.com/gig-projects/org_development/issues/3

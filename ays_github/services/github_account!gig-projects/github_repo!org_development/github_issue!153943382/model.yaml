@@ -1,0 +1,24 @@
+assignee: robvanmieghem
+body: "## GOAL:\r\nAdd SMS for 2 factor authentication as an alternative to totp.\r\
+  \n\r\n## DESCRIPTION:\r\nNot everyone knows how to use totp applications. The current\
+  \ registration screen also assumes that this is available to everyone. It is better\
+  \ to provide SMS as an alternative and to make the registration form more user friendly.\r\
+  \n\r\nTwilio will be used as sms service.\r\n\r\nRemarks:\r\n- [ ] two phased login\r\
+  \n    - 1: user/pass\r\n    - 2: totp/sms\r\n- [ ] prevent modification/deletion\
+  \ of 2fa phonenumber\r\n\r\n"
+comments:
+- {body: "Registration states:\r\nhttps://github.com/itsyouonline/identityserver/blob/master/docs/registration/Registration.svg",
+  id: 218150015, time: '2016/05/10 13:01:20', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218150015',
+  user: robvanmieghem}
+- {body: "Login states:\r\nhttps://github.com/itsyouonline/identityserver/blob/sms2fa/docs/login/Login.svg",
+  id: 218749621, time: '2016/05/12 13:00:43', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218749621',
+  user: robvanmieghem}
+id: 153943382
+labels: [state_inprogress, type_task]
+milestone: ''
+number: 120
+open: true
+state: open
+time: 2016/05/10 07:46:34
+title: 'itsyouonline: add sms for 2 factor authentication [1.5d]'
+url: https://github.com/gig-projects/org_development/issues/120

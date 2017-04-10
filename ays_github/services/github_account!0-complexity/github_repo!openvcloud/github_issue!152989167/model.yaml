@@ -1,0 +1,24 @@
+assignee: ''
+body: "Environment allows to add unlimited number of network ids using registerNetworkIdRange\
+  \ api.\r\n![net](https://cloud.githubusercontent.com/assets/15011431/15012713/8e537308-1203-11e6-94d9-f4d45a10b946.png)\r\
+  \n\r\n## Expected Result:\r\nPlease limit the number of network ids to the number\
+  \ of hosts that the environment can handle."
+comments:
+- {body: "## Environment\r\ndu-conv-2\r\n## Software Version \r\nJumpScale\r\n\r\n\
+    Core: 7.1.0b2\r\nPortal: 7.1.0b2\r\nOpenvCloud\r\n\r\nCore: 2.1.0b2\r\nOpenvStorage:\r\
+    \n\r\nopenvstorage-backend-core: 1.6.1-eugene-updates.4-1\r\nalba: 0.8.1\r\nopenvstorage-webapps:\
+    \ 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-core: 2.6.1-eugene-updates.20-1\r\nopenvstorage-hc: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\nopenvstorage: 2.6.1-eugene-updates.20-1\r\
+    \nopenvstorage-backend: 1.6.1-eugene-updates.4-1\r\nopenvstorage-sdm: 1.5.1-eugene-updates.1-1",
+  id: 216833665, time: '2016/05/04 11:29:40', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/216833665',
+  user: john-kheir}
+id: 152989167
+labels: [priority_normal, type_bug]
+milestone: 3:ovc2.1_ga
+number: 111
+open: true
+state: open
+time: 2016/05/04 11:28:06
+title: Environment allows to add unlimited number of network ids
+url: https://github.com/0-complexity/openvcloud/issues/111

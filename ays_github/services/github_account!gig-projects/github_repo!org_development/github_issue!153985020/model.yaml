@@ -1,0 +1,29 @@
+assignee: ''
+body: "## GOAL:\r\nfix bug so it installs js correctly \r\n\r\n\r\n## DESCRIPTION:\r\
+  \nto reproduce : \r\n-clone this repo https://github.com/Jumpscale/dockers.git\r\
+  \n-cd inside repo \r\n-run\r\n ```\r\ndocker build --tag=\"jumpscale/ubuntu1510\"\
+  \ js8/x86_64/2_ubuntu1510/\r\ndocker build --tag=\"jumpscale/ubuntu1510_python3\"\
+  \ js8/x86_64/3_ubuntu1510_python3/ \r\ndocker build  --tag=\"jumpscale/ubuntu1510_js8\"\
+  \ js8/x86_64/4_ubuntu1510_js8/\r\n```\r\nerror :\r\n```\r\nwarning:did not find\
+  \ redis\r\nwarning:did not find redis\r\nwarning:did not find redis\r\nwarning:did\
+  \ not find redis\r\nwarning:did not find redis\r\nwarning:did not find redis\r\n\
+  ```\r\n\r\n\r\n\r\n"
+comments:
+- {body: "hi @abdulrahmantkhalifa see my issue: https://github.com/Jumpscale/jumpscale_core8/issues/218\r\
+    \nReading this task, I was wondering wether there is some work already done that\
+    \ I can reuse...\r\n\r\nIs there a \"jumpscale/ubuntu1510_js8\" image that works?",
+  id: 218564137, time: '2016/05/11 19:28:25', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218564137',
+  user: yveskerwyn}
+- {body: still on this issue not yet fixed so no working image yet, id: 218720844,
+  time: '2016/05/12 10:37:10', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218720844',
+  user: abdulrahmantkhalifa}
+id: 153985020
+labels: [type_task]
+milestone: ''
+number: 124
+open: true
+state: open
+time: 2016/05/10 11:35:12
+title: js8sb:recursion error when tryin to install on docker (only when using docker
+  build )
+url: https://github.com/gig-projects/org_development/issues/124

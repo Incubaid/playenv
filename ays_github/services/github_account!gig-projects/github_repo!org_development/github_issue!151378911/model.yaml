@@ -1,0 +1,15 @@
+assignee: ''
+body: "### Part of Story: #39\r\n\r\n## GOAL:\r\nDecide if encfs is good enough for\
+  \ encryption of vnas backend.\r\n\r\n## DESCRIPTION:-\r\n Need to be encrypted per\
+  \ file.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\
+  \n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+comments: []
+id: 151378911
+labels: [type_task]
+milestone: ''
+number: 84
+open: true
+state: open
+time: 2016/04/27 13:00:05
+title: 'G8NAS: Test encfs '
+url: https://github.com/gig-projects/org_development/issues/84

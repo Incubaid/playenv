@@ -1,0 +1,15 @@
+assignee: robvanmieghem
+body: "## GOAL:\r\nIn order to pass an authorization token to the g8, whmcs needs\
+  \ to be able to acquire a JWT with less scopes then the oauth token it owns itself.\r\
+  \n\r\n## DESCRIPTION:\r\nExplain in detail the process and how we want to solve\
+  \ the problem.\r\n\r\n\r\n"
+comments: []
+id: 154176766
+labels: [type_task]
+milestone: ''
+number: 125
+open: true
+state: open
+time: 2016/05/11 07:23:48
+title: 'vdc-control: JWT support in itsyou.online [1.5d]'
+url: https://github.com/gig-projects/org_development/issues/125

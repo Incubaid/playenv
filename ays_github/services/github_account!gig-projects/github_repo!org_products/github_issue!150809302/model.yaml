@@ -1,0 +1,15 @@
+assignee: svekeman
+body: "\r\n## the problem\r\n- lots of internal confusion (what is what, & where defined)\r\
+  \n- lots of inconsistencies (names, ...)\r\n\r\n## todo\r\n- overview of products\r\
+  \n- ppt/homepage/gdocs revisit different spots\r\n- fix inconsistencies\r\n\r\n\r\
+  \n\r\n"
+comments: []
+id: 150809302
+labels: [priority_normal, state_question, type_story]
+milestone: 5:may
+number: 4
+open: true
+state: open
+time: 2016/04/25 10:01:17
+title: Product Overview Review (prodoverview)
+url: https://github.com/gig-projects/org_products/issues/4

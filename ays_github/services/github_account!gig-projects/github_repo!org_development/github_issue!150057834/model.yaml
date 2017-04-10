@@ -1,0 +1,26 @@
+assignee: grimpy
+body: "### GOAL:\n\n - deliver 2.1.0 in beta\n - all blocker & major bugs closed\n\
+  \ - all prd functionality in\n\nfor all related bugs & fr see\n\n - https://github.com/0-complexity/openvcloud/milestones/ovc2.1_beta\n\
+  \n|status|title                                        |link|\n|------|---------------------------------------------|----|\n\
+  |open  |ovc210: Work in issues assigned to mie00 [4d]|#115|\n\n"
+comments:
+- {body: '@lzonneke can you please add bug container tasks for the outstanding bugs.
+    Dont forget to put estimates.
+
+
+    See https://gig.gitbooks.io/agile/content/tickets_tasks.html for the task notation',
+  id: 216543515, time: '2016/05/03 14:20:02', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216543515',
+  user: FastGeert}
+- {body: "https://github.com/0-complexity/openvcloud/issues?q=is%3Aopen+milestone%3Aovc2.1_beta+label%3Atype_bug\r\
+    \n\r\n@grimpy lets check this next week when in Egypt", id: 216560398, time: '2016/05/03
+    15:13:51', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216560398',
+  user: lzonneke}
+id: 150057834
+labels: [state_inprogress, type_story]
+milestone: 5:may
+number: 49
+open: true
+state: open
+time: 2016/04/21 12:23:05
+title: OpenvCloud bugfixes 1 (ovc210)
+url: https://github.com/gig-projects/org_development/issues/49

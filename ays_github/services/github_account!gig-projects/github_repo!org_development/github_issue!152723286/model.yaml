@@ -1,0 +1,16 @@
+assignee: karimal
+body: "### Part of Story: #38\r\n\r\n\r\n## GOAL:\r\n\r\nMake VDC Control Panel stand\
+  \ alone angular application\r\n\r\n## DESCRIPTION:\r\n\r\n Split frontend code for\
+  \ VDC Control Panel\r\n Remove any related Jumpscale portal macros/code\r\n Use\
+  \ HTML standard files instead of .wiki files\r\n\r\n## New repository\r\n\r\n [https://github.com/0-complexity/openvcloud_fe](https://github.com/0-complexity/openvcloud_fe)\r\
+  \n"
+comments: []
+id: 152723286
+labels: [priority_critical, state_inprogress, type_task]
+milestone: ''
+number: 107
+open: true
+state: open
+time: 2016/05/03 08:27:10
+title: 'vdc-control: Make VDC Control Panel stand alone angular application [20h]'
+url: https://github.com/gig-projects/org_development/issues/107

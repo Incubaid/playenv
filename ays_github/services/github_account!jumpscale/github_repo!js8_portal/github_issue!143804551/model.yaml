@@ -1,0 +1,13 @@
+assignee: ashraffouda
+body: "- Render only changed content?\n - More efficient macro detection\n - Investigate\
+  \ using Werkzeug for routing\n - Optimize space loading"
+comments: []
+id: 143804551
+labels: [state_verification]
+milestone: ''
+number: 40
+open: true
+state: open
+time: 2016/03/27 12:32:23
+title: Investigate portal optimization
+url: https://github.com/Jumpscale/jumpscale_portal8/issues/40

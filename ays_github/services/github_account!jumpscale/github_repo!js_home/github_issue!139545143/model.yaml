@@ -1,0 +1,33 @@
+assignee: rkhamis
+body: "\r\nstructure as what we did in gridportal\r\n\r\n- home: overview shows \r\
+  \n   - nr of dockers\r\n   - nr failed actions\r\n   - health status (comes out\
+  \ of redis)\r\n- dockerhosts\r\n   - grid\r\n   - detailed page per docker host\r\
+  \n   - show stats per dockerhost\r\n   - link to aysi page\r\n- dockers\r\n   -\
+  \ grid\r\n   - detailed page per docker\r\n   - link to aysi page\r\n- ays templates\r\
+  \n   - grid\r\n   - detailed page per ays template\r\n       - show aysi linked\
+  \ to this in grid\r\n- ays instances\r\n   - grid\r\n   - detailed page per ays\
+  \ instance\r\n       - link ays template \r\n       - grid to actions\r\n- blueprints\r\
+  \n   - grid\r\n   - detailed page per blueprint\r\n- actions (j.actions)\r\n   -\
+  \ grid\r\n   - detailed page per action\r\n         - link to ays instance\r\n-\
+  \ eco's\r\n   - grid\r\n   - detailed page per eco\r\n- monitoring issues (TBD)\r\
+  \n   - grid\r\n   - detailed page per monitoring issue (is special type of eco)\r\
+  \n\r\nrecurring actions\r\n- remove actions (more than 1000)\r\n- remove eco's (older\
+  \ than 1 week, and more than 2000)\r\n- run ays monitoring on all every 5 min\r\n\
+  \r\n\r\n\r\n   \r\n"
+comments:
+- {body: "\r\n17-march\r\nhigh prio\r\n- shell in a box\r\n   - add method to get\
+    \ link which gives you ssh access to the cockpit over shell in a box\r\n- on chosen\
+    \ OVC\r\n- test deployment (from docker, update git repo's)\r\n- specific robot\
+    \ which creates/deletes cockpits\r\n- gitbook for cockpit\r\n   - deployment:\
+    \ cockpit (through telegram)\r\n   - example for deployment of docker\r\n\r\n\
+    low\r\n- eco's\r\n- stats\r\n\r\n", id: 197746138, time: '2016/03/17 07:57:25',
+  url: 'https://api.github.com/repos/Jumpscale/home/issues/comments/197746138', user: despiegk}
+id: 139545143
+labels: [state_inprogress, type_story]
+milestone: ''
+number: 7
+open: true
+state: open
+time: 2016/03/09 11:01:19
+title: first blueprint portal
+url: https://github.com/Jumpscale/home/issues/7

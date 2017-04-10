@@ -1,0 +1,45 @@
+assignee: ''
+body: "# Scenario\r\n1- Create a new user with any data in the groups field\r\n![1](https://cloud.githubusercontent.com/assets/15011431/14715748/af4eef44-07f2-11e6-839b-c0f3c9c8a8ab.png)\r\
+  \n\r\n2- The new data which has been entered by wrong appeared when trying to create\
+  \ a new user from portal\r\n![2](https://cloud.githubusercontent.com/assets/15011431/14715749/b14a6c92-07f2-11e6-9c17-121f636393b3.png)\r\
+  \n\r\n## Expected Result: \r\n1- groups filed should prevent any data to be accepted\
+  \ with proper error message\r\n2- An instructions should be provided on how to enter\
+  \ the groups field \r\n3- email address field should be a string and not an array\
+  \ as in figure1\r\n4- prevent the addition of new group choice when creating a new\
+  \ user as in figure2"
+comments:
+- {body: "## Environment \r\ndu-conv-2\r\n\r\n## Software Version\r\nJumpScale\r\n\
+    \r\nCore: 7.0.5rc3\r\nPortal: 7.0.5rc3\r\nOpenvCloud\r\n\r\nCore: 2.0.5rc3\r\n\
+    OpenvStorage:\r\n\r\nopenvstorage-backend-core: 1.6.1-eugene-updates.4-1\r\nalba:\
+    \ 0.8.1\r\nopenvstorage-webapps: 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend-webapps:\
+    \ 1.6.1-eugene-updates.4-1\r\nopenvstorage-core: 2.6.1-eugene-updates.20-1\r\n\
+    openvstorage-hc: 1.6.1-eugene-updates.4-1\r\nopenvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\
+    \nopenvstorage: 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-sdm: 1.5.1-eugene-updates.1-1", id: 212989019, time: '2016/04/21
+    16:07:44', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/212989019',
+  user: john-kheir}
+- {body: 'Should we disable creating groups when a user is created?', id: 214679330,
+  time: '2016/04/26 09:14:33', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/214679330',
+  user: lzonneke}
+- {body: "yes we should, creating a user should not allow creating additional groups.\
+    \ We should only be able to attach a user to an existing group using this API.\
+    \ \r\n\r\nCreating groups should be an other and different admin API.", id: 215335727,
+  time: '2016/04/28 07:34:07', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/215335727',
+  user: lzonneke}
+- {body: moved to beta. its better to fix this sooner then later because of the possible
+    consequences it might have., id: 217104326, time: '2016/05/05 08:42:27', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217104326',
+  user: grimpy}
+- {body: "https://github.com/jumpscale7/jumpscale_portal/pull/10\r\nhttps://github.com/jumpscale7/jumpscale_core7/pull/4\r\
+    \n\r\nWill return an error if any of the groups doesn't exist.\r\n\r\nAnd normally\
+    \ a user can have multiple email addresses", id: 217875608, time: '2016/05/09
+    14:12:32', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217875608',
+  user: mie00}
+id: 150118765
+labels: [state_verification, type_bug]
+milestone: 2:ovc2.1_beta
+number: 83
+open: true
+state: open
+time: 2016/04/21 16:06:43
+title: user.create api accepts any entry for groups
+url: https://github.com/0-complexity/openvcloud/issues/83

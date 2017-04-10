@@ -1,0 +1,7 @@
+milestone.category             =
+    'gig',
+
+milestone.deadline             = '+6m'
+milestone.description          = 'the product we want to deliver to our customers'
+milestone.owner                = 'despiegk'
+milestone.title                = 'summer'

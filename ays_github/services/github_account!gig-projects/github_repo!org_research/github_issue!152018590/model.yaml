@@ -1,0 +1,20 @@
+assignee: muhamadazmy
+body: "- router based on orange pi or raspbery pi\r\n- used to connect offices to\
+  \ private clouds or to improve our own networking infrastructure\r\n- 100% managed\
+  \ by AYS\r\n\r\n|status|title                                                  \
+  \   |link|\r\n|------|----------------------------------------------------------|----|\r\
+  \n|open  |g8os_router: cuisine scripts for G8os router POC          |#15 |\r\n|open\
+  \  |g8os_router: Cuisine installer for raspbery PI & Orange pi|#14 |"
+comments:
+- {body: '@despiegk Is this relevant to 2.1 beta?', id: 216820645, time: '2016/05/04
+    10:13:43', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216820645',
+  user: FastGeert}
+id: 152018590
+labels: [priority_minor, type_story]
+milestone: 3:may
+number: 13
+open: true
+state: open
+time: 2016/04/30 08:49:32
+title: G8OS Router POC (g8os_router)
+url: https://github.com/gig-projects/org_research/issues/13

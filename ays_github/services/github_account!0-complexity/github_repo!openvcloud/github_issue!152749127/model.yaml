@@ -1,0 +1,15 @@
+assignee: ''
+body: "Inject the URL with ${} to be like that https://du-conv-2.demo.greenitglobe.com/CBgrid/user?id=${},\
+  \ produce a non handled error which include the master node local IP and the root\
+  \ password\r\n![screenshot from 2016-05-03 12-27-29](https://cloud.githubusercontent.com/assets/17981089/14981510/5a2ba508-1138-11e6-8e37-1bf436c934aa.png)\r\
+  \n\r\nThe master node ip\r\n![screenshot from 2016-05-03 13-07-58](https://cloud.githubusercontent.com/assets/17981089/14981524/7441311a-1138-11e6-86bc-ac121265f99c.png)"
+comments: []
+id: 152749127
+labels: [priority_normal, type_bug]
+milestone: 3:ovc2.1_ga
+number: 104
+open: true
+state: open
+time: 2016/05/03 11:08:17
+title: Security# Master root password is apperaed in error message
+url: https://github.com/0-complexity/openvcloud/issues/104

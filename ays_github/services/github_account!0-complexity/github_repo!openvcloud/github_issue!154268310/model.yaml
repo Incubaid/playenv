@@ -1,0 +1,40 @@
+assignee: ''
+body: "**Description:**\r\nI found a Unicode transformation error which is meaning\
+  \ that character X gets transformed to an entirely different character Y in some\
+  \ urls. The attacker can improve this vulnerable and make a XSS on the enviroment.\
+  \ \r\n\r\n**POF:-**\r\nThe following link is showing that the \"spacename=acu3984\"\
+  \ is not defined\r\nhttps://be-conv-2.demo.greenitglobe.com/system/DeleteSpace?spacename=acu3984\r\
+  \n![screenshot from 2016-05-11 17-05-06](https://cloud.githubusercontent.com/assets/17981089/15185685/ea6a5914-17a2-11e6-998c-a365ffc88dae.png)\r\
+  \n\r\nWhen I inject the simple XSS code < script>alert(\"Hello\")< /script>, The\
+  \ XSS filter will not allow this code to be loaded in the page and will treat with\
+  \ it as a part of the spacename value.\r\n![screenshot from 2016-05-11 17-06-13](https://cloud.githubusercontent.com/assets/17981089/15185747/1224ab94-17a3-11e6-87d3-765262d72976.png)\r\
+  \n\r\n\r\nAccording to the fact that this url is infected with Unicode transformation,\
+  \ I tried to retype the code with using \uFF1C script\uFE65alert(\"HELLO\");\uFF1C\
+  / script\uFE65 It will translate \uFF1C to be < and that what i need. I found that\
+  \ **the left menu will be disappeared and a lot of script code will be added to\
+  \ mine** BUT this script willn't fire too.\r\n![screenshot from 2016-05-11 17-08-08](https://cloud.githubusercontent.com/assets/17981089/15185861/76e87970-17a3-11e6-8545-30992e1181ec.png)\r\
+  \n![screenshot from 2016-05-11 17-08-40](https://cloud.githubusercontent.com/assets/17981089/15185910/ab14a732-17a3-11e6-8ad4-b62b4ca62a53.png)\r\
+  \n\r\n\r\nI edit it to be **\uFF1CSCRIPT\uFE65alert(\"HELLO\")\uFF1C/SCRIPT\uFE65\
+  ** And its finally fired **which is meaning that the attacker can attack our env\
+  \ by inject any malicious code their to steal cookies or credentials**.\r\n![screenshot\
+  \ from 2016-05-11 16-47-18](https://cloud.githubusercontent.com/assets/17981089/15185916/b0b28ede-17a3-11e6-9414-2fbb46ce4a10.png)\r\
+  \n\r\n\r\nHint: Tested in a lot of env and its working I will add all URLs I found\
+  \ infected with unicode issue.\r\n\r\n**Software:-**\r\nJumpScale\r\n\r\n    Core:\
+  \ 7.1.0b3\r\n    Portal: 7.1.0b3\r\n\r\nOpenvCloud\r\n\r\n    Core: 2.1.0b3\r\n\r\
+  \nOpenvStorage:\r\n\r\n    openvstorage-backend-core: 1.6.1-eugene-updates.4-1\r\
+  \n    alba: 0.8.1\r\n    openvstorage-webapps: 2.6.1-eugene-updates.20-1\r\n   \
+  \ openvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\n    openvstorage-core:\
+  \ 2.6.1-eugene-updates.20-1\r\n    openvstorage-hc: 1.6.1-eugene-updates.4-1\r\n\
+  \    openvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\n    openvstorage: 2.6.1-eugene-updates.20-1\r\
+  \n    openvstorage-backend: 1.6.1-eugene-updates.4-1\r\n    openvstorage-sdm: 1.5.1-eugene-updates.1-1\r\
+  \n\r\n\r\n"
+comments: []
+id: 154268310
+labels: [priority_critical, type_bug]
+milestone: ''
+number: 136
+open: true
+state: open
+time: 2016/05/11 15:11:21
+title: Security# Bybass the XSS filter and fire a script
+url: https://github.com/0-complexity/openvcloud/issues/136

@@ -1,0 +1,21 @@
+assignee: ''
+body: "eg\r\n```\r\nays install --instance=org_internalit --force\r\n```\r\nstarts\
+  \ executing on all kind of repo's which should not be part of dependency tree of\
+  \ org_internalit\r\n\r\nsee in repo loc\r\n/opt/code/github/jumpscale/playenv/ays_github/\r\
+  \ntest there\r\n\r\n"
+comments:
+- {body: make sure ays8 and js8 is up to date, id: 212801920, time: '2016/04/21 08:22:07',
+  url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/212801920',
+  user: despiegk}
+- {body: be careful not to create other issue, id: 212802141, time: '2016/04/21 08:22:29',
+  url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/212802141',
+  user: despiegk}
+id: 150000355
+labels: [priority_critical]
+milestone: ''
+number: 36
+open: true
+state: open
+time: 2016/04/21 08:17:09
+title: 'githubrobot:  issue with ays goes out of boundaries'
+url: https://github.com/gig-projects/org_development/issues/36

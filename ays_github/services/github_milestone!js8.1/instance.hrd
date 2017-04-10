@@ -1,0 +1,7 @@
+milestone.category             =
+    'code_js',
+
+milestone.deadline             = '+6m'
+milestone.description          = 
+milestone.owner                = 'despiegk'
+milestone.title                = 'js8.1'

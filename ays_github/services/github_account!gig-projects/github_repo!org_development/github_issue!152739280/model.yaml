@@ -1,0 +1,22 @@
+assignee: yveskerwyn
+body: "### Part of Story: #38\r\n\r\n## GOAL:\r\n\r\nReview documentation\r\n\r\n\
+  ## DESCRIPTION:\r\n\r\n After split frontend we need review documentation to make\
+  \ sure we use/don't use the right words \"VDC Control Panel, EndUser portal, Cloudsapce,\
+  \ etc..\"?\r\n"
+comments:
+- {body: "@karimal you are referring to the [Technical Tutorials](https://github.com/0-complexity/openvcloud/tree/master/apps/ms1_fe/base/wiki_gcb/Portal/Docs)?\r\
+    \n\r\nIf yes, please let me know where I should put the new documentation.", id: 216765628,
+  time: '2016/05/04 07:27:21', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216765628',
+  user: yveskerwyn}
+- {body: '@yveskerwyn It''ll be moved into new repository I''ll send you URL once
+    new structure pushed', id: 216766403, time: '2016/05/04 07:31:55', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216766403',
+  user: karimal}
+id: 152739280
+labels: [state_question, type_task]
+milestone: ''
+number: 112
+open: true
+state: open
+time: 2016/05/03 10:03:02
+title: 'vdc-control: Review VDC Control Panel documentation text'
+url: https://github.com/gig-projects/org_development/issues/112

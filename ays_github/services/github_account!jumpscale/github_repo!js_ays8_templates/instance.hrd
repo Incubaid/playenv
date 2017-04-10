@@ -1,0 +1,19 @@
+code.path                      = '/Users/despiegk/optvar/var/codetmp/jumpscale/ays_jumpscale8'
+
+github.client                  = 
+github.config                  = 
+
+kds.name                       = 'ss'
+
+milestone.category             =
+    'code_js',
+
+milestones                     =
+    'js8.0',
+    'js8.1',
+    'js8.2',
+
+repo.account                   = 'jumpscale'
+repo.name                      = 'ays_jumpscale8'
+repo.type                      = 'ays'
+repo.url                       = 'https://github.com/Jumpscale/ays_jumpscale8'

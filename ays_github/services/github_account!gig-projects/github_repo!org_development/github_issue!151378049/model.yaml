@@ -1,0 +1,17 @@
+assignee: ''
+body: "### Part of Story: #39\r\n\r\n## GOAL:\r\nCreate a blueprint that deploy the\
+  \ vnas.\r\n\r\n## DESCRIPTION:\r\nrequired AYS services:\r\n- storage vm with data\
+  \ disks\r\n- Disk management / monitoring\r\n- NFS config- vnaslb\r\n- FTP server-\
+  \ samba    \r\n- cifs, active directory\r\n- DNS loadbalancer.\r\n\r\n\r\n\r\n\r\
+  \n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\
+  \n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+comments: []
+id: 151378049
+labels: [type_task]
+milestone: ''
+number: 82
+open: true
+state: open
+time: 2016/04/27 12:55:37
+title: 'G8NAS: Blueprint for G8NAS deployement'
+url: https://github.com/gig-projects/org_development/issues/82

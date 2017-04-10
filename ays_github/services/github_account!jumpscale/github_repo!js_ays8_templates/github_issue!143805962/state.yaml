@@ -1,0 +1,10 @@
+events:
+  generic: [update_from_github]
+instanceHRDHash: ''
+parent: github_repo!js_ays8_templates
+producers:
+  github_repo: [github_repo!js_ays8_templates]
+recipe: github_issue
+recurring: {}
+state: {init: OK, install: OK}
+templateHRDHash: ''

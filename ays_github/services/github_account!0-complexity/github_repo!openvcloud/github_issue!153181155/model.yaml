@@ -1,0 +1,33 @@
+assignee: ''
+body: "- The menu left list is not there and i can't add a user\r\nhttps://du-conv-2.demo.greenitglobe.com/cbgrid/users\r\
+  \n![user1](https://cloud.githubusercontent.com/assets/15011431/15037979/93f6f802-12a8-11e6-9293-aeed7f6ffc15.png)\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/system/userlist\r\n![user2](https://cloud.githubusercontent.com/assets/15011431/15037983/961864f4-12a8-11e6-8092-c54d9d25c5d6.png)\r\
+  \n\r\n\r\n- Internal server error in the groups page\r\nhttps://du-conv-2.demo.greenitglobe.com/cbgrid/groups\r\
+  \n\r\n![groups](https://cloud.githubusercontent.com/assets/15011431/15038030/0a5be62e-12a9-11e6-8322-6eedc3c001d6.png)\r\
+  \n\r\n"
+comments:
+- {body: "## Environment\r\ndu-conv-2\r\n\r\n## Software Version \r\nJumpScale\r\n\
+    \r\nCore: 7.1.0b2\r\nPortal: 7.1.0b2\r\nOpenvCloud\r\n\r\nCore: 2.1.0b2\r\nOpenvStorage:\r\
+    \n\r\nopenvstorage-backend-core: 1.6.1-eugene-updates.4-1\r\nalba: 0.8.1\r\nopenvstorage-webapps:\
+    \ 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-core: 2.6.1-eugene-updates.20-1\r\nopenvstorage-hc: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\nopenvstorage: 2.6.1-eugene-updates.20-1\r\
+    \nopenvstorage-backend: 1.6.1-eugene-updates.4-1\r\nopenvstorage-sdm: 1.5.1-eugene-updates.1-1",
+  id: 217091409, time: '2016/05/05 07:14:15', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217091409',
+  user: john-kheir}
+- {body: '@john-kheir looks like URL''s are working now, what are the steps to reproduce?',
+  id: 218107017, time: '2016/05/10 09:34:29', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/218107017',
+  user: lzonneke}
+- {body: '@lzonneke, yes.. After the new installation with the new update (OpenvCloud
+    Core: 2.1.0b3), it is now working... To Reproduce: just check that the mentioned
+    links are working fine.', id: 218120269, time: '2016/05/10 10:34:54', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/218120269',
+  user: john-kheir}
+id: 153181155
+labels: [priority_critical, type_bug]
+milestone: ''
+number: 114
+open: true
+state: open
+time: 2016/05/05 07:13:13
+title: 'The user  and groups pages are not working '
+url: https://github.com/0-complexity/openvcloud/issues/114

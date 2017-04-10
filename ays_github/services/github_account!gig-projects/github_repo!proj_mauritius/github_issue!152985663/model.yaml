@@ -1,0 +1,15 @@
+assignee: ''
+body: "- select required rackspace - document\r\n- select required power - multi sourced\
+  \ - document\r\n- select required physical security (lockable rack, cage etc.) -\
+  \ document\r\n- select racking and stacking engineers - document\r\n- select shipping\
+  \ address - document\r\n- select additional goods required to finish the G8 install"
+comments: []
+id: 152985663
+labels: [type_task]
+milestone: 9:Project phase 1 deployed
+number: 12
+open: true
+state: open
+time: 2016/05/04 11:05:50
+title: 'LEAL_site_selection: Site inspection, selection and activation'
+url: https://github.com/gig-projects/proj_mauritius/issues/12

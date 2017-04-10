@@ -1,0 +1,39 @@
+assignee: ''
+body: "The following links is producing internal server error and Its globally access.\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/images/wiki_gcb\r\nhttps://du-conv-2.demo.greenitglobe.com/jslib/bootstrap\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/jslib/bootstrap/css\r\nhttps://du-conv-2.demo.greenitglobe.com/jslib/fonts\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/jslib/js\r\nhttps://du-conv-2.demo.greenitglobe.com/jquery\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/old\r\nhttps://du-conv-2.demo.greenitglobe.com/jslib/old/codemirror\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/jslib/old/codemirror/lib\r\nhttps://du-conv-2.demo.greenitglobe.com/jslib/old/codemirror/mode/javascript\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/jslib/old/codemirror/mode/\r\nhttps://du-conv-2.demo.greenitglobe.com/jslib/old/codemirror/mode/python\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/jslib/old/codemirror/mode/shell\r\nhttps://du-conv-2.demo.greenitglobe.com/jslib/old/codemirror/theme\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/jslib/old/swagger\r\nhttps://du-conv-2.demo.greenitglobe.com/jslib/old/swagger/css\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/jslib/old/swagger/images\r\nhttps://du-conv-2.demo.greenitglobe.com/jslib/swagger\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/jslib/swagger/lib\r\nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/css\r\nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/fonts\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/fonts\r\nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/img/images\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/img\r\nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/js/controllers/CloudSpace\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/js/controllers/\r\nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/js/controllers/Machines\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/js/controllers/Network\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/js/controllers/Portforwarding\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/js/services\r\nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/lib/angular-1.2.6\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/lib/\r\nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/lib/angular-cookie\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/lib/angular-szn-autocomplete\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/lib/angular-tour\r\nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/lib/angular-ui\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/lib/jquery\r\nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/lib/noVNC\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/lib/numeral\r\nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/lib/underscore\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/test\r\nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/test/e2e\r\
+  \n\r\n\r\n\r\n\r\n\r\n\r\n"
+comments:
+- {body: 'https://github.com/jumpscale7/jumpscale_portal/commit/a6e91ef64512523e34bc4ac7481966a35cc1a9b6',
+  id: 217872000, time: '2016/05/09 13:59:24', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217872000',
+  user: grimpy}
+id: 153645285
+labels: [state_verification, type_bug]
+milestone: 2:ovc2.1_beta
+number: 121
+open: true
+state: open
+time: 2016/05/08 09:10:42
+title: Crashing globall url
+url: https://github.com/0-complexity/openvcloud/issues/121

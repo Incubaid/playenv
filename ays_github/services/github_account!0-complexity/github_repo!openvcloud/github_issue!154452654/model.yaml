@@ -1,0 +1,29 @@
+assignee: ''
+body: "# Scenario\r\n1- create machine with one datadisk = 2200 GB \r\n![1111](https://cloud.githubusercontent.com/assets/15011431/15211824/3243aad0-1846-11e6-90f6-7fa4eea12a84.png)\r\
+  \n\r\n\r\n2- A 403 have been returned (which is good), but all stacks have been\
+  \ crashed\r\n![vm2](https://cloud.githubusercontent.com/assets/15011431/15211086/09af1bd0-1842-11e6-9577-93cc2a1dde5d.png)\r\
+  \n![vm3](https://cloud.githubusercontent.com/assets/15011431/15211093/147aa926-1842-11e6-8ac7-b66cfdceac01.png)\r\
+  \n\r\n\r\n## Expected Results\r\n1- All stacks should still be enabled.\r\n2- Please\
+  \ specify in the description of params 'disksize' and 'datadisk' that size in GB..\
+  \ should be fixed on cloudapi,  cloudbroker api and Machine API in the End portal\
+  \ \r\n3- Datatype of datadisks should be array instead of string (only in cloudbroker\
+  \ api)\r\n4- Same issue when trying to add high size for disksize field\r\n\r\n"
+comments:
+- {body: "## Environment\r\nbe-conv-2\r\n## Software Version\r\nJumpScale\r\n\r\n\
+    Core: 7.1.0b3\r\nPortal: 7.1.0b3\r\nOpenvCloud\r\n\r\nCore: 2.1.0b3\r\nOpenvStorage:\r\
+    \n\r\nopenvstorage-backend-core: 1.6.1-eugene-updates.4-1\r\nalba: 0.8.1\r\nopenvstorage-webapps:\
+    \ 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-core: 2.6.1-eugene-updates.20-1\r\nopenvstorage-hc: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\nopenvstorage: 2.6.1-eugene-updates.20-1\r\
+    \nopenvstorage-backend: 1.6.1-eugene-updates.4-1\r\nopenvstorage-sdm: 1.5.1-eugene-updates.1-1",
+  id: 218723165, time: '2016/05/12 10:48:54', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/218723165',
+  user: john-kheir}
+id: 154452654
+labels: [type_bug]
+milestone: ''
+number: 138
+open: true
+state: open
+time: 2016/05/12 10:47:48
+title: All stacks crash when creating machine with >2200GB disk size
+url: https://github.com/0-complexity/openvcloud/issues/138

@@ -1,0 +1,15 @@
+assignee: davshafik
+body: "At the moment https://odoo.racktivity.com uses a self-signed certificate which\
+  \ is marked as untrusted by all browsers.\r\nhttps://letsencrypt.org/ offers https\
+  \ certificates that are valid for 3 months for free. They also offer automatic renewal\
+  \ of these certificates."
+comments: []
+id: 151325935
+labels: []
+milestone: ''
+number: 9
+open: true
+state: open
+time: 2016/04/27 08:18:30
+title: Add a letsencrypt certificate to odoo.racktivity.com
+url: https://github.com/gig-projects/org_internalit/issues/9

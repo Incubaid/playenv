@@ -1,0 +1,18 @@
+assignee: weynandkuijpers
+body: 'Make sure the description of the actual G8 hardware overview (#of CPU''s, #
+  of disks etc) is reflected on the invoice sheet'
+comments:
+- {body: "please provide me with the link to the PO so we can add this in the system.\
+    \ probably the invoice will be from GIG belgium right?\r\n\r\nOnce we have the\
+    \ Sales order confirm to the PO we could send an official order confirmation if\
+    \ required...", id: 218134609, time: '2016/05/10 11:48:52', url: 'https://api.github.com/repos/gig-projects/proj_centrilogic/issues/comments/218134609',
+  user: lzonneke}
+id: 153583985
+labels: [priority_normal]
+milestone: 8:5 G8 small installed and running
+number: 30
+open: true
+state: open
+time: 2016/05/07 09:05:24
+title: 'PO-Placed: Prepare and agree the data that will be listed on the invoice'
+url: https://github.com/gig-projects/proj_centrilogic/issues/30

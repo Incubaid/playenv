@@ -1,0 +1,33 @@
+assignee: ''
+body: '![sn](https://cloud.githubusercontent.com/assets/15011431/14817187/31a28d38-0bbe-11e6-8434-a858e589432e.png)'
+comments:
+- {body: "## Environment\r\ndu-conv-2\r\n\r\n## Software Version \r\nJumpScale\r\n\
+    \r\nCore: 7.0.5rc3\r\nPortal: 7.0.5rc3\r\nOpenvCloud\r\n\r\nCore: 2.0.5rc3\r\n\
+    OpenvStorage:\r\n\r\nopenvstorage-backend-core: 1.6.1-eugene-updates.4-1\r\nalba:\
+    \ 0.8.1\r\nopenvstorage-webapps: 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend-webapps:\
+    \ 1.6.1-eugene-updates.4-1\r\nopenvstorage-core: 2.6.1-eugene-updates.20-1\r\n\
+    openvstorage-hc: 1.6.1-eugene-updates.4-1\r\nopenvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\
+    \nopenvstorage: 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-sdm: 1.5.1-eugene-updates.1-1", id: 214716234, time: '2016/04/26
+    11:55:03', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/214716234',
+  user: john-kheir}
+- {body: Get some feed back from OVS on what recommendation is on number of snapshots.,
+  id: 216475512, time: '2016/05/03 09:16:09', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/216475512',
+  user: lzonneke}
+- {body: According to the OVS team there should be no limitations on the number of
+    snapshots... an investigation should be done why the number of snapshots are limited,
+  id: 218119884, time: '2016/05/10 10:32:57', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/218119884',
+  user: lzonneke}
+- {body: "Limitation is there from a previous version where we used a diffrent storage\
+    \ backend.\r\n@mie00 can you remove the snapshots limitation.", id: 218148876,
+  time: '2016/05/10 12:56:40', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/218148876',
+  user: grimpy}
+id: 151113663
+labels: [priority_normal, state_verification, type_bug]
+milestone: 2:ovc2.1_beta
+number: 87
+open: true
+state: open
+time: 2016/04/26 11:52:56
+title: Why the maximum number of snapshots that can be created per vm is  5 snapshots?
+url: https://github.com/0-complexity/openvcloud/issues/87

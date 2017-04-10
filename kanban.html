@@ -1,0 +1,36 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Basic Init of Kanban Board</title>
+    <meta  name = "viewport" content = "initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no">
+
+    <script src="http://cdn.webix.com/site/webix.js?v=3.2.2" type="text/javascript"></script>
+    <script src="http://cdn.webix.com/site/kanban/kanban.js?v=3.2.2" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="http://cdn.webix.com/site/webix.css?v=3.2.2">
+    <link rel="stylesheet" type="text/css" href="http://cdn.webix.com/site/kanban/kanban.css?v=3.2.2">
+
+    <script src="../common/data.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        webix.ready(function(){
+            webix.ui({
+                view:"kanban", type:"space",
+                cols:[
+                    { header:"Backlog",
+                        body:{ view:"kanbanlist", status:"new" }},
+                    { header:"In Progress",
+                        body:{ view:"kanbanlist", status:"work" }},
+                    { header:"Testing",
+                        body:{ view:"kanbanlist", status:"test" }},
+                    { header:"Done",
+                        body:{ view:"kanbanlist", status:"done" }}
+                ],
+                data: base_task_set
+            });
+        });
+    </script>
+</body>
+</html><script src='https://cdn.ravenjs.com/2.1.0/raven.min.js'></script><script>Raven.config('https://50e7233181284483abcbf6688b0505b5@app.getsentry.com/68752',{ release:'3.2.2'}).install();</script>

@@ -1,0 +1,14 @@
+assignee: ''
+body: "migrate all websites to incubaid\r\nlet all websites start with www_...\r\n\
+  \r\nif old ones use www_archive_....\r\n\r\nthere should be no websites left on\
+  \ git.aydo...\r\n\r\n"
+comments: []
+id: 147312039
+labels: []
+milestone: ''
+number: 2
+open: true
+state: open
+time: 2016/04/11 04:11:12
+title: migrate all websites to incubaid
+url: https://github.com/gig-projects/org_internalit/issues/2

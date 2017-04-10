@@ -1,0 +1,13 @@
+assignee: lucasvanhalst
+body: "## GOAL:\r\nMake it as easy as possible for the user\r\n\r\n## REMARK:\r\n\
+  Dependent on task #134 of the itsyouonline story #61 \r\n\r\n\r\n"
+comments: []
+id: 154653256
+labels: [type_task]
+milestone: ''
+number: 142
+open: true
+state: open
+time: 2016/05/13 07:50:15
+title: 'whmcs-auth: Pre-fill user data coming from itsyou.online on first login [2h]'
+url: https://github.com/gig-projects/org_development/issues/142

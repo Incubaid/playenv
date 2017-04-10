@@ -1,0 +1,16 @@
+datacenter_midworldpro:
+  location:
+    - 'Al Jaddaf'
+  description:
+    - 'That is where it really happens'
+
+rack.normal_rack1:
+  location:
+    - 'DC Room'
+  description: 'Rack 1'
+  datacenter: 'midworldpro'
+rack.normal_rack2:
+  location:
+    - 'DC Room'
+  description: 'Rack 2'
+  datacenter: 'midworldpro'

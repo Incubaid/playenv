@@ -1,0 +1,19 @@
+assignee: ''
+body: "**Descrption:-\"\"\r\nOpen any ID link which is look like that link\r\nhttps://du-conv-3.demo.greenitglobe.com/CBGrid/account?id=143.\
+  \ Then inject it with ' to be look like that\r\nhttps://du-conv-3.demo.greenitglobe.com/CBGrid/account?id=143'\
+  \ and press enter.\r\n\r\n**Actual Result:-**\r\n![screenshot from 2016-04-20 13-32-49](https://cloud.githubusercontent.com/assets/17981089/14673147/c93395f2-0704-11e6-8118-d9c3ff0b6c32.png)\r\
+  \n\r\nHint: I tried to do a sql injection penetration testing but i couldn't get\
+  \ the data base yet. \r\n\r\n**Software:-**\r\n![screenshot from 2016-04-20 11-34-57](https://cloud.githubusercontent.com/assets/17981089/14673169/f9704dbe-0704-11e6-96c2-f866cdf7d656.png)"
+comments:
+- {body: We should get an proper error message, id: 214682891, time: '2016/04/26 09:29:58',
+  url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/214682891',
+  user: lzonneke}
+id: 149742224
+labels: [type_bug]
+milestone: 3:ovc2.1_ga
+number: 74
+open: true
+state: open
+time: 2016/04/20 11:33:41
+title: Inject the url with ' will cause an error
+url: https://github.com/0-complexity/openvcloud/issues/74

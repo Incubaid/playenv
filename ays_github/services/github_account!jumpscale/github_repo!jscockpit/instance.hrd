@@ -1,0 +1,18 @@
+code.path                      = '/Users/despiegk/optvar/var/codetmp/jumpscale/jscockpit'
+
+github.client                  = 
+github.config                  = 
+
+kds.name                       = 'ss'
+
+milestone.category             =
+    'code_ovc',
+
+milestones                     =
+    'ovc210',
+    'ovc210_beta',
+
+repo.account                   = 'jumpscale'
+repo.name                      = 'jscockpit'
+repo.type                      = 'code'
+repo.url                       = 'https://github.com/Jumpscale/jscockpit'

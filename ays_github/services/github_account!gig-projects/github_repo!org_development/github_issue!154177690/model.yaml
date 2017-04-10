@@ -1,0 +1,20 @@
+assignee: ''
+body: "## GOAL:\r\nSetup an environment with all the G8 2.1 beta components\r\n\r\n\
+  ## DESCRIPTION:\r\n- 4 node alba compliant storage with 35 disks each\r\n- OvC setup\
+  \ with new OVS (codename Fargo - version 2.7) & AYS8\r\n- Deployment of resources\
+  \ via cockpit & blueprint through WHMCS\r\n\r\n\r\n"
+comments:
+- {body: '@lzonneke can we have a chat on this? We need to use the boxes that have
+    been used by OpenvStorage. Stefaan told me that the SMR disks are crap, and should
+    be replaced by normal SATA disks.', id: 218386312, time: '2016/05/11 07:46:07',
+  url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218386312',
+  user: FastGeert}
+id: 154177690
+labels: [type_story]
+milestone: 7:G8-2.1-beta
+number: 126
+open: true
+state: open
+time: 2016/05/11 07:30:14
+title: Beta 2.1 environment (beta21env)
+url: https://github.com/gig-projects/org_development/issues/126

@@ -1,0 +1,14 @@
+events: {}
+instanceHRDHash: 43ee9a584bd8fdd93a2312c30d055dcd
+parent: github_account!gig-projects
+producers:
+  github_account: [github_account!gig-projects]
+  github_client: [github_client!main]
+  github_config: [github_config!main]
+  github_milestone: [github_milestone!june, github_milestone!may, github_milestone!q4,
+    github_milestone!summer]
+recipe: github_repo
+recurring: {}
+state: {get_github_repo: CHANGED, getissuesfromgithub: OK, init: OK, install: OK,
+  processissues: OK, setmilestonesongithub: OK, stories2pdf: CHANGED}
+templateHRDHash: ''

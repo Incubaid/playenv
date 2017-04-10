@@ -1,0 +1,14 @@
+assignee: ''
+body: "### Part of Story: #16\r\n\r\n## GOAL:\r\nThe app user should receive notifications\
+  \ when WHMCS tickets have been updated.\r\n\r\n## DESCRIPTION:\r\n* Create a rest\
+  \ api such that we can send out updates to the app users\r\n\r\n"
+comments: []
+id: 151068097
+labels: [type_task]
+milestone: ''
+number: 78
+open: true
+state: open
+time: 2016/04/26 07:56:57
+title: 'resellerapp: Backend - Create API for sending out WHMCS ticket updates [12h]'
+url: https://github.com/gig-projects/org_development/issues/78

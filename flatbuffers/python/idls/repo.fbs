@@ -1,0 +1,19 @@
+namespace repo;
+
+enum Lang:byte {Python, Go, Java}
+
+
+table UserInfo{
+    id: int;
+    name:string ;
+}
+
+table Repo{
+    id: int;
+    name:string;
+    language:Lang;
+    files:[string];
+}
+
+
+root_type Repo;

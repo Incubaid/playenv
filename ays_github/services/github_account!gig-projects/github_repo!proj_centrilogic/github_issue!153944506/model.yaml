@@ -1,0 +1,29 @@
+assignee: andhartl
+body: "**Goal**\r\nPrepare go-to-market presentation with Andreas and Nigel for the\
+  \ business activation of Mothership1.\r\n\r\n**Requirements**\r\nNeed questionnaire\
+  \ covering:\r\n- territories and markets: UK/Europe/US? \r\n- channels to market:\
+  \ Andreas?\r\n- brands and portals: Mothership1?\r\n==> Prepare suggested GTM presentation\
+  \ by May 19th.\r\n"
+comments:
+- {body: "@svekeman ,\r\nFirst cut. \r\nAndreas\r\n\r\nCL UK: \r\ncurrent operation\
+    \ and offerings\r\ncurrent channel\r\nGiG gtm: \r\nintro to CL\r\nCL UK:\r\nnew\
+    \ gig based offerings planned\r\nbp plan incl revenue goals per product\r\nchannel\
+    \ needed for new offerings/bp (ideal world)\r\nchannel they have\r\nchannel gaps\
+    \ that need to be filled\r\nDefine new channel\r\ndo we use distribution?\r\n\
+    Define channel plan\r\nrecruitment\r\nenablement\r\nmanagement\r\nDefine channel\
+    \ marketing plan\r\njoint collateral\r\nenablement activities\r\nchannel pr\r\n\
+    budget for channel marketing: joint? funded by % of sales, initial budget\r\n\
+    joint funded head to drive sales?\r\n@andreas: need to come up with simple program",
+  id: 218469929, time: '2016/05/11 14:06:56', url: 'https://api.github.com/repos/gig-projects/proj_centrilogic/issues/comments/218469929',
+  user: andhartl}
+- {body: shared with you, id: 218507092, time: '2016/05/11 16:05:34', url: 'https://api.github.com/repos/gig-projects/proj_centrilogic/issues/comments/218507092',
+  user: andhartl}
+id: 153944506
+labels: [priority_normal, type_story]
+milestone: 6:may
+number: 32
+open: true
+state: open
+time: 2016/05/10 07:54:12
+title: Preparing GTM (m1activate)
+url: https://github.com/gig-projects/proj_centrilogic/issues/32

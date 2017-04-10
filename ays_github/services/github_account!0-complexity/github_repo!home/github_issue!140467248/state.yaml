@@ -1,0 +1,10 @@
+events:
+  generic: [update_from_github]
+instanceHRDHash: 16faa6d55360adf00337fe93b8cd1800
+parent: github_repo!home
+producers:
+  github_repo: [github_repo!home]
+recipe: github_issue
+recurring: {}
+state: {init: OK, install: OK}
+templateHRDHash: 20bf91f2672a6dc530d912af52b9649f

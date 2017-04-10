@@ -1,0 +1,10 @@
+g8.account                     = 'despiegk'
+g8.login                       = 'despiegk'
+g8.password                    = 'kds007kds'
+g8.url                         = 'du-conv-3.demo.greenitglobe.com'
+
+service.domain                 = 'jumpscale'
+service.instance               = 'main'
+service.name                   = 'g8client'
+service.role                   = 'g8client'
+service.version                = 

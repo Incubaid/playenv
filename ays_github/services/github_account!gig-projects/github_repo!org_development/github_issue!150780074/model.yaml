@@ -1,0 +1,78 @@
+assignee: zaibon
+body: "## GOAL:\r\n\r\nThe cockpit should integrate with itsyou.online for it's authentication\
+  \ and authorization.\r\n\r\n## DESCRIPTION:\r\n\r\nDeploy cockpit scenario:\r\n\r\
+  \n     - -  A User sends a request to the telegram robot (G8 robot) to deploy a\
+  \ cockpit for a specific organization(1)\r\n     - - The G8 robot replies with an\
+  \ oauth link\r\n     - - The user authorizes the G8 robot to see it's username and\
+  \ the organization(1) membership\r\n     - - The user is redirected to the G8 callback\
+  \ url  At this point, the G8 robot knows the user and that he is member of the organization(1)\r\
+  \n     - -  The G8 robot creates an `api secret (2)` in `G8.Cockpits`\r\n     -\
+  \ -  The G8 robot deploys a cockpit and puts `G8.Cockpits` as client_id and the\
+  \ api secret (2) in the settings\r\n\r\n- [x] #111 cockpit-itsyou.online: Extend\
+  \ the testscript to include api secret generation\r\n- [ ] #90 cockpit-itsyou.online:\
+  \ Update cockpit blueprint to configure portal login with itsyou.online oauth\r\n\
+  - [ ] #89 cockpit-itsyou.online: Implement Oauth workflow in telegram bot for cockpit\
+  \ deployement\r\n- [ ] #88 cockpit-itsyou.online: Integrate cockpit blueprint in\
+  \ Telegram bot\r\n\r\n|status|title                                            \
+  \                                                 |link|\r\n|------|--------------------------------------------------------------------------------------------------|----|\r\
+  \n|open  |cockpit-itsyou.online: Extend the testscript to include api secret generation\
+  \                     |#111|\r\n|open  |cockpit-itsyou.online: Update cockpit blueprint\
+  \ to configure portal login with itsyou.online oauth|#90 |\r\n|open  |cockpit-itsyou.online:\
+  \ Implement Oauth workflow in telegram bot for cockpit deployement           |#89\
+  \ |\r\n|open  |cockpit-itsyou.online: Integrate cockpit blueprint in Telegram bot\
+  \                                |#88 |"
+comments:
+- {body: "ETA: n/a. Busy on another tasks probably for the full week\r\n\r\nWrote\
+    \ a small client app to test oauth flow of ityou.online.\r\nhttps://gist.github.com/zaibon/542a4dd12cc2fba864c5bfd0c13ded64",
+  id: 216189038, time: '2016/05/02 10:17:29', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216189038',
+  user: zaibon}
+- {body: '@zaibon I registered localhostdev.greenitglobe.com in DNS for `127.0.0.1`',
+  id: 216190393, time: '2016/05/02 10:22:01', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216190393',
+  user: robvanmieghem}
+- {body: 'The testscript works now: #100', id: 216262180, time: '2016/05/02 15:08:15',
+  url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216262180',
+  user: robvanmieghem}
+- {body: 'Scrum summary:
+
+    - I didn''t had time to work more on this since sunday.
+
+    - @ashraffouda is starting today to migrate deployement of the cockpit to use
+    AYS instead of manual deploy script. (#88)
+
+    - @robvanmieghem is going to finish script for oauth workflow. (https://github.com/gig-projects/org_development/issues/111)
+
+
+    Plan is to integrate everything together next week when I''m free again.', id: 216466258,
+  time: '2016/05/03 08:23:34', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216466258',
+  user: zaibon}
+- {body: "Scrum summary:\r\n- @ashraffouda has migrated the deployement of the cockpit\
+    \ to use AYS instead of manual deploy script. (#88). He's now working on forwarding\
+    \ the logs from AYS deploymeent to telegram so the user can follow the deployement\
+    \ of it's cockpit in real time and not wait in the dark.", id: 217095918, time: '2016/05/05
+    07:50:26', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/217095918',
+  user: zaibon}
+- {body: '@zaibon Christophe, please also add ETA estimations. This is important to
+    keep an eye on the planning / overall progress on the milestone.', id: 217384192,
+  time: '2016/05/06 08:39:59', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/217384192',
+  user: FastGeert}
+- {body: "ETA : week of 16\r\n\r\nRefactoring blueprint code to work with new version\
+    \ of AYS.\r\nImprove cockpit interaction with user.", id: 217871867, time: '2016/05/09
+    13:58:54', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/217871867',
+  user: zaibon}
+- {body: "ETA : week of 16\r\n- Implementation of a status command in the bot, so\
+    \ the user can follow the deployment of it's cockpit\r\n- begining of the integration\
+    \ of the oauth workflow in the bot.", id: 218096260, time: '2016/05/10 08:49:17',
+  url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218096260',
+  user: zaibon}
+- {body: '- Status command is done. #88 is now ready. I''ll need to review code and
+    the issue can be closed.', id: 218392024, time: '2016/05/11 08:15:00', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218392024',
+  user: zaibon}
+id: 150780074
+labels: [state_inprogress, type_story]
+milestone: 7:G8-2.1-beta
+number: 53
+open: true
+state: open
+time: 2016/04/25 07:54:53
+title: Integrate Itsyou.online in the cockpit (cockpit-itsyou.online)
+url: https://github.com/gig-projects/org_development/issues/53

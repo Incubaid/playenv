@@ -1,0 +1,44 @@
+assignee: zaibon
+body: '## GOAL:
+
+
+  JS8 sandbox up to date.
+
+
+  ## DESCRIPTION:
+
+
+  |status|title                                                     |link|
+
+  |------|----------------------------------------------------------|----|
+
+  |open  |js8sb: update the build & test on an ubuntu if all is fine|#10 |
+
+
+  '
+comments:
+- {body: '@zaibon please add estimations on the task(s) and comment the ETA on the
+    Story
+
+
+    Thanks', id: 216520004, time: '2016/05/03 13:03:24', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216520004',
+  user: FastGeert}
+- {body: "Building works fine.\r\n@abdulrahmantkhalifa  found a bug in sandboxing,\
+    \ he's investigating.\r\nexpected done for Tomorow.", id: 216524919, time: '2016/05/03
+    13:21:06', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216524919',
+  user: zaibon}
+- {body: Sandboxing is now up to date., id: 217693673, time: '2016/05/08 05:54:44',
+  url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/217693673',
+  user: zaibon}
+- {body: 'https://github.com/gig-projects/org_development/issues/124', id: 218132363,
+  time: '2016/05/10 11:36:55', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218132363',
+  user: abdulrahmantkhalifa}
+id: 149441763
+labels: [type_story]
+milestone: 5:may
+number: 9
+open: true
+state: open
+time: 2016/04/19 12:13:28
+title: js8 sandbox (js8sb)
+url: https://github.com/gig-projects/org_development/issues/9

@@ -1,0 +1,14 @@
+assignee: ''
+body: "## GOAL:\r\nLatest & greatest versions of our software installed on a powerfull\
+  \ environment\r\n\r\n## DESCRIPTION:\r\n- OpenvCloud 2.1.0b3\r\n- OpenvStorage 2.7\
+  \ (Fargo)\r\n- AYS8\r\n- Cockpit 0.9 & Blueprint for deployment\r\n\r\n"
+comments: []
+id: 154217807
+labels: []
+milestone: ''
+number: 130
+open: true
+state: open
+time: 2016/05/11 11:11:54
+title: 'beta21env: Install latest version of OVC with OVS Fargo and AYS8'
+url: https://github.com/gig-projects/org_development/issues/130

@@ -1,0 +1,21 @@
+assignee: ''
+body: "whatever we send to support@mothership1.com seems to go unnoticed.\r\nwe need\
+  \ to figure out what to do"
+comments:
+- {body: "![image](https://cloud.githubusercontent.com/assets/6021844/14579486/bf4c2ccc-03ab-11e6-8c57-701e2187fcbe.png)\r\
+    \n", id: 210745407, time: '2016/04/16 06:18:09', url: 'https://api.github.com/repos/gig-projects/proj_centrilogic/issues/comments/210745407',
+  user: despiegk}
+- {body: "Agreed to do this as part of the new SUPPORT flow with Thong.\r\n\r\nACTiON:\
+    \ Thong to write down what is needed (on top of Techical Support Services Doc\
+    \ sent) - have commercial discussion on this between Robert / Willem", id: 217221840,
+  time: '2016/05/05 17:39:50', url: 'https://api.github.com/repos/gig-projects/proj_centrilogic/issues/comments/217221840',
+  user: hofkensj}
+id: 148822376
+labels: [priority_urgent, type_task]
+milestone: 11:Support processes put in place and running properly
+number: 5
+open: true
+state: open
+time: 2016/04/16 06:18:03
+title: need to discuss support procedure MS1
+url: https://github.com/gig-projects/proj_centrilogic/issues/5

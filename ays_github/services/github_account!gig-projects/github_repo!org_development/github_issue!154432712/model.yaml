@@ -1,0 +1,23 @@
+assignee: ''
+body: "## GOAL:\r\nCode readability and standardization\r\n\r\n## DESCRIPTION:\r\n\
+  There's an autopep8 tool available in pypi (install with `pip3 install autopep8`)\r\
+  \nI propose maximum line length to be 120 characters. \r\n\r\n 1. Run`autopep8 .\
+  \ --recursive --in-place --verbose --max-line-length=120 `\r\n 2. Change all `==\
+  \ False` to `is False` (`is` is a stronger operand, comparing that it's one and\
+  \ the same object, not just the same value)\r\n 3. Rebase all branches to prevent\
+  \ merge conflicts\r\n\r\nWe should also have a post-commit hook to keep the codebase\
+  \ clean.\r\nThis would run after each commit, autopep8 the changes and commit them.\r\
+  \nSomething like this:\r\n```\r\n#!/bin/sh\r\n\r\nFILES=$(git diff HEAD^ HEAD --name-only\
+  \ --diff-filter=ACM | grep -e '\\.py$')\r\n \r\nfor f in $FILES\r\ndo\r\n    autopep8\
+  \ $f --in-place  --verbose --max-line-length=120\r\ndone\r\n```\r\n\r\nEventually,\
+  \ method and variable names should also be refactored to be pep8 compliant."
+comments: []
+id: 154432712
+labels: []
+milestone: ''
+number: 137
+open: true
+state: open
+time: 2016/05/12 09:08:02
+title: PEP8 codebase (pep8)
+url: https://github.com/gig-projects/org_development/issues/137

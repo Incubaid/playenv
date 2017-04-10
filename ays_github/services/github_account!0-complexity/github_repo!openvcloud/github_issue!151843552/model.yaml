@@ -1,0 +1,13 @@
+assignee: ''
+body: Need an aggregated api call that return the overall status of the nodes and
+  detailed output of issues if any
+comments: []
+id: 151843552
+labels: [priority_normal, state_verification, type_feature]
+milestone: 2:ovc2.1_beta
+number: 98
+open: true
+state: open
+time: 2016/04/29 11:13:55
+title: API To return Node Status
+url: https://github.com/0-complexity/openvcloud/issues/98

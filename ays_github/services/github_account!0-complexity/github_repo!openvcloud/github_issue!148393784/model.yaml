@@ -1,0 +1,95 @@
+assignee: ''
+body: '## description
+
+  When an account is made there is a default cloudspace for that account. Adding a
+  user to the account and deploying a vm provides an IP address
+
+
+  Every cloudspace gets an IP even when no public IP''s are assigned to that environment.
+
+
+  eg. be-scale-1
+
+  ===== 85.255.197.96/27 =====
+
+  -----     VLAN: 111    -----
+
+
+  with assigned IP for be-scale-1
+
+  85.255.197.104 = [ scale-1  ]
+
+  85.255.197.105 = [ scale-1  ]
+
+  85.255.197.106 = [ scale-1  ]
+
+  85.255.197.107 = [ scale-1  ]
+
+  85.255.197.108 = [ scale-1  ]
+
+  85.255.197.109 = [ scale-1  ]
+
+  85.255.197.110 = [ scale-1  ]
+
+
+  No error message is provided passing the IP limit creating the network for CS
+
+
+  ## Expected behavior
+
+  there should be a warning message deploying the cloudspace network that we do not
+  have IP resources available any more.'
+comments:
+- {body: "I really dont see you issue? Why 217 shoud use ip `85.255.197.117` ?\r\n\
+    Cloudspace is deployed with ip 115 see screenshot\r\n![160414_171757](https://cloud.githubusercontent.com/assets/143869/14533339/5977ab68-026d-11e6-8ee4-cb8157265643.png)\r\
+    \n", id: 209998297, time: '2016/04/14 15:18:57', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/209998297',
+  user: grimpy}
+- {body: "aha, IP list was not updated in documentation... hence my confusion\n\n\
+    this is the new list\n\n85.255.197.104 = [ scale-1  ]\n85.255.197.105 = [ scale-1\
+    \  ]\n85.255.197.106 = [ scale-1  ]\n85.255.197.107 = [ scale-1  ]\n85.255.197.108\
+    \ = [ scale-1  ]\n85.255.197.109 = [ scale-1  ]\n85.255.197.110 = [ scale-1  ]\n\
+    85.255.197.111 = [ scale-1  ]\n85.255.197.112 = [ scale-1  ]\n85.255.197.113 =\
+    \ [ scale-1  ]\n85.255.197.114 = [ scale-1  ]\n85.255.197.115 = [ scale-1  ]\n\
+    \nThanks @maxux \nhttps://gist.github.com/maxux/99204df0ba63b320a5771ea568988f1a\n\
+    \nI will perform a new test and close if ok", id: 210016874, time: '2016/04/14
+    15:57:12', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/210016874',
+  user: lzonneke}
+- {body: Check cloudbroker for public IP's, id: 214686415, time: '2016/04/26 09:45:32',
+  url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/214686415',
+  user: lzonneke}
+- {body: "The cloudbroker indeed states the public network IP range...\r\n\r\nbut,\
+    \ If I look at eg. be-scale-1 I see that we are using the  85.255.197.96/27  \
+    \ network which is ok.\r\nin this network range we have 12 IP's assigned to be-scale-1...\r\
+    \n\r\nNow, I do not see any alarm message that the public IP range is fully used.\r\
+    \n\r\nQ: Shouldn't we build in a public IP check in our health check. Which means\
+    \ a warning message when 80% of the public IP's are used. Then a critical warning\
+    \ message when all public IP addresses are in use? ", id: 215333206, time: '2016/04/28
+    07:21:13', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/215333206',
+  user: lzonneke}
+- {body: 'The cloud broker portal should have an overview of the available resources.
+
+
+    We need 3 new gauges that tells the cloud broker how many
+
+    - public ips are left
+
+    - diskspace still available
+
+    - cpu capacity available
+
+
+    This makes this bug a FR.
+
+
+    @despiegk Is this something we need for 2.1 ?', id: 215418980, time: '2016/04/28
+    13:14:25', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/215418980',
+  user: FastGeert}
+id: 148393784
+labels: [priority_normal, state_question, type_feature]
+milestone: 5:ovc_backlog
+number: 64
+open: true
+state: open
+time: 2016/04/14 15:13:54
+title: We need to have a build in check on available public IP's when deploying cloudspace
+url: https://github.com/0-complexity/openvcloud/issues/64

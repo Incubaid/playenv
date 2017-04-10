@@ -1,0 +1,10 @@
+
+
+sshkeys                         = type:str list consume:sshkey:1 
+
+rack                            = type:str  'ourtable' parent:rack
+
+addr                            = type:str  descr:'in format $host:$port or $host' @ASK
+
+
+

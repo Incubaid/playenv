@@ -1,0 +1,15 @@
+{
+ "methods":{
+  "getIssuesFromAYS":"325c52665229958378f1a76ccff0ba4e",
+  "getIssuesFromGithub":"4ab2a4b507762b10f0fe4a4240edb632",
+  "get_github_repo":"002dd1b0de76d128cecaa0c9f54bcb93",
+  "init":"83f82e7db8fe8064ce41a12cc45ba875",
+  "input":"1e48ebf5bd84f45d59b7872430ef6abf",
+  "install":"9614f3e8dfc694f72da775280bb5e75f",
+  "processIssues":"866b8949b755512bbe50e6c832af721a",
+  "pull":"c211aedad8f9cfc1ebeb7a7e8dbe7da4",
+  "setMilestonesOnGithub":"4c82953ff233a6bc19efac65b1e2849c",
+  "stories2pdf":"032ee9329f380beaffd7f3c1c7165d7d",
+  "test":"7b29bf44f0ed9b23f0a8562e5df281ce"
+ }
+}

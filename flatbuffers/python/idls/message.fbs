@@ -1,0 +1,9 @@
+namespace data;
+
+table Message{
+	id:int;
+	subject:string;
+	body:string;
+}
+
+root_type Message;

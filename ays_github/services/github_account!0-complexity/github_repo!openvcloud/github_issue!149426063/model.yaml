@@ -1,0 +1,15 @@
+assignee: karimal
+body: "![screenshot from 2016-04-19 13-02-33](https://cloud.githubusercontent.com/assets/13523434/14637003/06a5dc32-062f-11e6-9017-63ff53f2a9f5.png)\r\
+  \n\r\nThe create new cloudspace button disappeared  and this is in gig account\r\
+  \n\r\nBut it comes back when i try any cloudspace in Account of Yves account \r\n\
+  \r\n![screenshot from 2016-04-19 12-59-14](https://cloud.githubusercontent.com/assets/13523434/14636957/c5c4c872-062e-11e6-9d5e-2a440d38d68d.png)"
+comments: []
+id: 149426063
+labels: [priority_normal, type_bug]
+milestone: 3:ovc2.1_ga
+number: 70
+open: true
+state: open
+time: 2016/04/19 11:03:59
+title: New Cloud Space Button disappeared
+url: https://github.com/0-complexity/openvcloud/issues/70

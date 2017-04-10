@@ -1,0 +1,21 @@
+assignee: svekeman
+body: "Goal: clarify marketing strategy and priorities to take steps forward reaching\
+  \ 1 billion users.\r\n\r\n- [ ] Stakeholder review of presentation: https://docs.google.com/a/incubaid.com/presentation/d/1Dr56-G6EFiFO51Fy3juHVUDCK_rBmDCsFzKpXpquOsI/edit?usp=sharing\
+  \ \r\n- [x] test"
+comments:
+- {body: Finished feedback call with @willemhendrickx to sharpen up the slides based
+    on critical priorities. Sacha to update and also put perspective towards Artilium.,
+  id: 212823753, time: '2016/04/21 09:14:08', url: 'https://api.github.com/repos/gig-projects/org_marketing/issues/comments/212823753',
+  user: svekeman}
+- {body: 'Document updated. Also version for Artilium: https://docs.google.com/a/incubaid.com/presentation/d/1Dr56-G6EFiFO51Fy3juHVUDCK_rBmDCsFzKpXpquOsI/edit?usp=sharing ',
+  id: 213410576, time: '2016/04/22 12:40:33', url: 'https://api.github.com/repos/gig-projects/org_marketing/issues/comments/213410576',
+  user: svekeman}
+id: 150002118
+labels: [priority_minor, state_question, type_story]
+milestone: ''
+number: 4
+open: true
+state: open
+time: 2016/04/21 08:24:48
+title: GIG for 1 Billion Users - Marketing Strategy
+url: https://github.com/gig-projects/org_marketing/issues/4

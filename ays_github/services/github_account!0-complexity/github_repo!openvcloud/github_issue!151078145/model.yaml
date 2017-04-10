@@ -1,0 +1,22 @@
+assignee: delandtj
+body: "When create a new CS and scan its opening ports, I found that it has a 9080\
+  \ HTTP port open by default.\r\n![screenshot from 2016-04-20 17-02-38](https://cloud.githubusercontent.com/assets/17981089/14703525/f3312a0e-07b8-11e6-823a-8fc91f901222.png)\r\
+  \n\r\nDepending on this fact, Attacker can easly attack the CS using any HTTP DoS\
+  \ Attack. I tested that using GoldenEye tool (Python HTTP DoS attack) and I send\
+  \ a lot of packets easly to the CS_IP:Port without any banned or timeout connections.\
+  \ \r\n![screenshot from 2016-04-21 11-43-03](https://cloud.githubusercontent.com/assets/17981089/14712466/e97e0536-07e5-11e6-829c-a82e7c7f6e96.png)\r\
+  \n\r\nThis is meaning that DDoS attack may be has the ability to take down the CS\
+  \ easily."
+comments:
+- {body: '@delandtj this was chosen to do like this but are there other options?',
+  id: 214677350, time: '2016/04/26 09:07:34', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/214677350',
+  user: lzonneke}
+id: 151078145
+labels: [type_bug]
+milestone: 3:ovc2.1_ga
+number: 85
+open: true
+state: open
+time: 2016/04/26 08:52:00
+title: DoS attack against the CS router OS
+url: https://github.com/0-complexity/openvcloud/issues/85

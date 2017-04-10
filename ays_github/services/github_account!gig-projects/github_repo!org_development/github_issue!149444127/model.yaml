@@ -1,0 +1,16 @@
+assignee: rkhamis
+body: "|status|title                                            |link|\r\n|------|-------------------------------------------------|----|\r\
+  \n|open  |1604: Create an OpenvCloud Image for Ubuntu 16.04|#94 |\r\n|open  |1604:\
+  \ Update the jenkins build                   |#93 |\r\n|open  |1604: Make JumpScale8\
+  \ work.                      |#92 |\r\n|open  |1604: Check if JumpScale7 works \
+  \                 |#91 |\r\n\r\n"
+comments: []
+id: 149444127
+labels: [state_inprogress, type_story]
+milestone: ''
+number: 13
+open: true
+state: open
+time: 2016/04/19 12:20:18
+title: default os becomes 16.04 (1604)
+url: https://github.com/gig-projects/org_development/issues/13

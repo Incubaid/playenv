@@ -1,0 +1,16 @@
+assignee: karimal
+body: "### Part of Story: #38\n\n## Part of Story: #38\n\n## GOAL:\n\nUse more standard\
+  \ angular architecture\n\n## DESCRIPTION:\n\nAfter drop jumpscale wiki architecture;\
+  \ we are able to:-\n\n Structure app based on components\n Organize build process\
+  \ with Grunt to make sure no development file exposed into production\n Clean unused\
+  \ pages/files\n"
+comments: []
+id: 152735212
+labels: [type_task]
+milestone: ''
+number: 110
+open: true
+state: open
+time: 2016/05/03 09:39:12
+title: 'vdc-control: Use more standard angular architecture [1d]'
+url: https://github.com/gig-projects/org_development/issues/110

@@ -1,0 +1,16 @@
+assignee: robvanmieghem
+body: Creation of colored coins on top of SIA. These colored coins are controlled
+  by us, not by SIA but they do leverage the SIA blockchain.
+comments:
+- {body: '@robvanmieghem please add taks with estimations to this story. This is important
+    for planning excercises', id: 216820452, time: '2016/05/04 10:12:44', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216820452',
+  user: FastGeert}
+id: 150797775
+labels: [state_inprogress, type_story]
+milestone: ''
+number: 8
+open: true
+state: open
+time: 2016/04/25 09:16:27
+title: G8 coins (g8coins)
+url: https://github.com/gig-projects/org_research/issues/8

@@ -1,0 +1,25 @@
+assignee: ''
+body: "**Description:**\r\nCreating a new account with name like (@!#!@#2) will produce\
+  \ an error.\r\n![screenshot from 2016-04-07 12-50-59](https://cloud.githubusercontent.com/assets/17981089/14348859/c6958c0c-fcc7-11e5-833d-9aee94235504.png)"
+comments:
+- {body: "## Tested on du-conv-2\r\nStill giving errors for some special characters\
+    \ like: *\r\n![spe2](https://cloud.githubusercontent.com/assets/15011431/15040467/5eb596f0-12b5-11e6-84f5-d7e7a9321f70.png)\r\
+    \n![spe](https://cloud.githubusercontent.com/assets/15011431/15040468/5ee58d10-12b5-11e6-8ceb-0217417c25ad.png)\r\
+    \n\r\n\r\n## Software Version \r\nJumpScale\r\n\r\nCore: 7.1.0b2\r\nPortal: 7.1.0b2\r\
+    \nOpenvCloud\r\n\r\nCore: 2.1.0b2\r\nOpenvStorage:\r\n\r\nopenvstorage-backend-core:\
+    \ 1.6.1-eugene-updates.4-1\r\nalba: 0.8.1\r\nopenvstorage-webapps: 2.6.1-eugene-updates.20-1\r\
+    \nopenvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\nopenvstorage-core:\
+    \ 2.6.1-eugene-updates.20-1\r\nopenvstorage-hc: 1.6.1-eugene-updates.4-1\r\nopenvstorage-cinder-plugin:\
+    \ 1.1.1-eugene-updates.1-1\r\nopenvstorage: 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend:\
+    \ 1.6.1-eugene-updates.4-1\r\nopenvstorage-sdm: 1.5.1-eugene-updates.1-1", id: 217112772,
+  time: '2016/05/05 09:35:22', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217112772',
+  user: john-kheir}
+id: 146579252
+labels: [priority_normal, type_bug]
+milestone: 3:ovc2.1_ga
+number: 51
+open: true
+state: open
+time: 2016/04/07 10:51:11
+title: Creating new account with a special charaters will produce an error
+url: https://github.com/0-complexity/openvcloud/issues/51

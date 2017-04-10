@@ -1,0 +1,20 @@
+code.path                      = '/Users/despiegk/optvar/var/codetmp/gig-projects/proj_russiantowers'
+
+github.client                  = 
+github.config                  = 
+
+kds.name                       = 'ss'
+
+milestone.category             =
+    'gig',
+
+milestones                     =
+    'june',
+    'may',
+    'q4',
+    'summer',
+
+repo.account                   = 'gig-projects'
+repo.name                      = 'proj_russiantowers'
+repo.type                      = 'proj'
+repo.url                       = 'https://github.com/gig-projects/proj_russiantowers'

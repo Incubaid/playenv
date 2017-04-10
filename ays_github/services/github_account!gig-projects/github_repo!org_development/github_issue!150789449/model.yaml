@@ -1,0 +1,12 @@
+assignee: lzonneke
+body: "- need to upgrade all test env\r\n- need to start testing\r\n"
+comments: []
+id: 150789449
+labels: [priority_urgent, type_story]
+milestone: ''
+number: 58
+open: true
+state: open
+time: 2016/04/25 08:41:20
+title: 'testing & validation OVC 2.1 (test_ovc21) '
+url: https://github.com/gig-projects/org_development/issues/58

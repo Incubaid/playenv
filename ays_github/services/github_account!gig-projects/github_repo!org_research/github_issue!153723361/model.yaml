@@ -1,0 +1,25 @@
+assignee: robvanmieghem
+body: ''
+comments:
+- {body: '#23 : gave the go to Axel to file the patent', id: 218375284, time: '2016/05/11
+    06:42:01', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/218375284',
+  user: robvanmieghem}
+- {body: Normally no work left but keeping this one open until the patent application
+    is actually filed., id: 218379695, time: '2016/05/11 07:09:27', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/218379695',
+  user: robvanmieghem}
+- {body: "EP 16169278.5: \u201CA METHOD AND PLATFORM FOR AUTHENTICATION/AUTHORIZATION\
+    \ WITH APPLICATIONS OR SERVICES USING BLOCK CHAINS\u201D ", id: 218709096, time: '2016/05/12
+    09:42:32', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/218709096',
+  user: robvanmieghem}
+- {body: Some ip transfer agreements still need to be signed., id: 218709150, time: '2016/05/12
+    09:42:48', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/218709150',
+  user: robvanmieghem}
+id: 153723361
+labels: [state_inprogress, type_story]
+milestone: 3:may
+number: 22
+open: true
+state: open
+time: 2016/05/09 08:08:36
+title: Patent for authentication and authorization standards on blockchain (blockchain-auth-patent)
+url: https://github.com/gig-projects/org_research/issues/22

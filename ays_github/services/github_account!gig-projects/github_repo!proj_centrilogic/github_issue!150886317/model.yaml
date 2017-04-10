@@ -1,0 +1,15 @@
+assignee: thongkhacl
+body: ''
+comments:
+- {body: Thong confirms that PO is in purchasing approval flow - ETA within 5 days,
+  id: 217216086, time: '2016/05/05 17:21:27', url: 'https://api.github.com/repos/gig-projects/proj_centrilogic/issues/comments/217216086',
+  user: hofkensj}
+id: 150886317
+labels: [type_story]
+milestone: 8:5 G8 small installed and running
+number: 14
+open: true
+state: open
+time: 2016/04/25 14:50:29
+title: PO's placed for 5G8 small (PO-placed)
+url: https://github.com/gig-projects/proj_centrilogic/issues/14

@@ -1,0 +1,16 @@
+assignee: weynandkuijpers
+body: null
+comments:
+- {body: "Created starting document, copy past from an earlier use case development\
+    \ effort.\r\n\r\nhttps://github.com/gig-projects/proj_centrilogic/blob/master/GIGCloudEndCustomerUseCasesforCentrilogicWOP.docx",
+  id: 218392989, time: '2016/05/11 08:19:41', url: 'https://api.github.com/repos/gig-projects/proj_centrilogic/issues/comments/218392989',
+  user: weynandkuijpers}
+id: 150881336
+labels: [type_story]
+milestone: 12:New offering live on G8
+number: 13
+open: true
+state: open
+time: 2016/04/25 14:33:31
+title: Product descriptions written for CL to sell to enterprises
+url: https://github.com/gig-projects/proj_centrilogic/issues/13

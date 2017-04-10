@@ -1,0 +1,20 @@
+assignee: ''
+body: "**Description:-**\r\nWhile I was trying to create a VM in a dead environment,\
+  \ This error was appeared. The body of this error is the source code of the HTML\
+  \ i.e it wasn't be handled in the error pop-up.\r\n![screenshot from 2016-04-19\
+  \ 12-08-15](https://cloud.githubusercontent.com/assets/17981089/14635928/41729f24-0631-11e6-9b1e-b9839faac489.png)\r\
+  \n\r\nEnvironment status:\r\n![screenshot from 2016-04-19 12-19-35](https://cloud.githubusercontent.com/assets/17981089/14635956/6861f62a-0631-11e6-8301-cb607050ec02.png)\r\
+  \n\r\nSoftware Version:\r\n![screenshot from 2016-04-18 17-49-18](https://cloud.githubusercontent.com/assets/17981089/14635967/7043e6e6-0631-11e6-9d1e-669203ea50a2.png)"
+comments:
+- {body: we need to validate selected cpu node its agent is up before making the action.,
+  id: 217108396, time: '2016/05/05 09:12:25', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217108396',
+  user: grimpy}
+id: 149415214
+labels: [type_bug]
+milestone: 3:ovc2.1_ga
+number: 69
+open: true
+state: open
+time: 2016/04/19 10:20:15
+title: Not handled error message while creating a VM in dead environment
+url: https://github.com/0-complexity/openvcloud/issues/69

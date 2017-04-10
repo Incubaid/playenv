@@ -1,0 +1,18 @@
+assignee: svekeman
+body: ''
+comments:
+- {body: 'Finishing draft copy today: https://docs.google.com/a/incubaid.com/presentation/d/1b1Q8ne9zEqlfpgOx0N4ByoN3Sd8s8N8yImCqqLgD_Do/edit?usp=sharing',
+  id: 214177059, time: '2016/04/25 07:17:51', url: 'https://api.github.com/repos/gig-projects/org_marketing/issues/comments/214177059',
+  user: svekeman}
+- {body: '@svekeman is double of prod mgmt, please move content there', id: 214247861,
+  time: '2016/04/25 10:12:57', url: 'https://api.github.com/repos/gig-projects/org_marketing/issues/comments/214247861',
+  user: despiegk}
+id: 150089619
+labels: [priority_urgent]
+milestone: ''
+number: 5
+open: true
+state: open
+time: 2016/04/21 14:26:00
+title: 'vnas: product brief needed including vnasremote'
+url: https://github.com/gig-projects/org_marketing/issues/5

@@ -1,0 +1,18 @@
+assignee: ''
+body: "     - first end2end working setup for G8OS\n     - based on Archlinux on USB\n\
+  \n|status|title                                                                \
+  \           |link|\n|------|--------------------------------------------------------------------------------|----|\n\
+  |open  |G8OSalfa: https://github.com/g8os/builder_arch_arm                     \
+  \         |#18 |\n|open  |G8OSalfa: https://github.com/g8os/builder_ubuntu_i64 \
+  \                           |#17 |\n|open  |G8OSalfa: fix required methods in cuisine\
+  \ on pnode, to get import/export to work|#16 |\n\n"
+comments: []
+id: 150790012
+labels: [type_story]
+milestone: 3:may
+number: 6
+open: true
+state: open
+time: 2016/04/25 08:43:42
+title: G8OS based on Arch (G8OSalfa)
+url: https://github.com/gig-projects/org_research/issues/6

@@ -1,0 +1,14 @@
+assignee: ''
+body: ''
+comments:
+- {body: looks fine to me, id: 208735964, time: '2016/04/12 06:52:41', url: 'https://api.github.com/repos/Jumpscale/jumpscale_portal8/issues/comments/208735964',
+  user: muhamadazmy}
+id: 147649741
+labels: [state_inprogress]
+milestone: ''
+number: 48
+open: true
+state: open
+time: 2016/04/12 06:50:03
+title: 'grafanastats macro: better detection if grafana is reachable or not'
+url: https://github.com/Jumpscale/jumpscale_portal8/pull/48

@@ -1,0 +1,27 @@
+assignee: davshafik
+body: '### Part of Story: #3
+
+
+  '
+comments:
+- {body: 'I give session to my team regarding support procedure , and they come up
+    with some questions, Inquires that i will discuss with you in our meeting next
+    Monday ', id: 217792132, time: '2016/05/09 07:16:18', url: 'https://api.github.com/repos/gig-projects/org_support/issues/comments/217792132',
+  user: davshafik}
+- {body: "Ok\n\n> On 9 mei 2016, at 11:16, davshafik <notifications@github.com> wrote:\n\
+    > \n> I give session to my team regarding support procedure , and they come up\
+    \ with some questions, Inquires that i will discuss with you in our meeting next\
+    \ Monday\n> \n> \u2014\n> You are receiving this because you authored the thread.\n\
+    > Reply to this email directly or view it on GitHub\n> \n", id: 217792359, time: '2016/05/09
+    07:17:57', url: 'https://api.github.com/repos/gig-projects/org_support/issues/comments/217792359',
+  user: hofkensj}
+id: 152792985
+labels: [priority_urgent, state_inprogress, type_task]
+milestone: 6:may
+number: 13
+open: true
+state: open
+time: 2016/05/03 14:48:52
+title: 'supportprocess: do session with the support team to train them / get buy in
+  on the process'
+url: https://github.com/gig-projects/org_support/issues/13

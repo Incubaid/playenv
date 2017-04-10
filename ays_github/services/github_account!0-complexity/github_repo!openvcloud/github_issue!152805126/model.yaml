@@ -1,0 +1,15 @@
+assignee: ''
+body: "for the moment - clearing alarm / healthcheck issues can only be done by resolving\
+  \ the problem and a positive result of the healthcheck.\r\n\r\nThis should allow\
+  \ an operator to clear an alarm for x amount of time before the healthcheck is ran\
+  \ again."
+comments: []
+id: 152805126
+labels: [priority_normal, type_feature]
+milestone: 3:ovc2.1_ga
+number: 108
+open: true
+state: open
+time: 2016/05/03 15:36:19
+title: Allow GRID operator to "clear" an alarm status
+url: https://github.com/0-complexity/openvcloud/issues/108

@@ -1,0 +1,18 @@
+code.path                      = '/Users/despiegk/optvar/var/codetmp/g8os/home'
+
+github.client                  = 
+github.config                  = 
+
+kds.name                       = 'ss'
+
+milestone.category             =
+    'code_g8os',
+
+milestones                     =
+    'g8os1.0',
+    'g8os1.0_beta',
+
+repo.account                   = 'g8os'
+repo.name                      = 'home'
+repo.type                      = 'home'
+repo.url                       = 'https://github.com/0-complexity/home'

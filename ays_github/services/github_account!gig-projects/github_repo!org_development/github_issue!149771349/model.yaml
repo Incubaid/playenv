@@ -1,0 +1,19 @@
+assignee: despiegk
+body: "### Part of Story: #19\r\n\r\nIssue moved from https://api.github.com/repos/gig-projects/home/issues/5\r\
+  \n\r\n- explain how !! can help you to win a lot of time"
+comments:
+- {body: "## backlog comments of 'process: !! cmds on issues' (https://github.com/gig-projects/home/issues/5)\n\
+    \nfrom @despiegk at 2016/04/13 11:45:20\nif we move story we need to move the\
+    \ linked tasks as well\r\n\r\nthe move cmd should not be copied to the destination\r\
+    \n\r\nempty comments should be not copied either\r\n\r\n\n\n---\n\n", id: 212429747,
+  time: '2016/04/20 13:43:09', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/212429747',
+  user: despiegk}
+id: 149771349
+labels: [priority_urgent, type_task]
+milestone: ''
+number: 21
+open: true
+state: open
+time: 2016/04/20 13:43:08
+title: 'process: !! cmds on issues'
+url: https://github.com/gig-projects/org_development/issues/21

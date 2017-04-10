@@ -1,0 +1,18 @@
+code.path                      = '/Users/despiegk/optvar/var/codetmp/g8os/core'
+
+github.client                  = 
+github.config                  = 
+
+kds.name                       = 'ss'
+
+milestone.category             =
+    'code_g8os',
+
+milestones                     =
+    'g8os1.0',
+    'g8os1.0_beta',
+
+repo.account                   = 'g8os'
+repo.name                      = 'core'
+repo.type                      = 'code'
+repo.url                       = 'https://github.com/g8os/core'

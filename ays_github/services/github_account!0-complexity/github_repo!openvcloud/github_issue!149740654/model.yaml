@@ -1,0 +1,20 @@
+assignee: ''
+body: "**Description:-**\r\nAdding a not found ID to the URL of a cs, accounts, vms\
+  \ or users will produce a not handled error.\r\n\r\n**Sequance:-**\r\n-  Click on\
+  \ any  cs, accounts, vms or users ID to open its details page\r\n- Replace the ID\
+  \ value in the URL with any other number like 4444 or 19\r\n\r\n**Actual Result:-**\r\
+  \n![screenshot from 2016-04-20 13-25-45](https://cloud.githubusercontent.com/assets/17981089/14672971/cf776ef8-0703-11e6-8f12-41ba580f5567.png)\r\
+  \n\r\n**Software:-**\r\n![screenshot from 2016-04-20 11-34-57](https://cloud.githubusercontent.com/assets/17981089/14672983/df223720-0703-11e6-973c-ffa34fd08b72.png)"
+comments:
+- {body: Make sure to check other pages for simular behaviour aswell, id: 217108143,
+  time: '2016/05/05 09:10:44', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217108143',
+  user: grimpy}
+id: 149740654
+labels: [type_bug]
+milestone: 3:ovc2.1_ga
+number: 73
+open: true
+state: open
+time: 2016/04/20 11:26:51
+title: Not handeled error when browse not found cs, accounts, vms or users
+url: https://github.com/0-complexity/openvcloud/issues/73

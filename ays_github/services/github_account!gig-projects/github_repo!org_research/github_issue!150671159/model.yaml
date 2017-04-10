@@ -1,0 +1,14 @@
+assignee: ''
+body: "## support external providers to get content from\r\n- pull content from\r\n\
+  \    - google\r\n    - amazon\r\n    - dropbox\r\n    - apple\r\n- onto a private\
+  \ NAS\r\n- in first version 1 way is ok: external cloud to us\r\n\r\n\r\n"
+comments: []
+id: 150671159
+labels: [priority_minor, type_story]
+milestone: 2:summer
+number: 1
+open: true
+state: open
+time: 2016/04/24 15:10:12
+title: POC External Storage Cloud Importer
+url: https://github.com/gig-projects/org_research/issues/1

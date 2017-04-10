@@ -1,0 +1,50 @@
+assignee: ''
+body: "## linked issue\r\nhttps://github.com/0-complexity/be-scale-3/issues/6\r\n\r\
+  \n## reproduced \r\ndone on du-conv-2 with same error message\r\n\r\n## Details\r\
+  \nJumpScale\r\nCore: 7.0.5rc3\r\nPortal: 7.0.5rc3\r\nOpenvCloud\r\nCore: 2.0.5rc3\r\
+  \nOpenvStorage:\r\nopenvstorage-backend-core: 1.6.1-eugene-updates.4-1\r\nalba:\
+  \ 0.8.1\r\nopenvstorage-webapps: 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend-webapps:\
+  \ 1.6.1-eugene-updates.4-1\r\nopenvstorage-core: 2.6.1-eugene-updates.20-1\r\nopenvstorage-hc:\
+  \ 1.6.1-eugene-updates.4-1\r\nopenvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\
+  \nopenvstorage: 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend: 1.6.1-eugene-updates.4-1\r\
+  \nopenvstorage-sdm: 1.5.1-eugene-updates.1-1\r\n\r\n## Error Message\r\n\r\n\r\n\
+  <class 'JumpScale.baselib.http_client.HttpClient.HTTPError'>: 500:\r\n Traceback\
+  \ (most recent call last):\r\n~   File \"/opt/jumpscale7/lib/JumpScale/portal/portal/PortalRest.py\"\
+  , line 189, in execute_rest_call\r\n    result = method(ctx=ctx, **ctx.params)\r\
+  \n~   File \"/opt/jumpscale7/apps/portals/main/base/jumpscale__netmgr/methodclass/jumpscale_netmgr.py\"\
+  , line 84, in fw_move\r\n    raise RuntimeError(\"Failed to move routeros check\
+  \ job %(guid)s\" % job)\r\n~ RuntimeError: Failed to move routeros check job 8d11a904005e4ee59d8e70488fe0b858\r\
+  \n\r\nApplication Name\tportal\r\nCategory\t\r\nJob\tN/A\r\nType\tUNKNOWN\r\nLevel\t\
+  1\r\nProcess ID\t0\r\nCreation Time\t\r\n5/2/2016, 4:09:58 PM\r\nLast Time\t\r\n\
+  Occurrences\t1\r\nError Message Pub\t\r\nFunction Name\t_http_request\r\nFunction\
+  \ Line Number\t177\r\nFunction File Name\t/opt/jumpscale7/lib/JumpScale/portal/portal/events.py\r\
+  \nMaster Job\t0\r\nNode\t1\r\nGrid\t786\r\nTags\t\r\n## Code\r\n\r\n```\r\n1\r\n\
+  /opt/jumpscale7/lib/JumpScale/baselib/http_client/HttpClient.py\r\n```\r\n## BackTrace\r\
+  \n\r\n```\r\n1\r\nTraceback (most recent call last):\r\n2\r\n~   File \"/opt/jumpscale7/lib/JumpScale/portal/portal/events.py\"\
+  , line 58, in runner\r\n3\r\n    func(*args, **kwargs)\r\n4\r\n~   File \"/opt/jumpscale7/apps/portals/main/base/cloudbroker__cloudspace/methodclass/cloudbroker_cloudspace.py\"\
+  , line 126, in moveVirtualFirewallToFirewallNode\r\n5\r\n    self.netmgr.fw_move(fwid,\
+  \ int(targetNid))\r\n6\r\n~   File \"/opt/jumpscale7/var/code/actorremote_jumpscale_actor_netmgr_.py\"\
+  , line 432, in fw_move\r\n7\r\n    resultcode,result=self._appserverclient.wsclient.callWebService(\"\
+  jumpscale\",\"netmgr\",\"fw.move\",fwid=fwid,targetNid=targetNid)\r\n8\r\n~   File\
+  \ \"/opt/jumpscale7/lib/JumpScale/portal/portal/PortalClientWS.py\", line 73, in\
+  \ callWebService\r\n9\r\n    result = self.httpconnection.post(url, headers=headers,\
+  \ data=data)\r\n10\r\n~   File \"/opt/jumpscale7/lib/JumpScale/baselib/http_client/HttpClient.py\"\
+  , line 92, in post\r\n11\r\n    response = self._http_request(url, data=data, headers=headers,\
+  \ method='POST',**params)\r\n12\r\n~   File \"/opt/jumpscale7/lib/JumpScale/baselib/http_client/HttpClient.py\"\
+  , line 177, in _http_request\r\n13\r\n    raise HTTPError(e, url)\r\n14\r\n~ HTTPError:\
+  \ 500:\r\n15\r\n Traceback (most recent call last):\r\n16\r\n~   File \"/opt/jumpscale7/lib/JumpScale/portal/portal/PortalRest.py\"\
+  , line 189, in execute_rest_call\r\n17\r\n    result = method(ctx=ctx, **ctx.params)\r\
+  \n18\r\n~   File \"/opt/jumpscale7/apps/portals/main/base/jumpscale__netmgr/methodclass/jumpscale_netmgr.py\"\
+  , line 84, in fw_move\r\n19\r\n    raise RuntimeError(\"Failed to move routeros\
+  \ check job %(guid)s\" % job)\r\n20\r\n~ RuntimeError: Failed to move routeros check\
+  \ job 8d11a904005e4ee59d8e70488fe0b858\r\n21\r\n \r\n22\r\n```"
+comments: []
+id: 152570735
+labels: [priority_normal, type_bug]
+milestone: 3:ovc2.1_ga
+number: 102
+open: true
+state: open
+time: 2016/05/02 14:57:14
+title: Error in moving virtual firewall
+url: https://github.com/0-complexity/openvcloud/issues/102

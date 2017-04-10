@@ -1,0 +1,39 @@
+assignee: maxux
+body: '### Part of Story: #6
+
+
+  '
+comments:
+- {body: '`core` can build for `arm` without a problem. I need to check with @grimpy
+    about arch arm since he is the one who experiment with it to see how hard it is
+    to modify the image. But I will say initially 2 days of work (might be less)',
+  id: 216452907, time: '2016/05/03 06:50:18', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216452907',
+  user: muhamadazmy}
+- {body: I will have to check if `syncthing` can build on `arm` cleanly. Because we
+    need it as part of the installation., id: 216453566, time: '2016/05/03 06:55:31',
+  url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216453566',
+  user: muhamadazmy}
+- {body: "The components all exists. The base builder for arm pi has been made in\
+    \ the past.\r\nWe need to inject core and make simular changes in the initrd as\
+    \ was done for x86_64.\r\nDriver hooks will probably not be needed. \r\n\r\nSee:\
+    \ https://archlinuxarm.org/platforms/armv7/broadcom/raspberry-pi-2", id: 216454132,
+  time: '2016/05/03 06:59:59', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216454132',
+  user: grimpy}
+- {body: "The builder is ready. To build the image please follow instructions here\r\
+    \n\r\nhttps://github.com/g8os/builder_arch_arm\r\n\r\nAlso I added a `g8os_arm`\
+    \ method to the `bootmediainstaller` to install it on the PI\r\n\r\n```python\r\
+    \ncuisine.bootmediaInstaller.g8os_arm('file:///root/work/builder_arch_arm/out/g8os.arm.tgz',\
+    \ 1, 1, 'sdb')\r\n```", id: 216544677, time: '2016/05/03 14:23:56', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216544677',
+  user: muhamadazmy}
+- {body: "@maxux can you create a SD card and test?\r\ncan this work for the orange\
+    \ pi?", id: 216597278, time: '2016/05/03 17:05:59', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216597278',
+  user: despiegk}
+id: 152689934
+labels: [type_task]
+milestone: ''
+number: 18
+open: true
+state: open
+time: 2016/05/03 02:53:23
+title: 'G8OSalfa: https://github.com/g8os/builder_arch_arm'
+url: https://github.com/gig-projects/org_research/issues/18

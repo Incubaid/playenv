@@ -1,0 +1,20 @@
+code.path                      = '/Users/despiegk/optvar/var/codetmp/gig-projects/org_marketing'
+
+github.client                  = 
+github.config                  = 
+
+kds.name                       = 'ss'
+
+milestone.category             =
+    'gig',
+
+milestones                     =
+    'june',
+    'may',
+    'q4',
+    'summer',
+
+repo.account                   = 'gig-projects'
+repo.name                      = 'org_marketing'
+repo.type                      = 'org'
+repo.url                       = 'https://github.com/gig-projects/org_marketing'

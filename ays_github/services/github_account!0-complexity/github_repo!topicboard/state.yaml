@@ -1,0 +1,13 @@
+events: {}
+instanceHRDHash: f4ad5043d6fa1394885ff290181ac053
+parent: github_account!0-complexity
+producers:
+  github_account: [github_account!0-complexity]
+  github_client: [github_client!main]
+  github_config: [github_config!main]
+  github_milestone: [github_milestone!ovc210, github_milestone!ovc210_beta]
+recipe: github_repo
+recurring: {}
+state: {get_github_repo: CHANGED, getissuesfromgithub: OK, init: OK, install: OK,
+  processissues: OK, setmilestonesongithub: OK, stories2pdf: CHANGED}
+templateHRDHash: ''

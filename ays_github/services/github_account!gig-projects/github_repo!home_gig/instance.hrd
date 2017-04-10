@@ -1,0 +1,17 @@
+code.path                      = '/Users/despiegk/optvar/var/codetmp/gig-projects/home'
+
+github.client                  = 
+github.config                  = 
+
+kds.name                       = 'ss'
+
+milestone.category             =
+,
+
+milestones                     =
+,
+
+repo.account                   = 'gig-projects'
+repo.name                      = 'home'
+repo.type                      = 'proj'
+repo.url                       = 'https://github.com/gig-projects/home'

@@ -1,0 +1,37 @@
+assignee: karimal
+body: "## Environment \ndu-conv-2\n\n## Version\nJumpScale\n\nCore: 7.0.4rc5\nPortal:\
+  \ 7.0.4rc5\nOpenvCloud\n\nCore: 2.0.4rc5\nOpenvStorage:\n\nopenvstorage-backend-core:\
+  \ 1.6.1-eugene-updates.4-1\nalba: 0.8.1\nopenvstorage-webapps: 2.6.1-eugene-updates.18-1\n\
+  openvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\nopenvstorage-core: 2.6.1-eugene-updates.18-1\n\
+  openvstorage-hc: 1.6.1-eugene-updates.4-1\nopenvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\n\
+  openvstorage: 2.6.1-eugene-updates.18-1\nopenvstorage-backend: 1.6.1-eugene-updates.4-1\n\
+  openvstorage-sdm: 1.5.1-eugene-updates.1-1\n\n## Scenario\n- create cloudspace\n\
+  - create vm\n- go to end user portal\n- select Port Forwards\n- press \"add\"\n\
+  - add your port forward\n\n## Result\n- a loading image should run\n- page should\
+  \ be refreshed when done\n- Port Forwards should be visible"
+comments:
+- {body: Seems to be broken from cloudsapce portforwarding. Works fine in vm details
+    page., id: 206389638, time: '2016/04/06 14:09:37', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/206389638',
+  user: grimpy}
+- {body: Fixed, id: 208309977, time: '2016/04/11 12:04:07', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/208309977',
+  user: karimal}
+- {body: "**This issue is still there on the end portal .. No loading page.\r\nChecked\
+    \ on du-conv-2**\r\n\r\nSoftware version \r\n\r\njumpScale\r\n\r\nCore: 7.1.0b2\r\
+    \nPortal: 7.1.0b2\r\n\r\nOpenvCloud\r\n\r\nCore: 2.1.0b2\r\n\r\nOpenvStorage:\r\
+    \n\r\nopenvstorage-backend-core: 1.6.1-eugene-updates.4-1\r\nalba: 0.8.1\r\nopenvstorage-webapps:\
+    \ 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-core: 2.6.1-eugene-updates.20-1\r\nopenvstorage-hc: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\nopenvstorage: 2.6.1-eugene-updates.20-1\r\
+    \nopenvstorage-backend: 1.6.1-eugene-updates.4-1\r\nopenvstorage-sdm: 1.5.1-eugene-updates.1-1",
+  id: 216875644, time: '2016/05/04 14:05:33', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/216875644',
+  user: john-kheir}
+id: 146325171
+labels: [priority_normal, type_bug]
+milestone: 2:ovc2.1_beta
+number: 48
+open: true
+state: open
+time: 2016/04/06 14:07:42
+title: Creating port forward should have an automated refresh of the page and a loading
+  image while it is created
+url: https://github.com/0-complexity/openvcloud/issues/48

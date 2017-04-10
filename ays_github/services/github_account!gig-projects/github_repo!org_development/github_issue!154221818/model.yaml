@@ -1,0 +1,14 @@
+assignee: ''
+body: "## GOAL:\r\nSetup a VM in the G8 to run WHMCS\r\n\r\n## DESCRIPTION:\r\n- Provisioning\
+  \ through blueprint\r\n- Authentication against itsyou.online\r\n- Needs to be extended\
+  \ with VDC Control Panel\r\n"
+comments: []
+id: 154221818
+labels: []
+milestone: ''
+number: 133
+open: true
+state: open
+time: 2016/05/11 11:35:12
+title: 'beta21env: Install WHMCS'
+url: https://github.com/gig-projects/org_development/issues/133

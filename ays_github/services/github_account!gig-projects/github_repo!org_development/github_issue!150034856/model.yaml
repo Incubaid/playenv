@@ -1,0 +1,18 @@
+assignee: ''
+body: "### Part of Story: #40\n\n#### Part of Story: #40\n\n## requirements\n\n -\
+  \ work through the ays mechanism\n - create some additional commands to make it\
+  \ more userfriendly\n"
+comments:
+- {body: "Proposition of commands :\r\n- deploy vnasremote\r\n- du / df\r\n- % of\
+    \ data backed up centrally\r\n- status of the fuse\r\n- prepared attached disk\
+    \ for shipping", id: 215066988, time: '2016/04/27 12:29:21', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/215066988',
+  user: zaibon}
+id: 150034856
+labels: [type_task]
+milestone: ''
+number: 46
+open: true
+state: open
+time: 2016/04/21 10:42:38
+title: 'g8way: management through telegram'
+url: https://github.com/gig-projects/org_development/issues/46

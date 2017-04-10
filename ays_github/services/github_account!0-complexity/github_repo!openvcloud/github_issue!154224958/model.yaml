@@ -1,0 +1,17 @@
+assignee: ''
+body: When system is not in debug mode dont show a stacktrace instead inform the user
+  something went wrong and reference the ecoguid
+comments:
+- {body: "See https://github.com/jumpscale7/jumpscale_core7/commit/888d61d07124d796ad1faa4891b6b33b891b7863\r\
+    \nAnd\r\nhttps://github.com/jumpscale7/jumpscale_portal/commit/ec33c44abec44a600989e0ee3bbd0235bafd0f9b",
+  id: 218691022, time: '2016/05/12 08:21:26', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/218691022',
+  user: grimpy}
+id: 154224958
+labels: [state_verification, type_bug]
+milestone: 2:ovc2.1_beta
+number: 134
+open: true
+state: open
+time: 2016/05/11 11:52:51
+title: 'Security#: Dont show stacktraces when macros fails'
+url: https://github.com/0-complexity/openvcloud/issues/134

@@ -1,0 +1,26 @@
+assignee: muhamadazmy
+body: '### Part of Story: #6
+
+
+  can we implement builder for ubuntu?
+
+
+  16.04
+
+
+  '
+comments:
+- {body: 'Theoretically, it shouldn''t be different. It''s just the matter of replacing
+    the init process with ours, and install all required tools. We will just need
+    to use the correct tools from ubuntu to bootstrap the image.', id: 216452364,
+  time: '2016/05/03 06:45:23', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216452364',
+  user: muhamadazmy}
+id: 152689564
+labels: [type_task]
+milestone: ''
+number: 17
+open: true
+state: open
+time: 2016/05/03 02:48:44
+title: 'G8OSalfa: https://github.com/g8os/builder_ubuntu_i64'
+url: https://github.com/gig-projects/org_research/issues/17

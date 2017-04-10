@@ -1,0 +1,27 @@
+assignee: robvanmieghem
+body: "## GOAL:\r\nSingle identity provider and group management for authorizations.\r\
+  \n\r\n## DESCRIPTION:\r\n- [ ] #120 add sms for 2 factor authentication\r\n- [ ]\
+  \ #134 email addess scope mapping\r\n- [ ] #118 Stabilization"
+comments:
+- {body: '@robvanmieghem please add tasks that need to be delivered to deliver this
+    story. Please include estimates.
+
+
+    See https://gig.gitbooks.io/agile/content/tickets_tasks.html', id: 216535967,
+  time: '2016/05/03 13:58:20', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216535967',
+  user: FastGeert}
+- {body: Should have sms testable by this evening, id: 218390004, time: '2016/05/11
+    08:04:53', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218390004',
+  user: robvanmieghem}
+- {body: 'Due to meetings and higher priority tasks, will be shifted to beginning
+    of next week.', id: 218498621, time: '2016/05/11 15:39:00', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218498621',
+  user: robvanmieghem}
+id: 150811433
+labels: [state_inprogress, type_story]
+milestone: 7:G8-2.1-beta
+number: 61
+open: true
+state: open
+time: 2016/04/25 10:08:27
+title: Itsyou.online basic functionality (itsyouonline)
+url: https://github.com/gig-projects/org_development/issues/61

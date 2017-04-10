@@ -1,0 +1,31 @@
+assignee: yveskerwyn
+body: "## GOAL:\n\nCreation of a standard Blueprint template for running Drupal applications\n\
+  \n## DESCRIPTION:\n\n     - As a first version let's make sure to meet the official\
+  \ requirements of Drupal: https://www.drupal.org/requirements\n     - As an example\
+  \ check the following docker-compose-yml: https://github.com/RobLoach/docker-compose-drupal/blob/master/docker-compose.yml\n\
+  \     - For a later iteration let's create a more custom one for Wbase, our first\
+  \ customer/partner, meeting following requirements:\n         - web server\n   \
+  \      - apache met php 5.4\n         - git\n         - drush: https://github.com/drush-ops/drush\n\
+  \         - grunt\n         - gulp: http://gulpjs.com    - npm: https://www.npmjs.com\n\
+  \         - database\n         - MySQL 5.x +  phpMyAdmin\n         - tools\n   \
+  \      - Apache Solr: http://lucene.apache.org/solr/\n         - Memached: https://memcached.org\n\
+  \         - DirectAdmin: https://directadmin.com\n\n|status|title              \
+  \                                                |link|\n|------|-------------------------------------------------------------------|----|\n\
+  |open  |drupal-blueprint: create first version of Drupal blueprint template|#71\
+  \ |\n\n"
+comments:
+- {body: "@zaibon I just finished a manual setup of a Drupal environment using two\
+    \ Docker containers, one for MySQL and one for Drupal, all is documented [here](https://github.com/0-complexity/ovcdoc_public/blob/master/BootCamp/Docker/Docker.md)\r\
+    \n\r\nThe actual docker machine hosting the containers is on [be-conv-2](https://be-conv-2.demo.greenitglobe.com/CBGrid/Virtual%20Machine?id=55)\r\
+    \n\r\nThe result can be seen [here](http://10.101.104.120:9080/)", id: 216287301,
+  time: '2016/05/02 16:39:17', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216287301',
+  user: yveskerwyn}
+id: 150866618
+labels: [priority_minor, state_question, type_story]
+milestone: 5:may
+number: 70
+open: true
+state: open
+time: 2016/04/25 13:54:17
+title: Blueprint template for Drupal (drupal-blueprint)
+url: https://github.com/gig-projects/org_development/issues/70

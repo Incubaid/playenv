@@ -1,0 +1,41 @@
+assignee: ''
+body: "This is a feature request\n\nIt would be nice if we could find a way to present\
+  \ the results of the created vm's in the Statistics section of OVS\n\u2013> Go to\
+  \ the portal\n\u2013> open the hamburger menu\n\u2013> select statistics\n\nOn the\
+  \ dashboard the admin user should be able to select on of the vm's which is created\
+  \ on the Gener8.\nWhen selecting the vm or physical node we should present 3 graphs.\n\
+  \n1. CPU performance over time in % usage, name of graph should be \"CPU performance\"\
+  \n2. Memory usage over time in % usage, name of graph should be \"Memory usage\"\
+  \n3. IOPS per vm/node over time, name of the graph should be \"IOPS\"\n\u2013> When\
+  \ we have this IOPS graph we need to make a distinction between type of trafic in\
+  \ the same graph\n----> Initial write\n----> rewrite, read\n----> reread \n---->\
+  \ random r/w"
+comments:
+- {body: If this is not a good feature request I will close this ticket. I think this
+    would be very nice to show in demo's, id: 215124566, time: '2016/04/27 15:40:16',
+  url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/215124566',
+  user: lzonneke}
+- {body: '@despiegk @FastGeert @hofkensj , can we discuss if this is required for
+    2.1 and where are we doing this, In cockpit?', id: 216484210, time: '2016/05/03
+    09:56:45', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/216484210',
+  user: lzonneke}
+- {body: "think we need it - this will drive demand for people either buying new VM\u2019\
+    s or increasing capacity on existing.\n\nwould put this in the G8 Cockpit, not\
+    \ the G8 Master since we do not want the operator to have access to this data\
+    \ that is account / user specific.  \n\n\n> On 03 May 2016, at 11:56, Lesley Zonnekein\
+    \ <notifications@github.com> wrote:\n> \n> @despiegk <https://github.com/despiegk>\
+    \ @FastGeert <https://github.com/FastGeert> @hofkensj <https://github.com/hofkensj>\
+    \ , can we discuss if this is required for 2.1 and where are we doing this, In\
+    \ cockpit?\n> \n> \u2014\n> You are receiving this because you were mentioned.\n\
+    > Reply to this email directly or view it on GitHub <https://github.com/0-complexity/openvcloud/issues/24#issuecomment-216484210>\n\
+    \n", id: 216501748, time: '2016/05/03 11:33:26', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/216501748',
+  user: hofkensj}
+id: 142795281
+labels: [priority_normal, state_question, type_feature]
+milestone: 3:ovc2.1_ga
+number: 24
+open: true
+state: open
+time: 2016/03/22 22:09:01
+title: Create a graph per created vm in graphana
+url: https://github.com/0-complexity/openvcloud/issues/24

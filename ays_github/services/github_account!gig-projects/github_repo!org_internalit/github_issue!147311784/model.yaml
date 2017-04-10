@@ -1,0 +1,25 @@
+assignee: davshafik
+body: "### Part of Story: #6\n\ncreate a list of all users\r\ndo this in this repo\
+  \ see #todo"
+comments:
+- {body: "put all users in\r\nhttps://github.com/gig-projects/proj_gig_organization/blob/master/itinfo/users.toml\r\
+    \n\r\nwe need them all codescalers, racktivity, dubai, ...\r\n", id: 208158824,
+  time: '2016/04/11 04:21:05', url: 'https://api.github.com/repos/gig-projects/org_internalit/issues/comments/208158824',
+  user: despiegk}
+- {body: make sure david or support team does it, id: 208765972, time: '2016/04/12
+    07:57:27', url: 'https://api.github.com/repos/gig-projects/org_internalit/issues/comments/208765972',
+  user: despiegk}
+- {body: "I updated the file to contains the new users info, there is some missing\
+    \ but i am collecting it right now  , and will keep updating it now and on to\
+    \ keep it always up to date . \r\n\r\n", id: 208872703, time: '2016/04/12 12:09:32',
+  url: 'https://api.github.com/repos/gig-projects/org_internalit/issues/comments/208872703',
+  user: davshafik}
+id: 147311784
+labels: [priority_critical, type_task]
+milestone: ''
+number: 1
+open: true
+state: open
+time: 2016/04/11 04:09:50
+title: 'github: gig full user list'
+url: https://github.com/gig-projects/org_internalit/issues/1

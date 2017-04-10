@@ -1,0 +1,18 @@
+assignee: svekeman
+body: "what\r\n- are 2 products with very different requirements & specs\r\n\r\nper\
+  \ product we need\r\n- minimum google presentation explaining the feature set \r\
+  \n- PRD\r\n- minimal product description in gdoc format\r\n\r\nremark\r\n- focus\
+  \ on current featureset (e.g. big files for remote, all files for central)\r\n"
+comments:
+- {body: 'need also good names, because 2 separate products which are now too close
+    in name', id: 213984968, time: '2016/04/24 15:31:27', url: 'https://api.github.com/repos/gig-projects/org_products/issues/comments/213984968',
+  user: despiegk}
+id: 150638095
+labels: [priority_normal, state_question, type_story]
+milestone: 5:may
+number: 2
+open: true
+state: open
+time: 2016/04/24 08:01:59
+title: product basic collateral & spec for vnas & vnas remote (vnasspec)
+url: https://github.com/gig-projects/org_products/issues/2

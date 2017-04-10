@@ -1,0 +1,56 @@
+assignee: ''
+body: '## Environment
+
+  https://be-conv-2.demo.greenitglobe.com/cbgrid/accounts
+
+
+  ## Description
+
+  - press the "Add Account" button
+
+  - complete the first box and press "enter" on the keyboard
+
+  - This closes the window
+
+  - No Account is created
+
+
+  ## Expected outcome
+
+  - pressing the "enter" button should be the same as pressing the "Confirm" button
+  on the form.'
+comments:
+- {body: 'same issue when selecting any actions in the vitual machine section:
+
+
+    eg:
+
+    - Start vm
+
+    - delete vm
+
+    - ...', id: 199360527, time: '2016/03/21 16:12:06', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/199360527',
+  user: lzonneke}
+- {body: 'Fixed at https://github.com/jumpscale7/jumpscale_portal/commit/2c00e842ea7562175cf43e8eb66095b64226aac8',
+  id: 199682870, time: '2016/03/22 07:50:55', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/199682870',
+  user: grimpy}
+- {body: "## Tested on du-conv-2\r\nThis issue is fixed when trying to add an account\
+    \ but still there for actions buttons of virtual machine, cloudspace, certain\
+    \ account page, .. etc\r\n## Software Version\r\nJumpScale\r\n\r\nCore: 7.1.0b2\r\
+    \nPortal: 7.1.0b2\r\nOpenvCloud\r\n\r\nCore: 2.1.0b2\r\nOpenvStorage:\r\n\r\n\
+    openvstorage-backend-core: 1.6.1-eugene-updates.4-1\r\nalba: 0.8.1\r\nopenvstorage-webapps:\
+    \ 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-core: 2.6.1-eugene-updates.20-1\r\nopenvstorage-hc: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\nopenvstorage: 2.6.1-eugene-updates.20-1\r\
+    \nopenvstorage-backend: 1.6.1-eugene-updates.4-1\r\nopenvstorage-sdm: 1.5.1-eugene-updates.1-1",
+  id: 217100437, time: '2016/05/05 08:14:31', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217100437',
+  user: john-kheir}
+id: 142373951
+labels: [type_bug]
+milestone: 1:cb2.0.4
+number: 19
+open: true
+state: open
+time: 2016/03/21 14:56:21
+title: press enter when creating the account closes the create account window
+url: https://github.com/0-complexity/openvcloud/issues/19

@@ -1,0 +1,46 @@
+datacenter_palmlab:
+  location: 'villa 78'
+  description: 'life can be good in villa 77,\nIs for test purposes only.'
+
+rack.table_ourtable:
+  location: 'villa 77 garage'
+  description: '...'
+  datacenter: 'palmlab'
+
+sshkey_palmkey:
+
+#no need to specify a sshkey, because there is only 1 will use that one
+host.pc_host1:
+  rack: 'ourtable'
+  addr: '192.168.0.105:22'
+
+host.pc_host2:
+  rack: 'ourtable'
+  addr: '192.168.0.250'
+
+docker_bb1:
+  dockerid: 'bitnami/redis'
+  host: 'host1'
+
+docker_bb2:
+  dockerid: 'bitnami/redis'
+  host: 'host1'
+
+dockeros_build1:
+  dockerid: 'jumpscale/ubuntu1510'
+  host: 'host1'
+
+telegram_kds:
+  key: '162688732:AAF8H1Y5_xkXJlY2nRGnvBQat934obAR2xk'
+
+robot_main:
+  telegram: 'kds'
+  report.period: '5m'
+  debug.fake: True
+  debug.log.level: 10
+
+
+
+
+
+  

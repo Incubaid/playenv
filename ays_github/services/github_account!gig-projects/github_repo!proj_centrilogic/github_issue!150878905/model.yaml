@@ -1,0 +1,13 @@
+assignee: thongkhacl
+body: Prepare sites with the right connectivity, rackspace, power, ... for the G8's
+  to be installed
+comments: []
+id: 150878905
+labels: [priority_critical, type_story]
+milestone: 8:5 G8 small installed and running
+number: 7
+open: true
+state: open
+time: 2016/04/25 14:24:28
+title: Sites selected and prepared for G8 installations (CL_site_selection)
+url: https://github.com/gig-projects/proj_centrilogic/issues/7

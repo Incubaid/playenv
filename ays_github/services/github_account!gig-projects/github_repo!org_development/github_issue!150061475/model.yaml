@@ -1,0 +1,25 @@
+assignee: despiegk
+body: "### Part of Story: #39\r\n\r\n## requirements-\r\n separate repo for vnas\r\
+  \n- specs on same repo\r\n\r\n## remark\r\n- kds wants to review"
+comments:
+- {body: Hunt down the original specs see if they still make sense., id: 217807688,
+  time: '2016/05/09 08:40:16', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/217807688',
+  user: grimpy}
+- {body: 'https://github.com/0-complexity/g8nas specs have been migrated,', id: 218184854,
+  time: '2016/05/10 14:59:29', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218184854',
+  user: grimpy}
+- {body: Will make architecture drawing and add it, id: 218184936, time: '2016/05/10
+    14:59:45', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218184936',
+  user: grimpy}
+- {body: '@despiegk could you review specs and drawing?', id: 218402885, time: '2016/05/11
+    09:05:16', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218402885',
+  user: grimpy}
+id: 150061475
+labels: [priority_critical, state_inprogress, type_task]
+milestone: ''
+number: 51
+open: true
+state: open
+time: 2016/04/21 12:36:20
+title: 'G8NAS: specs & preparation'
+url: https://github.com/gig-projects/org_development/issues/51

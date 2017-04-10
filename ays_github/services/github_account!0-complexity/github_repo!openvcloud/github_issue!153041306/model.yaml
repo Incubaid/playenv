@@ -1,0 +1,16 @@
+assignee: ''
+body: "system config tree can be accessed from links like:\r\nhttps://du-conv-2.demo.greenitglobe.com/elfinder/3d5fa4ef87d8f06b7971a536f59730aa\r\
+  \n\r\nhttps://du-conv-2.demo.greenitglobe.com/elfinder/3d5fa4ef87d8f06b7971a536f59730aa?cmd=open&init=1&target=/etc/passwd&tree=2&_=1462367560300"
+comments:
+- {body: 'https://github.com/jumpscale7/jumpscale_portal/commit/f6ebecadd1d142dafcbc6462b3813a12c6ca2247',
+  id: 217883243, time: '2016/05/09 14:39:09', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217883243',
+  user: grimpy}
+id: 153041306
+labels: [priority_critical, state_verification, type_bug]
+milestone: 2:ovc2.1_beta
+number: 113
+open: true
+state: open
+time: 2016/05/04 15:27:56
+title: Security# SystemConfig is a globally access
+url: https://github.com/0-complexity/openvcloud/issues/113

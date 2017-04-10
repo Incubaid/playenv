@@ -1,0 +1,29 @@
+assignee: ''
+body: "Using the following link, The server side will execute the commands between\
+  \ {{}}\r\nhttps://du-conv-2.demo.greenitglobe.com/grid/grid%20node?gid=786&id={{5*5}}\r\
+  \nSo the expected output will be 25 as the result of 5*5\r\n![screenshot from 2016-05-05\
+  \ 15-53-06](https://cloud.githubusercontent.com/assets/17981089/15045283/69cb6290-12e2-11e6-9cf2-9f1e30621857.png)\r\
+  \n\r\nIf I change it to be {{5*9}}, The iframe will include 45 which is meaning\
+  \ that the remote server will \r\nexecute some commands.\r\n![screenshot from 2016-05-05\
+  \ 15-54-34](https://cloud.githubusercontent.com/assets/17981089/15045341/abf87e32-12e2-11e6-800a-737c703a8d2a.png)\r\
+  \n\r\nIf we change the {{5*9}} to be like {{print}}, there will be an error which\
+  \ include this part of info\r\n![screenshot from 2016-05-05 15-55-03](https://cloud.githubusercontent.com/assets/17981089/15045344/afb046b8-12e2-11e6-9e11-c29acd9069d6.png)\r\
+  \n\r\n\r\nIf I tried to inject a code like {{import time; print time.time()}}, The\
+  \ server will be crashed\r\n\r\n![screenshot from 2016-05-05 16-03-31](https://cloud.githubusercontent.com/assets/17981089/15045478/5b509b30-12e3-11e6-9b45-3db3142706a7.png)\r\
+  \n\r\n**SW**\r\nJumpScale\r\n    Core: 7.1.0b2\r\n   Portal: 7.1.0b2\r\nOpenvCloud\r\
+  \n    Core: 2.1.0b2\r\nOpenvStorage:\r\n#    openvstorage-backend-core: 1.6.1-eugene-updates.4-1\r\
+  \n    alba: 0.8.1\r\n    openvstorage-webapps: 2.6.1-eugene-updates.20-1\r\n   \
+  \ openvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\n    openvstorage-core:\
+  \ 2.6.1-eugene-updates.20-1\r\n    openvstorage-hc: 1.6.1-eugene-updates.4-1\r\n\
+  \    openvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\n    openvstorage: 2.6.1-eugene-updates.20-1\r\
+  \n    openvstorage-backend: 1.6.1-eugene-updates.4-1\r\n    openvstorage-sdm: 1.5.1-eugene-updates.1-1"
+comments: []
+id: 153238203
+labels: [priority_urgent, type_bug]
+milestone: 3:ovc2.1_ga
+number: 119
+open: true
+state: open
+time: 2016/05/05 13:59:44
+title: Security# Inject code in the server side and Crash it
+url: https://github.com/0-complexity/openvcloud/issues/119

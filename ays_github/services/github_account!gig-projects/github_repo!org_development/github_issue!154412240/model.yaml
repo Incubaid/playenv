@@ -1,0 +1,13 @@
+assignee: RubenMattan
+body: "## GOAL:\r\nSetting the oauth2 settings via UI.\r\n\r\n## DESCRIPTION:\r\n\
+  Add the app settings to app detail page at /mobiadmin/apps"
+comments: []
+id: 154412240
+labels: [state_verification, type_task]
+milestone: ''
+number: 135
+open: true
+state: open
+time: 2016/05/12 07:08:13
+title: 'GAE: AppSettings configuration page [2h]'
+url: https://github.com/gig-projects/org_development/issues/135

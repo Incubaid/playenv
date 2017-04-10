@@ -1,0 +1,21 @@
+assignee: ''
+body: "## GOAL:\r\nCorrectly opensource this piece of code.\r\n\r\n## REMARK:\r\n\
+  Refer to the original github project which we used to get started in the read.md\r\
+  \n\r\n\r\n"
+comments:
+- {body: 'I don''t think the remark is relevant anymore as there''s no code taken
+    from it, it was just used to getting to know how WHMCS modules work', id: 218977017,
+  time: '2016/05/13 08:01:06', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218977017',
+  user: lucasvanhalst}
+- {body: 'Where can I find the license? ', id: 219014696, time: '2016/05/13 11:07:54',
+  url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/219014696',
+  user: lucasvanhalst}
+id: 154650751
+labels: [state_question, type_task]
+milestone: ''
+number: 138
+open: true
+state: open
+time: 2016/05/13 07:33:19
+title: 'whmcs-auth: Apply BSD & GIG Copyright to all source code [2h]'
+url: https://github.com/gig-projects/org_development/issues/138

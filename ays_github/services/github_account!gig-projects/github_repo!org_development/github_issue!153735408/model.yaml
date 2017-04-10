@@ -1,0 +1,15 @@
+assignee: xmonader
+body: "## GOAL:\r\nImplement a way to dump metadata from mdserver to a flat file (plist\
+  \ format)\r\n\r\n## DESCRIPTION:\r\nThe mdserver should have functionality to dump\
+  \ metadata to a flat file in plist format\r\n\r\n```\r\n<full-path>|<hash>|<size-in-bytes>|<hash-parts>\r\
+  \n```\r\n\r\n\r\n"
+comments: []
+id: 153735408
+labels: [type_task]
+milestone: ''
+number: 116
+open: true
+state: open
+time: 2016/05/09 09:21:57
+title: 'g8way: we need a feature to dump the metadata to a file & also put it in backend'
+url: https://github.com/gig-projects/org_development/issues/116

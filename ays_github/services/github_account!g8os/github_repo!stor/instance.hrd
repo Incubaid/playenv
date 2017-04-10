@@ -1,0 +1,18 @@
+code.path                      = '/Users/despiegk/optvar/var/codetmp/g8os/stor'
+
+github.client                  = 
+github.config                  = 
+
+kds.name                       = 'ss'
+
+milestone.category             =
+    'code_g8os',
+
+milestones                     =
+    'g8os1.0',
+    'g8os1.0_beta',
+
+repo.account                   = 'g8os'
+repo.name                      = 'stor'
+repo.type                      = 'code'
+repo.url                       = 'https://github.com/g8os/stor'

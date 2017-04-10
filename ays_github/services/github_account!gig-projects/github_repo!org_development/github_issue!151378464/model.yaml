@@ -1,0 +1,17 @@
+assignee: ''
+body: "### Part of Story: #39\r\n\r\n## GOAL:\r\nCreates Telegram commands to deploy\
+  \ a G8NAS from cockpit.Creates telegram command to manage user access to G8NAS\r\
+  \n\r\n## DESCRIPTION:\r\n- User-friendly conversation with telegram robot to deploy\
+  \ a G8NAS\r\n- Command to authorize user to access part of the vnas directory (share\
+  \ in cifs)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\
+  \n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+comments: []
+id: 151378464
+labels: [type_task]
+milestone: ''
+number: 83
+open: true
+state: open
+time: 2016/04/27 12:57:37
+title: 'G8NAS: Telegram commands to deploy and manage a G8NAS'
+url: https://github.com/gig-projects/org_development/issues/83

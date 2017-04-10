@@ -1,0 +1,21 @@
+description                    = 
+
+g8.account                     = 
+g8.client.name                 = 
+g8.location                    = 
+
+parent                         = 'vdcfarm!main'
+
+producer.g8client              =
+    'g8client!main',
+
+producer.vdcfarm               =
+    'vdcfarm!main',
+
+service.domain                 = 'jumpscale'
+service.instance               = 'mytest'
+service.name                   = 'vdc'
+service.role                   = 'vdc'
+service.version                = 
+
+vdcfarm                        = 'main'

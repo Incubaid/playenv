@@ -1,0 +1,84 @@
+assignee: muhamadazmy
+body: "\r\n- use agent & agentcontroller8\r\n- create a launch tool which schedules\
+  \ jobs to\r\n    - read disk stats\r\n    - read process stats (create a process\
+  \ reality object for all processes with same name, DO NOT work with pids !, id=\
+  \ name of process)\r\n    - read vm stats\r\n    - read docker stats\r\n    - read\
+  \ nic stats\r\n    - read reality info: disks, nics, vms, dockers, cpu, .... \r\n\
+  \    - read / clean logs e.g. syslog, dmesg send to log\r\n    - remark: at least\
+  \ everything we do in openvcloud + more should be done\r\n- do this by creating\
+  \ a tool j.tools.realitycapture....\r\n    - this does the reading of all info,\
+  \ use the models, send to redis\r\n- use models as defined in: https://github.com/Jumpscale/jumpscale_core8/tree/master/lib/JumpScale/data/models\r\
+  \n    - expand the models where required\r\n- create a tool j.tools.realityprocess\r\
+  \n    - this reads from the redis\r\n    - stats to influxdb\r\n    - logs to tar\
+  \ files for reference\r\n    - eco & reality objects to mongodb"
+comments:
+- {body: 'create the skeleton first (classes with empty methods & documentation),
+    let @despiegk review', id: 186797933, time: '2016/02/21 10:56:52', url: 'https://api.github.com/repos/Jumpscale/home/issues/comments/186797933',
+  user: despiegk}
+- {body: also need to make sure that the pages from the portal (grid portal space)
+    shows all this info, id: 186798732, time: '2016/02/21 11:08:25', url: 'https://api.github.com/repos/Jumpscale/home/issues/comments/186798732',
+  user: despiegk}
+- {body: "@despiegk \r\nI just created the skeleton for the realitycapture extension\
+    \ here.\r\n\r\nhttps://github.com/Jumpscale/jumpscale_core8/blob/master/lib/JumpScale/tools/realitycapture/RealityCapture.py\r\
+    \n\r\nThe extension is just a factory to the Monitor class which only allows the\
+    \ caller to schedule monitoring tasks on remote node (over the agentcontroller8\
+    \ and the agent8).\r\n\r\nThe scheduled jumpscript will then run according to\
+    \ the given crons, and then report stats (or reality objects) over the provided\
+    \ redis address.\r\n\r\ncould you please take a look?\r\n", id: 186828817, time: '2016/02/21
+    14:13:48', url: 'https://api.github.com/repos/Jumpscale/home/issues/comments/186828817',
+  user: muhamadazmy}
+- {body: "@despiegk \r\nAlso the `realitprocess` extension is implemented here  https://github.com/Jumpscale/jumpscale_core8/blob/master/lib/JumpScale/tools/aggregator/RealityProcess.py\r\
+    \n\r\nIt starts influxdumper and mongodumper, both logs and ecos dumpers are under\
+    \ development.", id: 186828975, time: '2016/02/21 14:14:53', url: 'https://api.github.com/repos/Jumpscale/home/issues/comments/186828975',
+  user: muhamadazmy}
+- {body: "skeleton should be much more\n\nwhat are the methods to launch a monitoring\
+    \ task\nhow do you define on which nodes\nwhich monitoring actions ...\n\n\n\n\
+    On Sun, Feb 21, 2016 at 3:13 PM, Muhamad Azmy <notifications@github.com>\nwrote:\n\
+    \n> I just created the skeleton for the realitycapture extension here.\n>\n>\n\
+    > https://github.com/Jumpscale/jumpscale_core8/blob/master/lib/JumpScale/tools/realitycapture/RealityCapture.py\n\
+    >\n> The extension is just a factory to the Monitor class which only allows the\n\
+    > caller to schedule monitoring tasks on remote node (over the\n> agentcontroller8\
+    \ and the agent8).\n>\n> The scheduled jumpscript will then run according to the\
+    \ given crons, and\n> then report stats (or reality objects) over the provided\
+    \ redis address.\n>\n> could you please take a look?\n>\n> \u2014\n> Reply to\
+    \ this email directly or view it on GitHub\n> <https://github.com/Jumpscale/Home/issues/3#issuecomment-186828817>.\n\
+    >\n\n\n\n-- \n------------------------\nKristof De Spiegeleer\n+971525609014\n\
+    +201206927877\n+32 475405474\nskype: despiegk\n", id: 186862279, time: '2016/02/21
+    17:18:16', url: 'https://api.github.com/repos/Jumpscale/home/issues/comments/186862279',
+  user: despiegk}
+- {body: "@despiegk The reality process class only defines the factory, the methods\
+    \ to launch the monitoring tasks are defined here\r\n\r\nhttps://github.com/Jumpscale/jumpscale_core8/blob/master/lib/JumpScale/tools/realitycapture/Monitor.py\r\
+    \n\r\nAs you can see, all methods accepts gid and nid combination which perfectly\
+    \ defines what nodes the monitor task should run on.\r\n", id: 187048714, time: '2016/02/22
+    07:17:55', url: 'https://api.github.com/repos/Jumpscale/home/issues/comments/187048714',
+  user: muhamadazmy}
+- {body: 'how far are we with this story?', id: 190698478, time: '2016/03/01 12:24:50',
+  url: 'https://api.github.com/repos/Jumpscale/home/issues/comments/190698478', user: despiegk}
+- {body: "@despiegk \r\n- The realityprocess is done, all data from redis is processed\
+    \ and stored to reality databases (mongo and influxdb).\r\n- The scripts we have\
+    \ already in jumpscale has been updated to use the aggregator extension to report\
+    \ statistics and reality objects.\r\n- We will make sure that after https://github.com/0-complexity/home/issues/4\
+    \ that all monitor jumpscripts will auto-schedule on the agents\r\n- TODO: Build\
+    \ more jumpscripts to monitor VMs and Dockers (I personally think this should\
+    \ be part of OVC migration to JS8)", id: 191169349, time: '2016/03/02 10:11:56',
+  url: 'https://api.github.com/repos/Jumpscale/home/issues/comments/191169349', user: muhamadazmy}
+- {body: "OVC migration to JS8 is not planned soon\r\nbut we want already monitoring\
+    \ in js8 from controllers, its a step by step approach", id: 197732957, time: '2016/03/17
+    06:58:40', url: 'https://api.github.com/repos/Jumpscale/home/issues/comments/197732957',
+  user: despiegk}
+- {body: "but we want already monitoring in js8 from controllers, its a step by step\
+    \ approach\r\n\r\nWhat do you mean with this?\r\nMonitor what from the controller\
+    \ exactly?", id: 202064966, time: '2016/03/27 13:31:44', url: 'https://api.github.com/repos/Jumpscale/home/issues/comments/202064966',
+  user: grimpy}
+- {body: "controllers need to monitor a local g8grid\r\nwe need to test this work",
+  id: 216605884, time: '2016/05/03 17:34:09', url: 'https://api.github.com/repos/Jumpscale/home/issues/comments/216605884',
+  user: despiegk}
+id: 135190479
+labels: [state_inprogress, state_question, type_story]
+milestone: ''
+number: 3
+open: true
+state: open
+time: 2016/02/21 10:55:49
+title: reality capturing & processing tool
+url: https://github.com/Jumpscale/home/issues/3

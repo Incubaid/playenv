@@ -1,0 +1,7 @@
+
+telegram = type:str consume:telegram:1
+report.period = '5m'
+debug.fake= type:bool default:False @ask
+debug.log.level= 10
+
+

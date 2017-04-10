@@ -1,0 +1,29 @@
+assignee: bart-at-mobicage
+body: "GOAL:** Mobile app branded to the reseller for communication with the end customer.\
+  \ We want to achieve the following goals:- A mobile always up to date view on the\
+  \ status of the customers resources (network, machines, storage)- A way for the\
+  \ customer to interact with the reseller for support (ask questions, report problems)-\
+  \ A primary alert channel announcing changes / problems in his environment\n REQUIREMENTS:**-\
+  \ The customer must authenticate himself through itsyou.online (OAuth2) [Story:\
+  \ [rogerthat-oauth](https://github.com/gig-projects/org_development/issues/18)]\n\
+  \n### Tasks: #78 , #77  , #75  , #74  , #72  , #55\n\n|status|title            \
+  \                                                                         |link|\n\
+  |------|------------------------------------------------------------------------------------------|----|\n\
+  |open  |resellerapp: Backend - Create API for sending out WHMCS ticket updates [12h]\
+  \              |#78 |\n|open  |resellerapp: Backend - Creating a VDC [32h]     \
+  \                                          |#77 |\n|open  |resellerapp: WHMCS -\
+  \ Create hooks for tickets [20h]                                       |#75 |\n\
+  |open  |resellerapp: Backend - Creating a ticket in WHMCS [32h]                \
+  \                   |#74 |\n|open  |resellerapp: Create a poc ServiceIdentity for\
+  \ 1 location [2h]                             |#72 |\n|open  |resellerapp: Document\
+  \ how to setup the Rogerthat oauth integration with itsyou.online [2h]|#55 |"
+comments: []
+id: 149692331
+labels: [type_story]
+milestone: 7:G8-2.1-beta
+number: 16
+open: true
+state: open
+time: 2016/04/20 08:03:45
+title: Reseller rogerthat app (resellerapp)
+url: https://github.com/gig-projects/org_development/issues/16

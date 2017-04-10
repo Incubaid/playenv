@@ -1,0 +1,9 @@
+
+
+
+host                            = type:str parent:'host'
+dockerid                        = type:str descr:'e.g. bitnami/redis'
+
+
+
+

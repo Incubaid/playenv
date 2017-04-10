@@ -1,0 +1,25 @@
+assignee: hofkensj
+body: Specify what needs to be working day 1 for new customer on the G8 platform and
+  migration of old customers to work.
+comments:
+- {body: "CentriLogic Integration team members are listed below.\r\n\r\nSuliman O'Donnell\
+    \ - UI/UX Designer for reskin of base Gener8 UI and Mothership1 UI\r\nThong Kha",
+  id: 216345350, time: '2016/05/02 20:00:53', url: 'https://api.github.com/repos/gig-projects/proj_centrilogic/issues/comments/216345350',
+  user: thongkhacl}
+- {body: "Perfect - will set up meeting to start the project once financials / PO\u2019\
+    s are done.\n\nJurgen\n\n\n\n> On 02 May 2016, at 22:00, thongkhacl <notifications@github.com>\
+    \ wrote:\n> \n> CentriLogic Integration team members are listed below.\n> \n>\
+    \ Suliman O'Donnell - UI/UX Designer for reskin of base Gener8 UI and Mothership1\
+    \ UI\n> Thong Kha\n> \n> \u2014\n> You are receiving this because you authored\
+    \ the thread.\n> Reply to this email directly or view it on GitHub <https://github.com/gig-projects/proj_centrilogic/issues/24#issuecomment-216345350>\n\
+    \n", id: 216352055, time: '2016/05/02 20:23:51', url: 'https://api.github.com/repos/gig-projects/proj_centrilogic/issues/comments/216352055',
+  user: hofkensj}
+id: 151816599
+labels: [type_task]
+milestone: 12:New offering live on G8
+number: 24
+open: true
+state: open
+time: 2016/04/29 08:23:50
+title: 'MS1_integration: Specify MS1 Integration work as part of the story'
+url: https://github.com/gig-projects/proj_centrilogic/issues/24

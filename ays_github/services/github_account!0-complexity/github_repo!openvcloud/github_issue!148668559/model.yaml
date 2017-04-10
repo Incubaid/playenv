@@ -1,0 +1,18 @@
+assignee: yveskerwyn
+body: '## Description'
+comments:
+- {body: '@yveskerwyn  please add the stroycard link in here', id: 218103792, time: '2016/05/10
+    09:20:19', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/218103792',
+  user: lzonneke}
+- {body: 'Storycard: [WHMCS Integration (whmcs-int)](https://github.com/gig-projects/org_development/issues/48)',
+  id: 218380870, time: '2016/05/11 07:16:49', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/218380870',
+  user: yveskerwyn}
+id: 148668559
+labels: [priority_normal, type_feature]
+milestone: 2:ovc2.1_beta
+number: 66
+open: true
+state: open
+time: 2016/04/15 13:59:44
+title: Integration WHMCS
+url: https://github.com/0-complexity/openvcloud/issues/66

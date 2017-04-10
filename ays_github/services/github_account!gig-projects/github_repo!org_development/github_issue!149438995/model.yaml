@@ -1,0 +1,25 @@
+assignee: ''
+body: "### Part of Story: #3\r\n\r\n- enable the geodns dns server on our central\
+  \ infrastructure\r\n- check the sal\r\n   - over ssh there needs to be a SAL which\
+  \ can configure the DNS server (cuisine)"
+comments:
+- {body: "Skydns is ready to be replaced with geodns in the three locations of the\
+    \ GCC cluster. \r\n\r\nBut, since this SAL only works over SSH so far, we need\
+    \ to find a way to gave access to public user to the DNS infrastructure. As long\
+    \ as we don't have that possibility, we can't get rid of Skydns", id: 212278550,
+  time: '2016/04/20 06:23:01', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/212278550',
+  user: zaibon}
+- {body: "- as discussed, security is a none issue because cockpit for deployment\
+    \ of cockpit is secure & can have keys to the DNS infra\r\n- please make sure\
+    \ DNS infrastructure gets upgraded & we use that way", id: 216418888, time: '2016/05/03
+    02:24:17', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216418888',
+  user: despiegk}
+id: 149438995
+labels: [priority_critical, state_question, type_task]
+milestone: ''
+number: 5
+open: true
+state: open
+time: 2016/04/19 12:03:02
+title: 'cockpit: new dns infrastructure'
+url: https://github.com/gig-projects/org_development/issues/5

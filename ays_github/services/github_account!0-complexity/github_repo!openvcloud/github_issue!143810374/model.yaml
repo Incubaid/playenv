@@ -1,0 +1,17 @@
+assignee: karimal
+body: "![add portforward](https://cloud.githubusercontent.com/assets/4743683/14065651/e2347f60-f432-11e5-9548-82f992b8bdb9.png)\r\
+  \n\r\n![add portforward2](https://cloud.githubusercontent.com/assets/4743683/14065691/47bd1f3a-f434-11e5-926d-5c22078a23ef.png)\r\
+  \n\r\nMake sure in all sizes:-\r\n1- popup is centered.\r\n2- consistent font sizes.\r\
+  \n3- \"port\" aligned in a right way.\r\nIn Edit portforward do the same responsive\
+  \ fixes and:-\r\n4- in virtual machine list make sure the right virtual machine\
+  \ is selected.\r\n5- add space between add button and text."
+comments: []
+id: 143810374
+labels: [type_bug]
+milestone: 5:ovc_backlog
+number: 32
+open: true
+state: open
+time: 2016/03/27 13:47:50
+title: 'Enduser portal responsive: Add & Edit portforward popups'
+url: https://github.com/0-complexity/openvcloud/issues/32

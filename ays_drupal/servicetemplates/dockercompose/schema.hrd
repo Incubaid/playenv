@@ -1,0 +1,2 @@
+ssh = type:str descr:'ssh ip address'
+

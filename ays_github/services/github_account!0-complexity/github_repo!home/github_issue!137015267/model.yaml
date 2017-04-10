@@ -1,0 +1,30 @@
+assignee: muhamadazmy
+body: "use the gitbooks repo\r\nhttps://www.gitbook.com/book/gig/g8os\r\n\r\ncreate\
+  \ working set of docu\r\n- how to get started\r\n- how to use\r\n- configuration\r\
+  \n- ..."
+comments:
+- {body: "a lot of content can be moved from main jumpscale repo \r\ne.g. https://gig.gitbooks.io/jumpscale8/content/BeyondBasics/AYS%20FS.html",
+  id: 195893301, time: '2016/03/13 06:43:11', url: 'https://api.github.com/repos/g8os/home/issues/comments/195893301',
+  user: despiegk}
+- {body: "Main configuration\r\nhttps://gig.gitbooks.io/g8os/content/docs/config/generic.html\r\
+    \nNetwork configuration\r\nhttps://gig.gitbooks.io/g8os/content/docs/config/network.html",
+  id: 195919857, time: '2016/03/13 09:19:46', url: 'https://api.github.com/repos/g8os/home/issues/comments/195919857',
+  user: muhamadazmy}
+- {body: "@muhamadazmy documentation around network is not clear, please fix asap.\r\
+    \ne.g. how is relation with OpenvSwitch, when used when not, ...?", id: 197730340,
+  time: '2016/03/17 06:42:48', url: 'https://api.github.com/repos/g8os/home/issues/comments/197730340',
+  user: despiegk}
+- {body: OpenvSwitch deamon and database are always started when they are configured
+    (with ovs-vsctl) their devices will be configured before the network.toml is processed.
+    From within the network.toml file one can add IP layer on top of those devices.,
+  id: 203281643, time: '2016/03/30 07:05:21', url: 'https://api.github.com/repos/g8os/home/issues/comments/203281643',
+  user: grimpy}
+id: 137015267
+labels: [priority_urgent, state_verification]
+milestone: '1:8.0'
+number: 5
+open: true
+state: open
+time: 2016/02/28 06:39:00
+title: first docu for g8os
+url: https://github.com/g8os/home/issues/5

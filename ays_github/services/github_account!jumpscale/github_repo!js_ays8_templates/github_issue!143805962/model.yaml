@@ -1,0 +1,15 @@
+assignee: rkhamis
+body: "Priority would be to get the playenv blueprint\r\n\r\n- [x] app.docker \r\n\
+  - [ ] blueprint.cockpit\r\n- [x] g8client\r\n- [ ] node.docker\r\n- [ ] node.ovc\r\
+  \n- [ ] os.cockpit\r\n- [ ] os.ssh.ubuntu \r\n- [ ] sshkey\r\n- [x] vdc\r\n- [x]\
+  \ vdcfarm"
+comments: []
+id: 143805962
+labels: [state_inprogress]
+milestone: ''
+number: 3
+open: true
+state: open
+time: 2016/03/27 12:49:09
+title: Re-write services compatible with revamped AYS8
+url: https://github.com/Jumpscale/ays_jumpscale8/issues/3

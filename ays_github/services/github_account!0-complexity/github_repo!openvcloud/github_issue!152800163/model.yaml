@@ -1,0 +1,62 @@
+assignee: ''
+body: "When re-installing an environment all context of the environment repo get's\
+  \ lost.  That means we loose all open issues / all access rights / ... that need\
+  \ to be completely redone.\r\n\r\nThis should not be the case, otherwise operating\
+  \ the environment becomes difficult to impossible."
+comments:
+- {body: "see the story card about cockpit to deploy/manage an OVC 2.1 environment\n\
+    this will automatically take care of this\n\n\nOn Tue, May 3, 2016 at 7:17 PM,\
+    \ hofkensj <notifications@github.com> wrote:\n\n> When re-installing an environment\
+    \ all context of the environment repo\n> get's lost. That means we loose all open\
+    \ issues / all access rights / ...\n> that need to be completely redone.\n>\n\
+    > This should not be the case, otherwise operating the environment becomes\n>\
+    \ difficult to impossible.\n>\n> \u2014\n> You are receiving this because you\
+    \ are subscribed to this thread.\n> Reply to this email directly or view it on\
+    \ GitHub\n> <https://github.com/0-complexity/openvcloud/issues/107>\n>\n\n\n\n\
+    -- \n------------------------\nKristof De Spiegeleer\n+971525609014 (my telegram\
+    \ account registered on this nr, best way to reach\nme)\n+201206927877\n+32 475405474\n\
+    skype: despiegk\n", id: 216594047, time: '2016/05/03 16:54:51', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/216594047',
+  user: despiegk}
+- {body: 'Now you should be able to reinstall the environment with a clear repo. I
+    think you can do it without removing the project (repository).
+
+
+    Try to clear the repo (clone it, rm all, commit, push) then try a reinstall.
+
+
+    This should now works (since github) and the issues, etc. will be kept :)', id: 216599895,
+  time: '2016/05/03 17:13:40', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/216599895',
+  user: maxux}
+- {body: "Ok - next time we have to re-install be-scale-x we will test it and then\
+    \ close\n\n\n\n\n> On 03 May 2016, at 19:13, Maxime Daniel <notifications@github.com>\
+    \ wrote:\n> \n> Now you should be able to reinstall the environment with a clear\
+    \ repo. I think you can do it without removing the project (repository).\n> \n\
+    > Try to clear the repo (clone it, rm all, commit, push) then try a reinstall.\n\
+    > \n> This should now works (since github) and the issues, etc. will be kept :)\n\
+    > \n> \u2014\n> You are receiving this because you authored the thread.\n> Reply\
+    \ to this email directly or view it on GitHub <https://github.com/0-complexity/openvcloud/issues/107#issuecomment-216599895>\n\
+    \n", id: 216809201, time: '2016/05/04 09:24:36', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/216809201',
+  user: hofkensj}
+- {body: 'git checkout -B "delete@$(date +%y%m%d)"
+
+    git push origin
+
+    git checkout master
+
+    git reset --hard "$(git rev-list --max-parents=0 HEAD)"
+
+    git push -f
+
+
+
+    @davshafik please verify', id: 218109054, time: '2016/05/10 09:43:40', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/218109054',
+  user: lzonneke}
+id: 152800163
+labels: [priority_urgent, state_verification, type_bug]
+milestone: 2:ovc2.1_beta
+number: 107
+open: true
+state: open
+time: 2016/05/03 15:17:38
+title: Re-installing an environment removes all repo information of previous
+url: https://github.com/0-complexity/openvcloud/issues/107

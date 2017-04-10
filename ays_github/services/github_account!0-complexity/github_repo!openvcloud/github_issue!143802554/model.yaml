@@ -1,0 +1,15 @@
+assignee: karimal
+body: "![responsive header](https://cloud.githubusercontent.com/assets/4743683/14065267/7e84b408-f423-11e5-968d-7040b70e5243.png)\r\
+  \n\r\n1- Make username & logout button stick to page top in all sizes.\r\n2- Make\
+  \ logout button border top radius 0 in all sizes.\r\n3- Make greenitglobe logo smaller\
+  \ in small size."
+comments: []
+id: 143802554
+labels: [priority_normal, type_bug]
+milestone: 5:ovc_backlog
+number: 31
+open: true
+state: open
+time: 2016/03/27 11:58:40
+title: 'Enduser portal responsive: Fix header'
+url: https://github.com/0-complexity/openvcloud/issues/31

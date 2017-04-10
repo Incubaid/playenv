@@ -1,0 +1,11 @@
+g8.location                    = 
+
+mem.size                       = 4
+
+service.domain                 = 'jumpscale'
+service.instance               = 'mytestmachine'
+service.name                   = 'blueprint.os.ubuntu.openvcloud'
+service.role                   = 'blueprint'
+service.version                = 
+
+vdc.name                       = 'mytest'

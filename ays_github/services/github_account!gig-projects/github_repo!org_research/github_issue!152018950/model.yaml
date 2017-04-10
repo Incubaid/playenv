@@ -1,0 +1,14 @@
+assignee: maxux
+body: "### Part of Story: #13\n\nscripts\n\n - wireless access point\n - openvpn client/server\n\
+  \ - bluetooth token (work together with external tokens we have)\n - wireless nic\
+  \ client\n - bluetooth adhoc networking example\n\nto be further defined\n\n"
+comments: []
+id: 152018950
+labels: [priority_urgent, type_task]
+milestone: ''
+number: 15
+open: true
+state: open
+time: 2016/04/30 08:59:18
+title: 'g8os_router: cuisine scripts for G8os router POC'
+url: https://github.com/gig-projects/org_research/issues/15

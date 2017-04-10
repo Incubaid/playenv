@@ -1,0 +1,29 @@
+assignee: rkhamis
+body: "### Part of Story: #3\r\n\r\nGoal: \r\nRun AYS8 next to JS7\r\n- install js8\
+  \ in developement mode, so no sandbox.\r\n- check for conflict in command line tools\r\
+  \n- check python symlinks"
+comments:
+- {body: "- Install JS7 with [https://gig.gitbooks.io/jumpscale/content/GettingStarted/Install.html]()\r\
+    \n- Install JS8 with [https://gig.gitbooks.io/jumpscale8/content/GettingStarted/Install.html]()\r\
+    \n- Make sure js8 uses python3.5 and that it doesn't symlink it to `python`.\r\
+    \n- Make sure no paths conflict (check shared bins)\r\n- A separate redis for\
+    \ jumpscale8?\r\n- Should be able to install js7 apps and at least agentcontroller\
+    \ and agent of js8\r\n- Should be able to use ays8 next to ays7\r\n-  **Document\
+    \ every step**\r\n\r\n", id: 212008544, time: '2016/04/19 16:35:47', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/212008544',
+  user: rkhamis}
+- {body: "1- install jumpscale7 by `bash install.sh` \r\n2- install jumpscale 8 by\
+    \  `bash install.sh`  (using branch ''js8-with-js7\" )\r\n3- ensure /usr/local/bin\
+    \ are included in your $PATH or add it to your .bashrc\r\n4-at this point js and\
+    \ jspython are for js7\r\n5- source /opt/jumpscale8/env.sh \r\n6- now js, jspython\
+    \ are for js8\r\n7- install agent and agent controller using cuisine", id: 212969282,
+  time: '2016/04/21 15:20:34', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/212969282',
+  user: ashraffouda}
+id: 149443960
+labels: [state_verification, type_task]
+milestone: ''
+number: 12
+open: true
+state: open
+time: 2016/04/19 12:19:59
+title: 'cockpit: let js8 & js7 work next to each other in ubuntu 15.10'
+url: https://github.com/gig-projects/org_development/issues/12

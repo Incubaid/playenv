@@ -1,0 +1,16 @@
+namespace Company.Sample;
+
+enum Field:byte { Head = 0, Development=1, Sales = 2 }
+
+table Company {
+  name:string;
+  branches:[Branch];
+}
+
+table Branch {
+  name:string;
+  address:string;
+  field:Field;
+}
+
+root_type Company;

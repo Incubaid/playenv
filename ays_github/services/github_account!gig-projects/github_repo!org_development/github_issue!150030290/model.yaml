@@ -1,0 +1,75 @@
+assignee: muhamadazmy
+body: "## GOAL\n\n     - product running on top of OVC 2.0.4/2.1 managed by a cockpit-\
+  \ allow people to see a petabyte scalable nas in their office (can be SOHO)\n\n\
+  ## Requirements\n\n     - needs to visualize upto 10 PB\n     - need encryption\
+  \ at customer site- need compression at customer site\n     - use HD's to transfer\
+  \ large volumes of data- big files only (+2MB)\n     - no RW support on files (W\
+  \ or R, cannot open in RW mode)\n     - keep metadata in GIT (use GOGS as backend)\n\
+  \     - POC quality is good enough\n\n### Tasks: #47 , #46  , #44  , #43  , #42\
+  \  , #41\n\n|status|title                                                      \
+  \   |link|\n|------|--------------------------------------------------------------|----|\n\
+  |open  |vnasremote: need new name for vnasremote                      |#101|\n|open\
+  \  |vnasremote: write specs & architecture                        |#47 |\n|open\
+  \  |vnasremote: management through telegram                       |#46 |\n|open\
+  \  |vnasremote: metadata server                                   |#44 |\n|open\
+  \  |vnasremote: fuse layer with encryption/compression            |#43 |\n|open\
+  \  |vnasremote: rebrand GOGS interface to GIG                     |#42 |\n|open\
+  \  |vnasremote: GOGS api needs to be complete for our requirements|#41 |\n|open\
+  \  |vnasremote: review specs                                      |#114|"
+comments:
+- {body: "@muhamadazmy where are the specs? They need to be fully reviewed by me,\
+    \ please create task for me.\r\n@FastGeert ", id: 216417309, time: '2016/05/03
+    02:08:33', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216417309',
+  user: despiegk}
+- {body: "@despiegk I am working on the specs already, but I need some answers to\
+    \ the questions I posted here (https://github.com/gig-projects/org_development/issues/43)\
+    \ before the holidays to clear up things.\r\n\r\n", id: 216454746, time: '2016/05/03
+    07:05:07', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216454746',
+  user: muhamadazmy}
+- {body: "Specs document: https://docs.google.com/a/incubaid.com/document/d/1Wg_QYDhFdM5eTHBh8RQFkosS7FIG3dzVoFoLO5odfDY/edit?usp=sharing\r\
+    \n\r\nI have created task #114 ", id: 216506349, time: '2016/05/03 11:55:13',
+  url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216506349',
+  user: muhamadazmy}
+- {body: "please move specs to\r\nor put link to gdocs on\r\n\r\no-compexity/g8way\r\
+    \n\r\nwill review soon", id: 216604703, time: '2016/05/03 17:29:52', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216604703',
+  user: despiegk}
+- {body: "Estimate: ~6d\r\n- Fuse layer: working on committing file chunks to backup\
+    \ disks.\r\n- Mdserver: gogs integration complete\r\n- GOGS API: still working\
+    \ on oauth2/itsyou.online for gogs\r\nStill queued:\r\n- GOGS repranding", id: 217819464,
+  time: '2016/05/09 09:37:25', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/217819464',
+  user: muhamadazmy}
+- {body: "please change name  of repo & specs to G8WAY\r\n", id: 217832767, time: '2016/05/09
+    10:44:46', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/217832767',
+  user: despiegk}
+- {body: "Added requirement:\n     - POC quality is good enough", id: 217873907, time: '2016/05/09
+    14:06:29', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/217873907',
+  user: FastGeert}
+- {body: "Estimate: ~5d\r\n- Fuse layer: compressing and encryption. There is still\
+    \ an issue with large file that takes long time to process that the disque think\
+    \ the job has failed and redeliver the job which causes multiple file processing.\r\
+    \n- Mdserver: working on exporting metadata to `plist`\r\n- Gogs: oauth2 integration\
+    \ with itsyou.online still under development. \r\n", id: 218104965, time: '2016/05/10
+    09:25:32', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218104965',
+  user: muhamadazmy}
+- {body: "Estimate: ~4d\r\n- Fuse layer: writing to the backup disks is complete,\
+    \ reading is under progress.\r\nMdserver: export metadata is finished\r\nGogs:\
+    \ oauth2 still have issues with itsyou.online but almost there.\r\n\r\nTo be implemented:\r\
+    \n-  fuse layer: Rest API for managing the filesystem (reports) ", id: 218411689,
+  time: '2016/05/11 09:44:05', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218411689',
+  user: muhamadazmy}
+- {body: "Estimate: ~3d\r\n- Fuse layer: read and create operations are complete,\
+    \ (modifying a file still under progress). Working on tracking file processing\
+    \ status for reporting.\r\n- Gogs oauth blocked on `itsyou.online` issue (email\
+    \ is not returned by `itsyou.online`) and gogs requires it.\r\n- mdserver: Finish\
+    \ metadata exporting. Testing mdserver with older gogs version from `gigforks`.\
+    \ \r\n", id: 218707128, time: '2016/05/12 09:33:52', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218707128',
+  user: muhamadazmy}
+id: 150030290
+labels: [state_inprogress, type_story]
+milestone: 5:may
+number: 40
+open: true
+state: open
+time: 2016/04/21 10:19:06
+title: G8WAY 1.0.0. (g8way)
+url: https://github.com/gig-projects/org_development/issues/40

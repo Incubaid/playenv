@@ -1,0 +1,17 @@
+assignee: robvanmieghem
+body: "## GOAL:\r\nWe need to make sure that we do a proper handover from angular\
+  \ in order to not have a gap in development\r\n\r\n## DESCRIPTION:\r\nKarim and\
+  \ Rob should arrange a meeting for this hand over, when done Rob should be the bridge\
+  \ to sammer who is starting as Karim's replacement on sunday 15/5. Sammer is a junior\
+  \ so probable not that experienced with Angular... To be checked\r\n\r\nPlease arrange\
+  \ a handover meeting....\r\n\r\n\r\n"
+comments: []
+id: 154422731
+labels: [priority_urgent, type_task]
+milestone: 7:G8-2.1-beta
+number: 136
+open: true
+state: open
+time: 2016/05/12 08:15:38
+title: Handover vdc control panel and portal angular code from Karim to Rob
+url: https://github.com/gig-projects/org_development/issues/136

@@ -1,0 +1,30 @@
+assignee: karimal
+body: "**Description:-**\r\nWhen User create a new VM and he checks the port forward\
+  \ list, He will find all the port forwards for the cloud space. Once he adds a new\
+  \ port forward for this new VM, this list will gone and the only new items will\
+  \ be appeared.\r\n\r\n**Sequance:-**\r\n1- Create a new CS\r\n2- Create VM1\r\n\
+  3- Create a port forward for it\r\n4- Create a VM2\r\n5- Check the port forward\
+  \ tabs. You will find the VM1's port forwarding\r\n6- Add a new port forward for\
+  \ the VM2\r\n\r\nActual result:\r\nThe port forwarding list will only show the new\
+  \ port forward and hide the others\r\n\r\n**Before adding the port forward for the\
+  \ new VM:-**\r\n![screenshot from 2016-04-17 12-37-23](https://cloud.githubusercontent.com/assets/17981089/14586471/b3b498e4-04a1-11e6-9c1f-140bcf977d5b.png)\r\
+  \n\r\n**After adding the new port forward:-**\r\n![screenshot from 2016-04-17 12-38-33](https://cloud.githubusercontent.com/assets/17981089/14586481/2b6071ba-04a2-11e6-884b-e7ac2b1cf46d.png)\r\
+  \n\r\n\r\n\r\nSoftware version:\r\n![screenshot from 2016-04-18 17-49-18](https://cloud.githubusercontent.com/assets/17981089/14640946/9566ccc0-064c-11e6-90e6-87c024971b4c.png)"
+comments:
+- {body: please add the version on which you have tested this... Thanks, id: 211438134,
+  time: '2016/04/18 15:42:13', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/211438134',
+  user: lzonneke}
+- {body: "Issue here is that the UI shows the portforwards of the previously created\
+    \ vm.\r\nOnly way to reproduce this is click on the create machine button at the\
+    \ right while having port forwards for first vm open.", id: 216501644, time: '2016/05/03
+    11:32:54', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/216501644',
+  user: grimpy}
+id: 148939932
+labels: [priority_urgent, state_inprogress, type_bug]
+milestone: 2:ovc2.1_beta
+number: 67
+open: true
+state: open
+time: 2016/04/17 10:40:03
+title: port forwards list is disappered when add a nre port forward
+url: https://github.com/0-complexity/openvcloud/issues/67

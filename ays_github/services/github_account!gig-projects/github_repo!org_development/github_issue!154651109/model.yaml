@@ -1,0 +1,16 @@
+assignee: ''
+body: "## GOAL:\r\nThe sources should be clean before they are put public.\r\n\r\n\
+  \r\n"
+comments:
+- {body: 'Clean as in writing more logging, removing debugging statements.', id: 218977196,
+  time: '2016/05/13 08:02:11', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218977196',
+  user: lucasvanhalst}
+id: 154651109
+labels: [state_verification, type_task]
+milestone: ''
+number: 139
+open: true
+state: open
+time: 2016/05/13 07:35:58
+title: 'whmcs-auth: Cleanup source code [1h]'
+url: https://github.com/gig-projects/org_development/issues/139

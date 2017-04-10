@@ -1,0 +1,90 @@
+github.label.priority.critical =
+    '*',
+
+github.label.priority.minor    =
+    '*',
+
+github.label.priority.normal   =
+    '*',
+
+github.label.priority.urgent   =
+    '*',
+
+github.label.process.duplicate =
+    '*',
+
+github.label.process.wontfix   =
+    '*',
+
+github.label.state.inprogress  =
+    '*',
+
+github.label.state.question    =
+    '*',
+
+github.label.state.verification =
+    '*',
+
+github.label.type.assistance_request =
+    'proj',
+
+github.label.type.bug          =
+    'ays',
+    'cockpit',
+    'code',
+    'doc',
+    'www',
+
+github.label.type.feature      =
+    'ays',
+    'cockpit',
+    'code',
+    'doc',
+    'www',
+
+github.label.type.lead         =
+    'org',
+    'proj',
+
+github.label.type.monitor      =
+    'cockpit',
+    'proj',
+    'www',
+
+github.label.type.question     =
+    'ays',
+    'cockpit',
+    'code',
+    'doc',
+    'home',
+    'milestone',
+    'org',
+    'proj',
+    'www',
+
+github.label.type.story        =
+    'home',
+    'milestone',
+    'org',
+    'proj',
+
+github.label.type.task         =
+    'home',
+    'milestone',
+    'org',
+    'proj',
+
+github.label.type.ticket       =
+    'org',
+    'proj',
+
+github.project.types           =
+    'ays',
+    'cockpit',
+    'code',
+    'doc',
+    'home',
+    'milestone',
+    'org',
+    'proj',
+    'www',

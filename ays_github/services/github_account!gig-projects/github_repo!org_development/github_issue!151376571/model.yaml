@@ -1,0 +1,16 @@
+assignee: maxux
+body: "### Part of Story: #39\r\n\r\n## GOAL:\r\nCheck if the actual implementation\
+  \ of vnaslb is good enough for our use case.\r\n\r\n## DESCRIPTION:\r\n- Put the\
+  \ source code of vnaslb in proper repo.\r\n- test fuse FS.\r\n\r\n\r\n\r\n\r\n\r\
+  \n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\
+  \n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+comments: []
+id: 151376571
+labels: [state_inprogress, type_task]
+milestone: ''
+number: 81
+open: true
+state: open
+time: 2016/04/27 12:48:28
+title: 'G8NAS: Review actual implementation of vnaslb'
+url: https://github.com/gig-projects/org_development/issues/81

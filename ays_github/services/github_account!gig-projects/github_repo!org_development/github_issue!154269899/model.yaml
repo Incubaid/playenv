@@ -1,0 +1,28 @@
+assignee: robvanmieghem
+body: "## GOAL:\r\nrequest a `user:email:label` scope should return this email address\
+  \ in the user/info api call\r\n\r\n## DESCRIPTION:\r\nAfter the user authorizes\
+  \ and selects which email address can be viewed, this should be returned in the\
+  \ call to user/info.\r\n\r\n\r\n"
+comments:
+- {body: '@robvanmieghem is the email address of the itsyou.online user verified?',
+  id: 218496690, time: '2016/05/11 15:33:03', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218496690',
+  user: FastGeert}
+- {body: '@FastGeert  No, not yet', id: 218497413, time: '2016/05/11 15:35:23', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218497413',
+  user: robvanmieghem}
+- {body: putting priority to minor since this will only be needed in a second phase
+    when whcms wants to send emails directly to clients., id: 218686256, time: '2016/05/12
+    07:58:03', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218686256',
+  user: robvanmieghem}
+- {body: Moved this task to the itsyou.online functionality since it is no longer
+    required for whmcs authentication, id: 218715511, time: '2016/05/12 10:11:28',
+  url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218715511',
+  user: robvanmieghem}
+id: 154269899
+labels: [priority_minor, type_task]
+milestone: ''
+number: 134
+open: true
+state: open
+time: 2016/05/11 15:17:42
+title: 'itsyouonline: email address scope mapping [3h]'
+url: https://github.com/gig-projects/org_development/issues/134

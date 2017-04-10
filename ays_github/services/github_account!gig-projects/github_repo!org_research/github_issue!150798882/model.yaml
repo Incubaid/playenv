@@ -1,0 +1,12 @@
+assignee: robvanmieghem
+body: Paying 5% fee on a transaction is not feasible for us.
+comments: []
+id: 150798882
+labels: [type_story]
+milestone: ''
+number: 12
+open: true
+state: open
+time: 2016/04/25 09:20:41
+title: Lower contract fee in SIA (siafundfee)
+url: https://github.com/gig-projects/org_research/issues/12

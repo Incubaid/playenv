@@ -1,0 +1,74 @@
+assignee: ''
+body: "**Description:-**\r\nWhen create a VM using disk size less than 25GB and use\
+  \ a windows image, The stacks will be crashed and\"Not enough resources pop-up\"\
+  \ will be appeared.\r\n\r\n**Sequance;-**\r\n- Check the stack status and make sure\
+  \ that all stacks are enable\r\n![screenshot from 2016-04-20 11-24-00](https://cloud.githubusercontent.com/assets/17981089/14670667/b91fef84-06f6-11e6-827e-170525c3f77b.png)\r\
+  \n\r\n- Create a vm with Windows image, 512 MB memory and 10 GB hard disk\r\n![screenshot\
+  \ from 2016-04-20 11-25-21](https://cloud.githubusercontent.com/assets/17981089/14670672/c20be6ac-06f6-11e6-9690-915cc88d7f62.png)\r\
+  \n\r\n![screenshot from 2016-04-20 11-26-01](https://cloud.githubusercontent.com/assets/17981089/14670681/d0239c1c-06f6-11e6-9b2b-445ecffc5030.png)\r\
+  \n\r\n- Check the stack status again\r\n![screenshot from 2016-04-20 11-26-18](https://cloud.githubusercontent.com/assets/17981089/14670700/e1faed64-06f6-11e6-9a07-25c5beb32304.png)\r\
+  \n\r\n**Expected result:**\r\nNo one should has ability to create a VM with windows\
+  \ image in a hard disk less than 25GB.\r\n\r\n\r\n**Hint:**\r\nThis bug is tested\
+  \ on du-conv-2 and du-conv-3.\r\n\r\n**Software:**\r\ndu-conv-2\r\n![screenshot\
+  \ from 2016-04-20 11-34-57](https://cloud.githubusercontent.com/assets/17981089/14671175/165dc9e4-06f9-11e6-97dd-2bc1d76216db.png)\r\
+  \n\r\n\r\ndu-conv-3\r\n![screenshot from 2016-04-20 11-34-04](https://cloud.githubusercontent.com/assets/17981089/14670836/703304d6-06f7-11e6-9ec5-4b4dad5d5b9f.png)"
+comments:
+- {body: Block from the API should be done and proper error message should be provided,
+  id: 214683428, time: '2016/04/26 09:32:09', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/214683428',
+  user: lzonneke}
+- {body: '@grimpy  Do images have a size property that indicates the minimum disk
+    requirements?', id: 215414414, time: '2016/04/28 12:55:30', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/215414414',
+  user: FastGeert}
+- {body: '@FastGeert yes they do. As we discussed in the bam, due to the current limitation
+    of the admin portal we dont have a way to do callbacks when changing the image
+    from the dropdown so all sizes are always shown. The enduser portal does implement
+    this correctly. To prevent getting an error like this we should do a sanity check
+    in the machine create API and throw a 400 bad request when minsize is not met.',
+  id: 215416337, time: '2016/04/28 13:03:19', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/215416337',
+  user: grimpy}
+- {body: "#temp solution\r\nIf stacks are in error state can you just set them to\
+    \ enabled again and then create win VM with bigger hdd", id: 215442979, time: '2016/04/28
+    14:25:54', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/215442979',
+  user: lzonneke}
+- {body: '@lzonneke  Ya, This solution is working as a work arround', id: 215449798,
+  time: '2016/04/28 14:47:21', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/215449798',
+  user: islamTaha12}
+- {body: "API will throw error when attemping to give a disksize which is to small.\r\
+    \n`Disk size of 10GB is to small for image Ubuntu 14.04 x64, which requires at\
+    \ least 30GB.`\r\n", id: 216457713, time: '2016/05/03 07:27:07', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/216457713',
+  user: grimpy}
+- {body: "## Tested on du-conv-2 \r\nWhen trying to create 20G windows image machine,\
+    \ this message pop up \"Disk size of 20GB is to small for image Windows 2012r2\
+    \ Standard, which requires at least **25GB**\", which is good..\r\nHowever when\
+    \ trying to create machines with sizes from 25-40, an error occur and all stacks\
+    \ crash\r\n![vmerroe](https://cloud.githubusercontent.com/assets/15011431/15109244/c833370e-15da-11e6-85bc-8def9f032265.png)\r\
+    \n## Software Version\r\nJumpScale\r\n\r\nJumpScale\r\n\r\nCore: 7.1.0b3\r\nPortal:\
+    \ 7.1.0b3\r\nOpenvCloud\r\n\r\nCore: 2.1.0b3\r\nOpenvStorage:\r\n\r\nopenvstorage-backend-core:\
+    \ 1.6.1-eugene-updates.4-1\r\nalba: 0.8.1\r\nopenvstorage-webapps: 2.6.1-eugene-updates.20-1\r\
+    \nopenvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\nopenvstorage-core:\
+    \ 2.6.1-eugene-updates.20-1\r\nopenvstorage-hc: 1.6.1-eugene-updates.4-1\r\nopenvstorage-cinder-plugin:\
+    \ 1.1.1-eugene-updates.1-1\r\nopenvstorage: 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend:\
+    \ 1.6.1-eugene-updates.4-1\r\nopenvstorage-sdm: 1.5.1-eugene-updates.1-1", id: 217821654,
+  time: '2016/05/09 09:48:11', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217821654',
+  user: john-kheir}
+- {body: "@john-kheir \r\nAre you saying the windows image only works with a disk\
+    \ start from 50GB?", id: 217883703, time: '2016/05/09 14:40:44', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217883703',
+  user: grimpy}
+- {body: '@grimpy please review', id: 218104656, time: '2016/05/10 09:24:04', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/218104656',
+  user: lzonneke}
+- {body: Avaialble disk sizes in admin portal are not alligned with the configured
+    sizes. Will fix this. Also we should give proper error message when disksize is
+    chosen outside specified size., id: 218143239, time: '2016/05/10 12:32:11', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/218143239',
+  user: grimpy}
+- {body: 'Fixed in https://github.com/0-complexity/openvcloud/pull/128', id: 218156252,
+  time: '2016/05/10 13:26:20', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/218156252',
+  user: grimpy}
+id: 149720977
+labels: [priority_urgent, state_verification, type_bug]
+milestone: 2:ovc2.1_beta
+number: 72
+open: true
+state: open
+time: 2016/04/20 09:59:09
+title: Crash all stacks by create a VM with small size using a windows images
+url: https://github.com/0-complexity/openvcloud/issues/72

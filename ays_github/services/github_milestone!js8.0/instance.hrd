@@ -1,0 +1,7 @@
+milestone.category             =
+    'code_js',
+
+milestone.deadline             = '+3m'
+milestone.description          = 'first stable beta version of js8'
+milestone.owner                = 'despiegk'
+milestone.title                = 'js8.0'

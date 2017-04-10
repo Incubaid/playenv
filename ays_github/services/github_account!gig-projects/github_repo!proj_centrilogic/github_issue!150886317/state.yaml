@@ -1,0 +1,10 @@
+events:
+  generic: [update_from_github]
+instanceHRDHash: ''
+parent: github_repo!proj_centrilogic
+producers:
+  github_repo: [github_repo!proj_centrilogic]
+recipe: github_issue
+recurring: {}
+state: {init: OK, install: OK}
+templateHRDHash: ''

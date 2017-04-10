@@ -1,0 +1,28 @@
+assignee: karimal
+body: "## Description\r\n- go to the end user portal\r\n- go to the knowledge base\r\
+  \n- go to the section Enable Root access on ubuntu over SSH\r\n\r\nOn the top of\
+  \ the screen you get the message \"Your account is disabled, please contact support.\"\
+  \r\n\r\n--> Error message\r\n\r\n![account disabled](https://cloud.githubusercontent.com/assets/15102982/14677172/c1c1fe1a-0710-11e6-9cce-f35d7f62307a.JPG)\r\
+  \n\r\n--> Account information\r\n![account confirmed](https://cloud.githubusercontent.com/assets/15102982/14677217/fe4647c4-0710-11e6-86d1-4e1943a52015.JPG)\r\
+  \n\r\n## Expected result\r\nThere should be no error message at the top in the knowledge\
+  \ base page\r\n\r\nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/Enable%20Root%20access%20on%20ubuntu%20over%20SSH#/list\r\
+  \n\r\n## tested on version\r\nJumpScale\r\n\r\nCore: 7.0.5rc3\r\nPortal: 7.0.5rc3\r\
+  \nOpenvCloud\r\n\r\nCore: 2.0.5rc3\r\nOpenvStorage:\r\n\r\nopenvstorage-backend-core:\
+  \ 1.6.1-eugene-updates.4-1\r\nalba: 0.8.1\r\nopenvstorage-webapps: 2.6.1-eugene-updates.20-1\r\
+  \nopenvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\nopenvstorage-core: 2.6.1-eugene-updates.20-1\r\
+  \nopenvstorage-hc: 1.6.1-eugene-updates.4-1\r\nopenvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\
+  \nopenvstorage: 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend: 1.6.1-eugene-updates.4-1\r\
+  \nopenvstorage-sdm: 1.5.1-eugene-updates.1-1"
+comments:
+- {body: same issue if you go to the "Getting Started with JumpScale" section, id: 212449438,
+  time: '2016/04/20 14:33:11', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/212449438',
+  user: lzonneke}
+id: 149776775
+labels: [priority_normal, type_bug]
+milestone: 2:ovc2.1_beta
+number: 76
+open: true
+state: open
+time: 2016/04/20 14:01:27
+title: Account disabled message in the enduser portal knowledge base
+url: https://github.com/0-complexity/openvcloud/issues/76

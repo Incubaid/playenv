@@ -1,0 +1,21 @@
+assignee: zaibon
+body: "- define network (local)\r\n\r\n- define controller node (ssh enabled machine)\r\
+  \n    - define gridid\r\n- define ssh key to use in local network\r\n   - push to\
+  \ controller node\r\n- install g8 controller on controller node\r\n   - make sure\
+  \ there is monitoring towards the controller node\r\n- ays to build a USB stick\
+  \ \r\n   - configure a nid\r\n   - configure ip address in the toml file\r\n   -\
+  \ configure the agentcontroller ip\r\n- human boots machine with USB stick\r\n-\
+  \ ays was waiting to recognise machine, when done continues deploying\r\n- deploy\
+  \ g8fs and mount js8 in sandbox mode but RW\r\n- configure/start mongodb\r\n- configure/start\
+  \ influxdb\r\n- configure/start portal\r\n\r\n\r\nlets not do following yet\r\n\
+  - no ssl client keys\r\n- no encryption on usb sticks  "
+comments: []
+id: 140467248
+labels: []
+milestone: ''
+number: 13
+open: true
+state: open
+time: 2016/03/13 09:08:37
+title: example in play8 repo for how to boostrap a machine with g8os
+url: https://github.com/g8os/home/issues/13

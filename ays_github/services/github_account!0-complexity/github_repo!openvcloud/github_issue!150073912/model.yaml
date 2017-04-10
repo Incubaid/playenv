@@ -1,0 +1,52 @@
+assignee: ''
+body: "# Scenario\r\n1- Add user:test77 with certain email address.\r\n![1](https://cloud.githubusercontent.com/assets/15011431/14710084/a7458e36-07dc-11e6-8d4a-1946da1408ce.png)\r\
+  \n\r\n2- Create an account for that user.\r\n![2](https://cloud.githubusercontent.com/assets/15011431/14710086/a897d032-07dc-11e6-8637-e3d1a8e2d86c.png)\r\
+  \n\r\n3- Delete that user, and create another user with the same name but with different\
+  \ email address (which means a new user)\r\n![3](https://cloud.githubusercontent.com/assets/15011431/14710089/aaf2325a-07dc-11e6-8f10-8d5499386175.png)\r\
+  \n\r\n4- In the new user page, the disabled account will be found in CONFIRMED state\
+  \ (unexpected result) \r\n![4](https://cloud.githubusercontent.com/assets/15011431/14710094/ac8ab6fa-07dc-11e6-9b81-d8333a7dc4c3.png)\r\
+  \n\r\n5- In the account page, the new user will be found (unexpected result)\r\n\
+  ![5](https://cloud.githubusercontent.com/assets/15011431/14710096/ade3dcd4-07dc-11e6-8782-e96289c9f57e.png)"
+comments:
+- {body: "## Environment\r\n du-conv-2\r\n## Software Version\r\n JumpScale\r\n\r\n\
+    Core: 7.0.5rc3\r\nPortal: 7.0.5rc3\r\nOpenvCloud\r\n\r\nCore: 2.0.5rc3\r\nOpenvStorage:\r\
+    \n\r\nopenvstorage-backend-core: 1.6.1-eugene-updates.4-1\r\nalba: 0.8.1\r\nopenvstorage-webapps:\
+    \ 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-core: 2.6.1-eugene-updates.20-1\r\nopenvstorage-hc: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\nopenvstorage: 2.6.1-eugene-updates.20-1\r\
+    \nopenvstorage-backend: 1.6.1-eugene-updates.4-1\r\nopenvstorage-sdm: 1.5.1-eugene-updates.1-1",
+  id: 212918909, time: '2016/04/21 13:26:58', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/212918909',
+  user: john-kheir}
+- {body: '2 options
+
+    1. during clean of user we clean ACL
+
+    2. we do not allow to create a user with same name', id: 214680716, time: '2016/04/26
+    09:20:38', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/214680716',
+  user: lzonneke}
+- {body: "1. You'd lose history if ever later needed.\r\n2. Seems a bit extreme?\r\
+    \n\r\nSuggestion: Maybe prepend with status DESTROYED?", id: 214682783, time: '2016/04/26
+    09:29:32', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/214682783',
+  user: rkhamis}
+- {body: '@rkhamis Good suggestion, but if we implement this, we need to make sure
+    that usernames can not start with "destroyed_"', id: 215411489, time: '2016/04/28
+    12:42:44', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/215411489',
+  user: FastGeert}
+- {body: '@rkhamis Also, just prepending with destroyed is not enough, we also need
+    to include a timestamp. So the solution will be to prepende the username with
+    "destroyed_[epoch]_"', id: 215411853, time: '2016/04/28 12:44:24', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/215411853',
+  user: FastGeert}
+- {body: 'did some invegistation on this. We dont alllow usernames with capitials
+    so we could easily make it DESTROYED_${epoch}_${username} without an issue.',
+  id: 217106052, time: '2016/05/05 08:54:48', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217106052',
+  user: grimpy}
+id: 150073912
+labels: [state_verification, type_bug]
+milestone: 2:ovc2.1_beta
+number: 82
+open: true
+state: open
+time: 2016/04/21 13:24:46
+title: A new user with the same name of an old user has the old_user's diabled account
+  in his page in confirmed status
+url: https://github.com/0-complexity/openvcloud/issues/82

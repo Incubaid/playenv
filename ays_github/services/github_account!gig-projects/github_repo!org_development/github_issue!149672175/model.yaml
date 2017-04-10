@@ -1,0 +1,13 @@
+assignee: ''
+body: "**GOAL:**  replace SkyDNS with GeoDNS.\r\n\r\n**DESCRIPTION:** walk over all\
+  \ codebase and make sure usage of skydns client is replaced with geodns SAL. "
+comments: []
+id: 149672175
+labels: [type_task]
+milestone: ''
+number: 15
+open: true
+state: open
+time: 2016/04/20 06:27:16
+title: 'Cockpit : replace usage of skydns client with geodns SAL '
+url: https://github.com/gig-projects/org_development/issues/15

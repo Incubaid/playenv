@@ -1,0 +1,8 @@
+
+
+host                            = type:str parent:'host'
+dockerid                        = type:str  descr:'e.g. jumpscale/ubuntu1510' default:'jumpscale/ubuntu1510'
+addr                            = type:str  descr:'in format $host:$port or $host' @ASK
+
+
+

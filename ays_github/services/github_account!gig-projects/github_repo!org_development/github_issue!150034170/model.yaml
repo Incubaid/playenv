@@ -1,0 +1,20 @@
+assignee: xmonader
+body: "### Part of Story: #40\r\n\r\n## what\r\n- based on existing implementation\r\
+  \n- metadata per directory in git\r\n\r\n## requirements\r\n- support 100.000 directories,\
+  \ 1m files (avg 10 files per dir) per git repo\r\n- gogs enabled\r\n- itsyou.online\
+  \ integration on gogs level\r\n\r\n## what need to happen\r\n- reverse engineer\
+  \ the mdserver, see how it works.\r\n- Test compatibility with gogs.- itsyou.online\
+  \ integration on gogs level"
+comments:
+- {body: 'mdserver repo: https://github.com/0-complexity/mdserver', id: 215405671,
+  time: '2016/04/28 12:15:59', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/215405671',
+  user: muhamadazmy}
+id: 150034170
+labels: [state_inprogress, type_task]
+milestone: ''
+number: 44
+open: true
+state: open
+time: 2016/04/21 10:39:53
+title: 'g8way: metadata server'
+url: https://github.com/gig-projects/org_development/issues/44

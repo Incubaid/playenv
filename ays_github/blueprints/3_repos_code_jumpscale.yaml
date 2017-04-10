@@ -1,0 +1,57 @@
+
+github_repo__jsdocs8:
+  repo.name : 'docs8'
+  repo.type : 'doc'
+  repo.account : 'jumpscale'
+  milestone.category : 'code_js'
+
+github_repo__js8:
+  repo.name : 'jumpscale_core8'
+  repo.type : 'code'
+  repo.account : 'jumpscale'
+  milestone.category : 'code_js'
+
+github_repo__js8_portal:
+  repo.name : 'jumpscale_portal8'
+  repo.type : 'code'
+  repo.account : 'jumpscale'
+  milestone.category : 'code_js'
+
+github_repo__js_ays8_templates:
+  repo.name : 'ays_jumpscale8'
+  repo.type : 'ays'
+  repo.account : 'jumpscale'
+  milestone.category : 'code_js'
+
+github_repo__agentcontroller8:
+  repo.type : 'code'
+  repo.account : 'jumpscale'
+  milestone.category : 'code_js'
+
+github_repo__agent8:
+  repo.type : 'code'
+  repo.account : 'jumpscale'
+  milestone.category : 'code_js'
+
+github_repo__js8:
+  repo.type : 'code'
+  repo.account : 'jumpscale'
+  milestone.category : 'code_js'
+
+github_repo__js_home:
+  repo.name : 'home'
+  repo.type : 'home'
+  repo.account : 'jumpscale'
+  milestone.category : 'code_js'
+
+github_repo__js_play:
+  repo.name : 'play8'
+  repo.type : 'code'
+  repo.account : 'jumpscale'
+  milestone.category : 'code_js'
+
+github_repo__jscockpit:
+  repo.name : 'jscockpit'
+  repo.type : 'code'
+  repo.account : 'jumpscale'
+  milestone.category : 'code_ovc'

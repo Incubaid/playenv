@@ -1,0 +1,33 @@
+reload mgmt actions for ays__blueprint.cockpit__pilot
+reload mgmt actions for ays__blueprint.cockpit__pilot
+reload mgmt actions for ays__g8client__pilot
+reload mgmt actions for ays__g8client__pilot
+ - write state: ays__g8client__pilot
+ - write state: ays__g8client__pilot
+reload mgmt actions for ays__node.ovc__pilot
+reload mgmt actions for ays__node.ovc__pilot
+ - write state: ays__node.ovc__pilot
+ - write state: ays__node.ovc__pilot
+reload mgmt actions for ays__os.ssh.ubuntu__pilot
+reload mgmt actions for ays__os.ssh.ubuntu__pilot
+ - write state: ays__os.ssh.ubuntu__pilot
+ - write state: ays__os.ssh.ubuntu__pilot
+reload mgmt actions for ays__node.docker__pilot
+reload mgmt actions for ays__node.docker__pilot
+ - write state: ays__node.docker__pilot
+ - write state: ays__node.docker__pilot
+reload mgmt actions for ays__os.cockpit__pilot
+we overrule: recurring.monitor with '1m'
+reload mgmt actions for ays__os.cockpit__pilot
+ - write state: ays__os.cockpit__pilot
+ - write state: ays__os.cockpit__pilot
+ - write state: ays__blueprint.cockpit__pilot
+ - write state: ays__blueprint.cockpit__pilot
+ays__os.ssh.ubuntu__pilot no change in producers
+ays__node.docker__pilot no change in producers
+ays__os.cockpit__pilot no change in producers
+ays__vdc__main waiting for install
+ays__node.ovc__pilot no change in producers
+execute state changes, nr services to process: 1 in step:1
+reload mgmt actions for ays__vdc__main
+reload mgmt actions for ays__vdcfarm__main

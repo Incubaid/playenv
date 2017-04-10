@@ -1,0 +1,15 @@
+assignee: ''
+body: "see\r\nhttps://github.com/Jumpscale/go-raml/issues/29\r\n"
+comments:
+- {body: we need full tutorial for python & golang, id: 195920129, time: '2016/03/13
+    09:26:03', url: 'https://api.github.com/repos/Jumpscale/home/issues/comments/195920129',
+  user: despiegk}
+id: 137009600
+labels: [type_story]
+milestone: ''
+number: 5
+open: true
+state: open
+time: 2016/02/28 05:37:03
+title: 'tutorial: raml -> working server python/golang'
+url: https://github.com/Jumpscale/home/issues/5

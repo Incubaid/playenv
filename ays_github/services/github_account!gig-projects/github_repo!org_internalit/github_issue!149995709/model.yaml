@@ -1,0 +1,24 @@
+assignee: ''
+body: '### Tasks: #3 , #1
+
+
+  |status|title                                                             |link|
+
+  |------|------------------------------------------------------------------|----|
+
+  |open  |github: move all relevant bugs for openvcloud/jumpscale8 to github|#3  |
+
+  |open  |github: gig full user list                                        |#1  |
+
+
+  '
+comments: []
+id: 149995709
+labels: [state_inprogress, type_story]
+milestone: ''
+number: 6
+open: true
+state: open
+time: 2016/04/21 07:55:22
+title: move to github (github)
+url: https://github.com/gig-projects/org_internalit/issues/6

@@ -1,0 +1,54 @@
+assignee: abdulrahmantkhalifa
+body: "### Part of Story: #40\r\n\r\nto be defined\r\n\r\nfor iwan"
+comments:
+- {body: 'Which part of the API is missing for our use case ?', id: 215069718, time: '2016/04/27
+    12:42:07', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/215069718',
+  user: zaibon}
+- {body: "We already have a fork of GOGS that has the APIs extended and the client\
+    \ already implemented in JS. \r\n\r\nWhat we need to do next is to make gogs work\
+    \ with itsyou.online and integrate it with mdserver.", id: 215374192, time: '2016/04/28
+    10:00:10', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/215374192',
+  user: muhamadazmy}
+- {body: "@muhamadazmy \r\n\r\ncheck\r\n- issues\r\n- repo's\r\n- ?\r\n", id: 216457025,
+  time: '2016/05/03 07:21:57', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216457025',
+  user: despiegk}
+- {body: '@FastGeert coordination required', id: 216457049, time: '2016/05/03 07:22:05',
+  url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216457049',
+  user: despiegk}
+- {body: '@abdulrahmantkhalifa Can you give us information about the parts of the
+    API that you implemented for GOGS ?', id: 216516130, time: '2016/05/03 12:45:37',
+  url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216516130',
+  user: muhamadazmy}
+- {body: "organizations', repos' and users'  methods are all functional , \r\nthe\
+    \ issues are not implemented , can be done \r\noauth2 is not implemented in gogs ",
+  id: 216518291, time: '2016/05/03 12:55:41', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216518291',
+  user: abdulrahmantkhalifa}
+- {body: "lets implement it\n\nOn Tue, May 3, 2016 at 4:55 PM, abdulrahmantkhalifa\
+    \ <\nnotifications@github.com> wrote:\n\n> organizations', repos' and users' methods\
+    \ are all functional ,\n> the issues are not implemented , can be done\n> oauth2\
+    \ is not implemented in gogs\n>\n> \u2014\n> You are receiving this because you\
+    \ authored the thread.\n> Reply to this email directly or view it on GitHub\n\
+    > <https://github.com/gig-projects/org_development/issues/41#issuecomment-216518291>\n\
+    >\n\n\n\n-- \n------------------------\nKristof De Spiegeleer\n+971525609014\n\
+    +201206927877\n+32 475405474\nskype: despiegk\n", id: 216605350, time: '2016/05/03
+    17:32:01', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216605350',
+  user: despiegk}
+- {body: 'itsyou.online integration on gogs level @abdulrahmantkhalifa ', id: 217869302,
+  time: '2016/05/09 13:49:44', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/217869302',
+  user: xmonader}
+- {body: "## gogsoauth2:\r\n gogs now recieves token , but cannot create user as email\
+    \ is required by the gogs interface, itsyouonline doesn't yet support the email\
+    \ scope yet , to be implemented by @robvanmieghem   \r\n\r\n## gogsissue:\r\n\
+    create and list , issues, are now supported , not merged yet more adjustments\
+    \ needed to support milestones and labels  ", id: 218706250, time: '2016/05/12
+    09:30:19', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218706250',
+  user: abdulrahmantkhalifa}
+id: 150030425
+labels: [state_inprogress, state_question, type_task]
+milestone: ''
+number: 41
+open: true
+state: open
+time: 2016/04/21 10:19:52
+title: 'g8way: GOGS api needs to be complete for our requirements'
+url: https://github.com/gig-projects/org_development/issues/41

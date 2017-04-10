@@ -1,0 +1,12 @@
+#login does not have to be specified, if not specified then will be account
+g8client__main:
+  g8.url: 'be-scale-1.demo.greenitglobe.com'
+  g8.login: 'despiegk'
+  g8.password: 'kds007kds'
+
+cockpit__pilot:
+  telegram.token: '*************************88'
+  cockpit.name: 'cockpitzaibon'
+  portal.password: 'secret'
+  dns.login: 'admin'
+  dns.password: 'secret'

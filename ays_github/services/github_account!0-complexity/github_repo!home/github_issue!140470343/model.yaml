@@ -1,0 +1,17 @@
+assignee: muhamadazmy
+body: "Currently the only way to control the `core` is over the agent controller.\
+  \ We need a way to also be able to communicate with the core process from the local\
+  \ machine itself.\r\n\r\nSome command like reboot or poweroff needs to contact the\
+  \ core for it to take the proper actions. \r\nSo a simple communication channel\
+  \ to core must be implemented that accepts commands directly over that channel (I\
+  \ think a unix socket is sufficient)"
+comments: []
+id: 140470343
+labels: [state_inprogress]
+milestone: ''
+number: 15
+open: true
+state: open
+time: 2016/03/13 09:51:54
+title: local channel from local machine to core for reboot and systemctrl management
+url: https://github.com/g8os/home/issues/15

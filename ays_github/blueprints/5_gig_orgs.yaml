@@ -1,0 +1,43 @@
+
+
+github_repo__org_internalit :
+  repo.type : 'org'
+  repo.account : 'gig-projects'
+  milestone.category : 'gig'  
+
+
+github_repo__org_support :
+  repo.type : 'org'
+  repo.account : 'gig-projects'
+  milestone.category : 'gig'  
+
+github_repo__org_investments:
+  repo.type : 'org'
+  repo.account : 'gig-projects'
+  milestone.category : 'gig'  
+
+github_repo__org_strategy:
+  repo.type : 'org'
+  repo.account : 'gig-projects'
+  milestone.category : 'gig'  
+
+github_repo__org_products:
+  repo.type : 'org'
+  repo.account : 'gig-projects'
+  milestone.category : 'gig'  
+
+github_repo__org_marketing:
+  repo.type : 'org'
+  repo.account : 'gig-projects'
+  milestone.category : 'gig'  
+
+github_repo__org_development:
+  repo.type : 'org'
+  repo.account : 'gig-projects'
+  milestone.category : 'gig'  
+
+
+github_repo__org_research:
+  repo.type : 'org'
+  repo.account : 'gig-projects'
+  milestone.category : 'gig'  

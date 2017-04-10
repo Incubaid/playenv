@@ -1,0 +1,23 @@
+assignee: despiegk
+body: "## Create synchronization between AR ticketing system / customer repo / mail\
+  \ and code REPO\n\n     - Create the background syncing scripts that allow us to\
+  \ execute the processes described in the documents on this repo.\n\n|status|title\
+  \                                                                  |link|\n|------|-----------------------------------------------------------------------|----|\n\
+  |open  |supporttools1: put calendar in place for on-call service for May / June|#14\
+  \ |\n|open  |supporttools1: implement phase 1 of support tools                 \
+  \     |#12 |\n|open  |supporttools1: spec support tools                        \
+  \              |#5  |\n\n"
+comments:
+- {body: "- need to define what needs to be done\r\n- is much more than just a sync\
+    \ script, need some SLA management tools, some reporting tools, ...", id: 214165171,
+  time: '2016/04/25 06:50:12', url: 'https://api.github.com/repos/gig-projects/org_support/issues/comments/214165171',
+  user: despiegk}
+id: 149742491
+labels: [priority_normal, state_inprogress, type_story]
+milestone: 6:may
+number: 1
+open: true
+state: open
+time: 2016/04/20 11:35:20
+title: tools phase 1 to support support process (supporttools1)
+url: https://github.com/gig-projects/org_support/issues/1

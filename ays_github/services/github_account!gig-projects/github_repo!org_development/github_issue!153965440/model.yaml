@@ -1,0 +1,22 @@
+assignee: ''
+body: "## GOAL:\r\nMake sure core modules used everywhere behave as expected\r\n\r\
+  \n## DESCRIPTION:\r\n- Core modules unittests?\r\n- Integration test (see #9)\r\n\
+  - AYS test (AYSTester)"
+comments:
+- {body: "@rkhamis @grimpy, could we define what the core modules are so the quality\
+    \ team can start looking at this and make some test scenarios?\r\n\r\n", id: 218210341,
+  time: '2016/05/10 16:17:21', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218210341',
+  user: lzonneke}
+- {body: "I think the ones proposed in Jumpscale/jumpscale_core8#123 are a good start\r\
+    \n\r\n@grimpy @zaibon @despiegk anyone else has further suggestions?", id: 218506129,
+  time: '2016/05/11 16:02:23', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218506129',
+  user: rkhamis}
+id: 153965440
+labels: [state_question]
+milestone: ''
+number: 122
+open: true
+state: open
+time: 2016/05/10 09:45:17
+title: 'js8beta: basic testing of core modules [5d]'
+url: https://github.com/gig-projects/org_development/issues/122

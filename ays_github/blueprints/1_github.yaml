@@ -1,0 +1,17 @@
+github_client__main:
+  github.secret : 'bfb41a518df73b2a8dd2211d428e018ff67274e2'
+  code.path : '$vardir/codetmp/'
+
+github_account__jumpscale:
+  github.url : 'https://github.com/Jumpscale'
+
+github_account__0-complexity:
+  github.url : 'https://github.com/0-complexity'
+
+github_account__gig-projects:
+  github.url : 'https://github.com/gig-projects'
+
+github_account__g8os:
+  github.url : 'https://github.com/g8os'
+
+github_config__main:

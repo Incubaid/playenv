@@ -1,0 +1,67 @@
+
+github_milestone__may:
+  milestone.description : 'the product we want to deliver to our customers in May'
+  milestone.deadline : '+3m'
+  milestone.owner: 'despiegk'
+  milestone.category: 'gig'
+
+github_milestone__june:
+  milestone.description : 'the product we want to deliver to our customers in GA'
+  milestone.deadline : '+3m'
+  milestone.owner: 'despiegk'
+  milestone.category: 'gig'
+
+github_milestone__summer:
+  milestone.description : 'the product we want to deliver to our customers'
+  milestone.deadline : '+6m'
+  milestone.owner: 'despiegk'
+  milestone.category: 'gig'
+
+github_milestone__Q4:
+  milestone.description : 'first stable beta version of js8'
+  milestone.deadline : '+1m'
+  milestone.owner: 'despiegk'
+  milestone.category: 'gig'
+
+github_milestone__ovc210_beta:
+  milestone.description : 'beta version of ovc 2.1.0'
+  milestone.deadline : '+1m'
+  milestone.owner: 'despiegk'
+  milestone.category: 'code_ovc'
+
+github_milestone__ovc210:
+  milestone.description : 'ga version of ovc 2.1.0'
+  milestone.deadline : '+3m'
+  milestone.owner: 'despiegk'
+  milestone.category: 'code_ovc'
+
+
+github_milestone__js8.0:
+  milestone.description : 'first stable beta version of js8'
+  milestone.deadline : '+3m'
+  milestone.owner: 'despiegk'
+  milestone.category: 'code_js'
+
+github_milestone__js8.1:
+  milestone.description : ''
+  milestone.deadline : '+6m'
+  milestone.owner: 'despiegk'
+  milestone.category: 'code_js'
+
+github_milestone__js8.2:
+  milestone.description : ''
+  milestone.deadline : '+9m'
+  milestone.owner: 'despiegk'
+  milestone.category: 'code_js'
+
+github_milestone__g8os1.0_beta:
+  milestone.description : ''
+  milestone.deadline : '+1m'
+  milestone.owner: 'despiegk'
+  milestone.category: 'code_g8os'
+
+github_milestone__g8os1.0:
+  milestone.description : ''
+  milestone.deadline : '+3m'
+  milestone.owner: 'despiegk'
+  milestone.category: 'code_g8os'

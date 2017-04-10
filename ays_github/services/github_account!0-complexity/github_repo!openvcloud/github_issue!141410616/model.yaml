@@ -1,0 +1,38 @@
+assignee: ''
+body: https://youtrack.incubaid.com/issue/CB-935
+comments:
+- {body: "Test Scenario:\r\n1- put a node in maintenance and choose the action to\
+    \ stop all the VMs\r\n2- from portal stack page check all the VMs status \u2013\
+    > (all the VMs will be RUNNING however they should be HALTED)\r\n3- click on anyone\
+    \ of the listed VMs \u2013> (the VM will be RUNNING however it should be HALTED)\r\
+    \n4- get back to the stack portal page \u2013> (now you will see only the VM you\
+    \ had visited it's own page switched to be in status HALTED)", id: 197804299,
+  time: '2016/03/17 10:19:13', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/197804299',
+  user: lzonneke}
+- {body: 'https://github.com/0-complexity/openvcloud/pull/11', id: 199199819, time: '2016/03/21
+    09:53:19', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/199199819',
+  user: grimpy}
+- {body: "**Issue still there.. After putting node in maintenance with choosing 'stop\
+    \ all the vms' option, one machine stoped and the others are running and there\
+    \ is an error on one of the vms pages.**\r\n\r\n\r\n![node2](https://cloud.githubusercontent.com/assets/15011431/15038718/85f51344-12a6-11e6-9e78-86eea58f68a4.png)\r\
+    \n![vmnew](https://cloud.githubusercontent.com/assets/15011431/15038719/88486f9c-12a6-11e6-9a66-da77f2fb9904.png)\r\
+    \n![vm2](https://cloud.githubusercontent.com/assets/15011431/15038721/8a6dd85c-12a6-11e6-9e7e-e693b9c532e0.png)\r\
+    \n\r\n## Tested on du-conv-2\r\n## Software Version\r\nJumpScale\r\n\r\nCore:\
+    \ 7.1.0b2\r\nPortal: 7.1.0b2\r\nOpenvCloud\r\n\r\nCore: 2.1.0b2\r\nOpenvStorage:\r\
+    \n\r\nopenvstorage-backend-core: 1.6.1-eugene-updates.4-1\r\nalba: 0.8.1\r\nopenvstorage-webapps:\
+    \ 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-core: 2.6.1-eugene-updates.20-1\r\nopenvstorage-hc: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\nopenvstorage: 2.6.1-eugene-updates.20-1\r\
+    \nopenvstorage-backend: 1.6.1-eugene-updates.4-1\r\nopenvstorage-sdm: 1.5.1-eugene-updates.1-1",
+  id: 217096521, time: '2016/05/05 07:55:38', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217096521',
+  user: john-kheir}
+id: 141410616
+labels: [type_bug]
+milestone: 1:cb2.0.4
+number: 14
+open: true
+state: open
+time: 2016/03/16 21:44:42
+title: Machines status is not updated to HALTED when put the physical node in maintenance
+  and choose to stop all VMs
+url: https://github.com/0-complexity/openvcloud/issues/14

@@ -1,0 +1,15 @@
+assignee: muhamadazmy
+body: "The handshake process is needed for the following\r\n\r\n1- Controller must\
+  \ identify core and send him his unique gid and uid to use during his life time.\r\
+  \n2- Controller send instructions to core on how to mount aysfs (required configurations\
+  \ and flist)\r\n"
+comments: []
+id: 140471755
+labels: []
+milestone: ''
+number: 16
+open: true
+state: open
+time: 2016/03/13 10:16:24
+title: Handshake process between core and controller
+url: https://github.com/g8os/home/issues/16

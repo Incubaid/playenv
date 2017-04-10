@@ -1,0 +1,13 @@
+events: {}
+instanceHRDHash: 4b2308eb47a54000e67b6eb07b1b67a5
+parent: github_account!g8os
+producers:
+  github_account: [github_account!g8os]
+  github_client: [github_client!main]
+  github_config: [github_config!main]
+  github_milestone: [github_milestone!g8os1.0, github_milestone!g8os1.0_beta]
+recipe: github_repo
+recurring: {}
+state: {get_github_repo: CHANGED, getissuesfromgithub: OK, init: OK, install: OK,
+  processissues: OK, setmilestonesongithub: OK, stories2pdf: CHANGED}
+templateHRDHash: ''

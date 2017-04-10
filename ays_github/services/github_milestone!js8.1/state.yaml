@@ -1,0 +1,8 @@
+events: {}
+instanceHRDHash: 16c4b7e8cf1bcb845ecc0c915dc627f4
+parent: ''
+producers: {}
+recipe: github_milestone
+recurring: {}
+state: {init: OK, install: OK}
+templateHRDHash: ''

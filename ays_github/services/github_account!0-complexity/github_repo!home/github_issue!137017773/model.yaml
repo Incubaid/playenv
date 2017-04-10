@@ -1,0 +1,19 @@
+assignee: ''
+body: "put builder in jumpscale cuisine2 for OVS components\r\n- arakoon\r\n- alba\r\
+  \n- volume driver\r\n- python client to volume driver\r\n\r\neverything as required\
+  \ to get OVS to work (without current OVS framework)"
+comments:
+- {body: 'Repos of OVS components are [here](https://github.com/openvstorage/).',
+  id: 209388744, time: '2016/04/13 11:49:25', url: 'https://api.github.com/repos/g8os/home/issues/comments/209388744',
+  user: grimpy}
+- {body: '@despiegk when should this be done?', id: 209389663, time: '2016/04/13 11:51:08',
+  url: 'https://api.github.com/repos/g8os/home/issues/comments/209389663', user: grimpy}
+id: 137017773
+labels: []
+milestone: '1:8.0'
+number: 6
+open: true
+state: open
+time: 2016/02/28 06:52:48
+title: OVS components build
+url: https://github.com/g8os/home/issues/6

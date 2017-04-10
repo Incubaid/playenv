@@ -1,0 +1,24 @@
+assignee: ''
+body: "- Adding random numbers in the fields results in error cloud space page\r\n\
+  \r\n## Expected Results:\r\n- All combinations should be handled\r\n\r\n\r\n![cs1](https://cloud.githubusercontent.com/assets/15011431/15111896/e6e6d04e-15f2-11e6-8af3-c2def784e2e9.png)\r\
+  \n\r\n\r\n\r\n![trial](https://cloud.githubusercontent.com/assets/15011431/15111893/e3b31d1a-15f2-11e6-8cb3-aa0d06bf7162.png)\r\
+  \n\r\n![cs2](https://cloud.githubusercontent.com/assets/15011431/15111698/5483d482-15f1-11e6-8867-9669dd23f254.png)"
+comments:
+- {body: "## Environment\r\ndu-conv-2\r\n## Software Version\r\nJumpScale\r\n\r\n\
+    Core: 7.1.0b3\r\nPortal: 7.1.0b3\r\nOpenvCloud\r\n\r\nCore: 2.1.0b3\r\nOpenvStorage:\r\
+    \n\r\nopenvstorage-backend-core: 1.6.1-eugene-updates.4-1\r\nalba: 0.8.1\r\nopenvstorage-webapps:\
+    \ 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-core: 2.6.1-eugene-updates.20-1\r\nopenvstorage-hc: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\nopenvstorage: 2.6.1-eugene-updates.20-1\r\
+    \nopenvstorage-backend: 1.6.1-eugene-updates.4-1\r\nopenvstorage-sdm: 1.5.1-eugene-updates.1-1",
+  id: 217842321, time: '2016/05/09 11:41:16', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217842321',
+  user: john-kheir}
+id: 153757803
+labels: [priority_normal, state_verification, type_bug]
+milestone: 2:ovc2.1_beta
+number: 126
+open: true
+state: open
+time: 2016/05/09 11:39:31
+title: Unhandled error when creating cloudspace
+url: https://github.com/0-complexity/openvcloud/issues/126

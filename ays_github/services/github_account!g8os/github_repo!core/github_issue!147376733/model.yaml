@@ -1,0 +1,15 @@
+assignee: muhamadazmy
+body: "Currently, all services configured in the core, are started automatically when\
+  \ the system starts.\r\nWe need to add support for the following:\r\n- A configured\
+  \ service, that doesn't start on boot\r\n- Implement a command to start configured\
+  \ services"
+comments: []
+id: 147376733
+labels: [type_feature]
+milestone: ''
+number: 8
+open: true
+state: open
+time: 2016/04/11 10:00:53
+title: Add support for starting/stopping services from config files
+url: https://github.com/g8os/core/issues/8

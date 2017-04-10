@@ -1,0 +1,8 @@
+
+
+description = 'is little pc with 8GB mem & 1 nic'
+rack = type:str parent:rack
+
+
+
+

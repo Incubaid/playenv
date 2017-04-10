@@ -1,0 +1,20 @@
+assignee: maxux
+body: "### Part of Story: #13\n\nwhat\n\n - find best usable distro for both platforms\n\
+  \ - create cuisine installer which create's populates the SD card\n     - a first\
+  \ version was already created for raspbery pi, need to see if we can do same for\
+  \ orange pi\n - test drivers for\n     - the USB devices we have (wireless, bluetooth,\
+  \ nic's)\n     - document in https://github.com/g8os/router\n - see if we can get\
+  \ orange pi internal EMCC to work\n - create documentation/test scripts/example\
+  \ cuisine scripts in https://github.com/g8os/router\n\nrequirements orange pi\n\n\
+  \ - install on emmc internal storage\n - network card working on gbit\n - wireless\
+  \ card working\n - find USB wireless nic which works\n - bluetooth usb dongle working\n"
+comments: []
+id: 152018841
+labels: [priority_urgent, type_task]
+milestone: ''
+number: 14
+open: true
+state: open
+time: 2016/04/30 08:56:44
+title: 'g8os_router: Cuisine installer for raspbery PI & Orange pi'
+url: https://github.com/gig-projects/org_research/issues/14

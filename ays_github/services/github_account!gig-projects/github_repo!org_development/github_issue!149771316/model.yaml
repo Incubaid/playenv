@@ -1,0 +1,29 @@
+assignee: FastGeert
+body: 'Issue moved from https://api.github.com/repos/gig-projects/home/issues/1- finish
+  the gitbook- explain to all
+
+
+  ### Tasks: #23 , #22  , #21  , #20  , #28  , #27
+
+
+  |status|title                                                                 |link|
+
+  |------|----------------------------------------------------------------------|----|
+
+  |open  |process: linking of tasks & stories needs to be applied & well working|#102|
+
+  |open  |process: !! cmds on issues                                            |#21
+  |
+
+
+  '
+comments: []
+id: 149771316
+labels: [state_verification, type_story]
+milestone: ''
+number: 19
+open: true
+state: open
+time: 2016/04/20 13:43:00
+title: define/agree on process for development (process)
+url: https://github.com/gig-projects/org_development/issues/19

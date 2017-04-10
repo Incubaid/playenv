@@ -1,0 +1,14 @@
+assignee: robvanmieghem
+body: This includes modifications to the client to be able to accept and spend the
+  coloured without mixing them with normal SIA coins.
+comments: []
+id: 153726723
+labels: [type_task]
+milestone: ''
+number: 26
+open: true
+state: open
+time: 2016/05/09 08:30:37
+title: 'g8coins: Implement coloured coins and document procedure on how to make them
+  [3.5d]'
+url: https://github.com/gig-projects/org_research/issues/26

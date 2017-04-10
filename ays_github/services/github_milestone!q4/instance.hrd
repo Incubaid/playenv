@@ -1,0 +1,7 @@
+milestone.category             =
+    'gig',
+
+milestone.deadline             = '+1m'
+milestone.description          = 'first stable beta version of js8'
+milestone.owner                = 'despiegk'
+milestone.title                = 'q4'

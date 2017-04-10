@@ -1,0 +1,18 @@
+assignee: ''
+body: "#  Scenario \r\n1- Create machine with (4GB mem, 2 cores) or higher size\r\n\
+  ![1](https://cloud.githubusercontent.com/assets/15011431/15007979/88a08630-11e5-11e6-9deb-a1b6fb306d12.png)\r\
+  \n2- Stop the machine and resize it to (2GB mem , 2 cores) or lower size\r\n![2](https://cloud.githubusercontent.com/assets/15011431/15007981/8a8d2ac0-11e5-11e6-8480-fff429face19.png)\r\
+  \n3- Try to start the machine\r\n![3](https://cloud.githubusercontent.com/assets/15011431/15007982/8c6f322a-11e5-11e6-8032-acc2521bb6ba.png)\r\
+  \n## Actual Result:\r\nMachine can't be started \r\n## Expected Result:\r\nMachine\
+  \ should start normally with any required size"
+comments: []
+id: 152951301
+labels: [priority_urgent, state_verification, type_bug]
+milestone: 2:ovc2.1_beta
+number: 109
+open: true
+state: open
+time: 2016/05/04 08:03:47
+title: Can not resize machine with (4GB mem, 2 cores) or higher to (2GB mem , 2 cores)
+  or lower
+url: https://github.com/0-complexity/openvcloud/issues/109

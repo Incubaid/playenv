@@ -1,0 +1,76 @@
+assignee: rkhamis
+body: "### Part of Story: #3\r\n\r\n## GOAL:\r\nNames should not contain a type specification.\
+  \ It makes them hard to read.\r\n\r\n## DESCRIPTION:\r\nold format:\r\n```\r\nyaml\
+  \ github_integration__birdwatch:\r\n    property1 : value1\r\n    property2 : value2\
+  \  ....\r\n```\r\n\r\nnew format: \r\n```\r\ngithub_client:\r\n  main:\r\n    property1\
+  \ : value1\r\n    property2 : value2\r\n    ....\r\n\r\n  special:\r\n    property1\
+  \ : value1\r\n    property2 : value2\r\n    ....\r\n\r\ngithub_config:\r\n  main:\r\
+  \n    property1 : value1\r\n    property2 : value2\r\n    ....\r\n```    "
+comments:
+- {body: "This new format will result in us never being able to use the same instance\
+    \ name, even if the services themselves are different.\r\n```\r\nmain:  \r\n \
+    \ type : github_client\r\n  property1 : value1\r\n  property2 : value2\r\n  ....\r\
+    \n\r\nmain:  \r\n  type : github_config\r\n  property1 : value1\r\n  property2\
+    \ : value2\r\n  ....\r\n```\r\n\r\nis not valid YAML format because a dict cannot\
+    \ have the same key twice. The second will override the first.\r\n\r\nSuggested\
+    \ format instead:\r\n```\r\nAYSNAME:\r\n  AYSINSTANCE: \r\n    property1 : value1\r\
+    \n    property2 : value2\r\n    ....\r\n\r\n  AYSINSTANCE2:\r\n    property1 :\
+    \ value1\r\n    property2 : value2\r\n    ....\r\n```\r\n\r\nFor example:\r\n\
+    ```\r\ngithub_client:\r\n  main:\r\n    property1 : value1\r\n    property2 :\
+    \ value2\r\n    ....\r\n\r\n  special:\r\n    property1 : value1\r\n    property2\
+    \ : value2\r\n    ....\r\n\r\ngithub_config:\r\n  main:\r\n    property1 : value1\r\
+    \n    property2 : value2\r\n    ....\r\n```\r\n\r\n", id: 215467811, time: '2016/04/28
+    15:30:39', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/215467811',
+  user: rkhamis}
+- {body: "Can't we just use different instance names?\r\n\r\nFor the example above\
+    \ it would then be:\r\n\r\nwhatever_name:  \r\n  type : github_client\r\n  property1\
+    \ : value1\r\n  property2 : value2\r\n  ....\r\n\r\nwhatever_other_name:  \r\n\
+    \  type : github_config\r\n  property1 : value1\r\n  property2 : value2\r\n  ....\r\
+    \n\r\n", id: 215658397, time: '2016/04/29 08:32:56', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/215658397',
+  user: yveskerwyn}
+- {body: "> This new format will result in us never being able to use the same instance\
+    \ name, even if the services themselves are different.\r\n\r\nWe need to have\
+    \ the possibility to have same Instance name for different service type. What\
+    \ you propose doesn't allow it. ", id: 215664854, time: '2016/04/29 09:09:18',
+  url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/215664854',
+  user: zaibon}
+- {body: "We = Green IT Globe (internal view), right?\r\n\r\nThe core idea of a blueprint\
+    \ is that we make it fundamental easy to deploy any sophisticated IT workload,\
+    \ without bothering them about internal IT/implementation stuff, human readable\
+    \ and so...\r\n\r\nSo at least we need to make sure that (external) people (customers/partners/pilots)\
+    \ understand why *our* (internal) need for service instances sharing the same\
+    \ name, should surface at the level of a blueprint - and if that explanation is\
+    \ not easy, our design is probably bad...\r\n\r\nMakes sense?", id: 215699817,
+  time: '2016/04/29 12:37:22', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/215699817',
+  user: yveskerwyn}
+- {body: "@zaibon & @rkhamis please check the updated spec in the top. \r\nCan we\
+    \ solve this issue by optionally specifying the instance name besides the type,\
+    \ so that different instances can be grouped like that into 1 service?", id: 215734340,
+  time: '2016/04/29 14:25:56', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/215734340',
+  user: FastGeert}
+- {body: "not sure how this could get closed?\r\n", id: 216422308, time: '2016/05/03
+    02:37:46', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216422308',
+  user: despiegk}
+- {body: "- agree for spec reem\r\n\r\nok?\r\n\r\n@FastGeert @zaibon @rkhamis @yveskerwyn\
+    \ \r\n\r\nif yes please implement asap on aysfix branch\r\n\r\n", id: 216422367,
+  time: '2016/05/03 02:38:35', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216422367',
+  user: despiegk}
+- {body: "and change our blueprints in our examples on playenv e.g. the github one\r\
+    \n", id: 216422546, time: '2016/05/03 02:40:16', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216422546',
+  user: despiegk}
+- {body: 'All ok, @rkhamis is working on it', id: 216835794, time: '2016/05/04 11:41:22',
+  url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216835794',
+  user: FastGeert}
+- {body: I've done this twice already. It's currently reverted again. I'll put this
+    as open until a decision is reached., id: 218503582, time: '2016/05/11 15:54:23',
+  url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218503582',
+  user: rkhamis}
+id: 149459648
+labels: [state_question, type_task]
+milestone: ''
+number: 14
+open: true
+state: open
+time: 2016/04/19 13:20:10
+title: 'cockpit: Refactor blueprint type from the name into a property'
+url: https://github.com/gig-projects/org_development/issues/14

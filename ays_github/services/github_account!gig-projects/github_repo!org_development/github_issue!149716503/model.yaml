@@ -1,0 +1,56 @@
+assignee: bart-at-mobicage
+body: '**GOAL :** Single identity managament for all gig related components
+
+
+  **DESCRIPTION:**
+
+  We need to develop an OAUTH2 based login mechanisme for WHMCS that uses itsyou.online
+  as its identity provider.
+
+  This has already been done by globalwebconcepts.net for Google & Facebook via OAuth2,
+  so it should definatly be possible.
+
+  Another useful source could be the following github repository: https://github.com/FiveGen/WHMCSGoogleOAUTH2
+
+
+  **FALLBACK OPTION:**
+
+  If this would be to much work, a hack could be to ClientLogin hook in WHMCS to make
+  it use user and password combinations of itsyou.online.
+
+
+  Repo: https://github.com/gig-projects/whmcs-oauth2'
+comments:
+- {body: '@bart-at-mobicage Let''s check out this story card together on Friday morning',
+  id: 216545026, time: '2016/05/03 14:24:58', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216545026',
+  user: FastGeert}
+- {body: "ETA: Week of May 16-20\r\n\r\n* Lucas could integrate an existing addon\
+    \ with oauth to google and is now modifying this module and trying to get it to\
+    \ work with itsyou.online (or any other oauth provider)", id: 218398681, time: '2016/05/11
+    08:46:11', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218398681',
+  user: bart-at-mobicage}
+- {body: "> \r\nFALLBACK OPTION:\r\nIf this would be to much work, a hack could be\
+    \ to ClientLogin hook in WHMCS to make it use user and password combinations of\
+    \ itsyou.online.\r\n\r\nI disagree, besides the fact that this will not work since\
+    \ itsyou.online does not support Resource Owner Password Credentials (and there\
+    \ is no reason why it should in the near future), adding this for untrusted deployments\
+    \ is a bad idea. A dirty hack would be to put a proxy in front that integrates\
+    \ with itsyou.online, logs in to whmcs and puts the cookie on the session.", id: 218399882,
+  time: '2016/05/11 08:51:18', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218399882',
+  user: robvanmieghem}
+- {body: "ETA: Friday, May 13\r\n\r\n* Lucas will probably finish today with #128,\
+    \ depending of the problems along the way\r\n", id: 218693473, time: '2016/05/12
+    08:32:58', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218693473',
+  user: bart-at-mobicage}
+- {body: "ETA: Friday, May 13\r\n* Todo: finishing touches, docs and review\r\n  ",
+  id: 218978996, time: '2016/05/13 08:11:24', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218978996',
+  user: bart-at-mobicage}
+id: 149716503
+labels: [state_inprogress, type_story]
+milestone: 7:G8-2.1-beta
+number: 17
+open: true
+state: open
+time: 2016/04/20 09:40:21
+title: Integrate WHMCS with itsyou.online (whmcs-auth)
+url: https://github.com/gig-projects/org_development/issues/17

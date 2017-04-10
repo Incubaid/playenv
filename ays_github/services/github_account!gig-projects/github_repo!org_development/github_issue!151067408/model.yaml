@@ -1,0 +1,16 @@
+assignee: ''
+body: "### Part of Story: #16\r\n\r\n## GOAL:\r\nCreating a VDC using the app.\r\n\
+  \r\n## DESCRIPTION:\r\nCreate the VDC (= CloudSpace) using the cockpit API."
+comments:
+- {body: '@bart-at-mobicage please sync with @rkhamis and @zaibon on this, they already
+    briefed on the story', id: 214780720, time: '2016/04/26 15:20:36', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/214780720',
+  user: yveskerwyn}
+id: 151067408
+labels: [type_task]
+milestone: ''
+number: 77
+open: true
+state: open
+time: 2016/04/26 07:52:54
+title: 'resellerapp: Backend - Creating a VDC [32h]'
+url: https://github.com/gig-projects/org_development/issues/77

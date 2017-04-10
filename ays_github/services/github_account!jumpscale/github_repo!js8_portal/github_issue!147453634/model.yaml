@@ -1,0 +1,15 @@
+assignee: ''
+body: 'See cockpit/blueprints
+
+
+  On expanding, codemirror needs to be clicked to show its content'
+comments: []
+id: 147453634
+labels: []
+milestone: ''
+number: 46
+open: true
+state: open
+time: 2016/04/11 14:49:29
+title: Accordion containing codemirror shows improperly
+url: https://github.com/Jumpscale/jumpscale_portal8/issues/46

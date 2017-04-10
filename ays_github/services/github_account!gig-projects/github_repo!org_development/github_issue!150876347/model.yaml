@@ -1,0 +1,14 @@
+assignee: ''
+body: "### Part of Story: #16\r\n\r\n## GOAL:Shows the goal of the reseller app.\r\
+  \n\r\n## DESCRIPTION:\r\n* Rename Services to Locations (on the homescreen)\r\n\
+  * Make the service menu with 2 icons + flows:\r\n * New VDC \r\n * New Ticket"
+comments: []
+id: 150876347
+labels: [type_task]
+milestone: ''
+number: 72
+open: true
+state: open
+time: 2016/04/25 14:16:23
+title: 'resellerapp: Create a poc ServiceIdentity for 1 location [2h]'
+url: https://github.com/gig-projects/org_development/issues/72

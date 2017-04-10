@@ -1,0 +1,90 @@
+assignee: ''
+body: "### Part of Story: #3\r\n\r\nGOAL: \r\nWhen people send issue by email to the\
+  \ cockpit, the cockpit should be able to receive it. AYS should be able to treat\
+  \ them?\r\n- Choose incomming mail agent (check twisted with python, may be the\
+  \ most simple approach.\r\n Example: https://twistedmatrix.com/documents/current/_downloads/emailserver.tac)\r\
+  \n- email to file\r\n- pointer to file in redis hset (with some metadata as json)\r\
+  \n- check sal in jumpscale to\r\n   - process the emails (mime format)\r\n- create\
+  \ sal to access the redis email info\r\n- check sal to write email\r\n- create aysi\
+  \ for mandril\r\n- add MX record to cockpit installation"
+comments:
+- {body: "@despiegk I have a question about this:\r\n\r\n- Do we really need to run\
+    \ our own smtp server in the cockpit installation? I guess another simpler approach\
+    \ is to pull emails (POP3, or IMAP) directly from other email servers like google.com,\
+    \ or Mandrill.\r\n- Storing the email content in a file will not make it accessible\
+    \ from remote machines. In other words, the email sal to access the email will\
+    \ not be able to read the email content UNLESS it's running on the machine that\
+    \ has the files. May be we can compress and store the email content in the redis\
+    \ entry, or serve the file content over a file server.\r\n- The MX record is only\
+    \ needed if we are gonna run our smtp server in the cockpit installation. Hence\
+    \ the first question.\r\n\r\n@rkhamis do you have answers ?", id: 212298509, time: '2016/04/20
+    07:29:52', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/212298509',
+  user: muhamadazmy}
+- {body: '@despiegk  will redis is used for only storing the meta information about
+    the emails (as a database) or for job queuing, or both? ', id: 212308257, time: '2016/04/20
+    07:51:15', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/212308257',
+  user: muhamadazmy}
+- {body: "> Do we really need to run our own smtp server in the cockpit installation?\
+    \ I guess another simpler approach is to pull emails (POP3, or IMAP) directly\
+    \ from other email servers like google.com, or Mandrill.\r\n\r\nWe need to be\
+    \ able to send email to the cockpit domain. Not sure how easy it is to that using\
+    \ another service.\r\n\r\n> Storing the email content in a file will not make\
+    \ it accessible from remote machines. In other words, the email sal to access\
+    \ the email will not be able to read the email content UNLESS it's running on\
+    \ the machine that has the files. May be we can compress and store the email content\
+    \ in the redis entry, or serve the file content over a file server.\r\n\r\nThis\
+    \ is ok, the mail will only be access by a local process.\r\n\r\n", id: 212340367,
+  time: '2016/04/20 09:08:45', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/212340367',
+  user: zaibon}
+- {body: "@zaibon I believe Mandrill app can be used to send and receive emails over\
+    \ the API they provide. it's much more reliable than running and maintaing  an\
+    \ email server. You actually configure MX to point to mandrill servers, and then\
+    \ they can send/recieve emails on your behalf, also it has other more features.\r\
+    \n\r\nIf the emails are only gonna be accessed by local process, then it's fine.\
+    \ But this doesn't answer why we need to store the data as an HSET in redis, it's\
+    \ an unsortable data structure. And we can't make sure that we process the emails\
+    \ as they arrive. I suggest the following\r\n\r\n- store the meta data in a redis\
+    \ value directly (we can also set an expiry of 1month on each value) so emails\
+    \ gets cleaned after 1 month (or whatever) automatically.\r\n- Push the key to\
+    \ a redis queue as they arrive to get processed by the other process, so we can\
+    \ grantee emails are processed in the order they arrive)", id: 212341780, time: '2016/04/20
+    09:14:06', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/212341780',
+  user: muhamadazmy}
+- {body: "About Mandrilla, I can't decide.\r\n\r\nAbout redis, I'm ok with this approach\
+    \ but can we make sure multiple consumer can have access to the same mail ?  The\
+    \ key can only be removed from the queue when one of the consumer decide it can\
+    \ be removed, not after the first took it out of the queue.\r\n\r\n", id: 212343956,
+  time: '2016/04/20 09:22:12', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/212343956',
+  user: zaibon}
+- {body: "If we need to grantee that no queued messages are lost until it's successfully\
+    \ processed by the worker, may be we should move to a real message broker that\
+    \ implements delivery acknowledgements like `rabbitmq` or `kafka`.\r\n\r\nI can't\
+    \ think of a clean way that uses redis queues to not pop a message and also not\
+    \ deliver it to multiple workers at the same time.\r\n\r\nAs a suggestion we can\
+    \ do:\r\n- `BRPOPLPUSH messages-queue backup-queue`. So each message poped from\
+    \ the messages queue is atomically pushed to the backup-queue\r\n- When the worker\
+    \ successfully process the message, he can remove the backup copy by doing `LREM`\
+    \ on the backup queue.\r\n- Then we need another process that moves the uncleaned\
+    \ backups back to the main queue. But this mean a message can get `lost` for a\
+    \ long time before it's picked up again.\r\n\r\nAgain, as a good fix, we really\
+    \ need to move to `rabbitmq` for such sort of tasks specially when reliability\
+    \ is a key.", id: 212353987, time: '2016/04/20 09:44:37', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/212353987',
+  user: muhamadazmy}
+- {body: "- no rabbit mq or kafka, it all needs to stay very simple\r\n- your trick\
+    \ is ok, but there is other way, will try to spec\r\n- we need to send/receive\
+    \ ourselves (don't want dependency on mandril which is now other service anyhow)\r\
+    \n", id: 216421653, time: '2016/05/03 02:34:02', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216421653',
+  user: despiegk}
+- {body: "Simple SMTP Server implementation has been integrated in the cockpit robot.\r\
+    \nCockpit can now received mail. This generate an event on which service can subscribe.",
+  id: 218392769, time: '2016/05/11 08:18:38', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218392769',
+  user: zaibon}
+id: 149437032
+labels: [state_question, type_task]
+milestone: ''
+number: 4
+open: true
+state: open
+time: 2016/04/19 11:55:54
+title: 'cockpit: get incoming email interface working '
+url: https://github.com/gig-projects/org_development/issues/4

@@ -1,0 +1,10 @@
+<snippet>
+    <tabTrigger>debug</tabTrigger>
+    <scope>source.python</scope>
+    <description>debug</description>
+    <content>
+<![CDATA[
+from pudb import set_trace; set_trace() 
+]]>
+    </content>
+</snippet>

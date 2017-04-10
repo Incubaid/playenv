@@ -1,0 +1,6 @@
+
+
+github_repo__cockpit_gig_internal_it:
+  repo.type : 'cockpit'
+  repo.account : 'gig-projects'
+  milestone.category : 'gig'  

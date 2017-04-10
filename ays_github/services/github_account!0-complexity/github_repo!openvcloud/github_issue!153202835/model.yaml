@@ -1,0 +1,29 @@
+assignee: ''
+body: "\r\n![cs](https://cloud.githubusercontent.com/assets/15011431/15041009/93165f04-12c1-11e6-89f5-53fe7c37cb1f.png)\r\
+  \n"
+comments:
+- {body: "## Environment \r\ndu-conv-2\r\n## Software version \r\nJumpScale\r\n\r\n\
+    Core: 7.1.0b2\r\nPortal: 7.1.0b2\r\nOpenvCloud\r\n\r\nCore: 2.1.0b2\r\nOpenvStorage:\r\
+    \n\r\nopenvstorage-backend-core: 1.6.1-eugene-updates.4-1\r\nalba: 0.8.1\r\nopenvstorage-webapps:\
+    \ 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-core: 2.6.1-eugene-updates.20-1\r\nopenvstorage-hc: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\nopenvstorage: 2.6.1-eugene-updates.20-1\r\
+    \nopenvstorage-backend: 1.6.1-eugene-updates.4-1\r\nopenvstorage-sdm: 1.5.1-eugene-updates.1-1",
+  id: 217117080, time: '2016/05/05 10:05:22', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217117080',
+  user: john-kheir}
+- {body: what are the steps to reproduce @john-kheir, id: 218106152, time: '2016/05/10
+    09:30:49', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/218106152',
+  user: lzonneke}
+- {body: '@lzonneke , This issue can be found in any cloudSpaceSettings page in the
+    end portal. URL: https://du-conv-2.demo.greenitglobe.com/wiki_gcb/CloudSpaceSettings#/list',
+  id: 218121264, time: '2016/05/10 10:39:51', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/218121264',
+  user: john-kheir}
+id: 153202835
+labels: [type_bug]
+milestone: ''
+number: 117
+open: true
+state: open
+time: 2016/05/05 10:04:43
+title: Syntax errors in the end portal in cloudSpaceSettings page.
+url: https://github.com/0-complexity/openvcloud/issues/117

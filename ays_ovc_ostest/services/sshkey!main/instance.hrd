@@ -1,0 +1,11 @@
+agent.required                 = 'True'
+
+key.name                       = 'ovh_install'
+key.passphrase                 = 
+key.path                       = 
+
+service.domain                 = 'jumpscale'
+service.instance               = 'main'
+service.name                   = 'sshkey'
+service.role                   = 'sshkey'
+service.version                = 

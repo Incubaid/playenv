@@ -1,0 +1,16 @@
+assignee: weynandkuijpers
+body: ''
+comments:
+- {body: '@thongkhacl Can you please proposal a couple of dates (and places) to organise
+    this.  It can be done by video conference or of desired by face to face (london?)',
+  id: 218389328, time: '2016/05/11 08:01:12', url: 'https://api.github.com/repos/gig-projects/proj_centrilogic/issues/comments/218389328',
+  user: weynandkuijpers}
+id: 150880372
+labels: [priority_critical, type_story]
+milestone: 9:CL trained to sell and support
+number: 11
+open: true
+state: open
+time: 2016/04/25 14:29:49
+title: Prepare, setup and give Train the trainer session on G8 environment
+url: https://github.com/gig-projects/proj_centrilogic/issues/11

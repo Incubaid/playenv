@@ -1,0 +1,15 @@
+assignee: lucasvanhalst
+body: "## GOAL:\r\nAnybody should be able to install this authorization component\r\
+  \n\r\n## DESCRIPTION:\r\nDocument the following\r\n- Description\r\n- Installation\r\
+  \n- Configuration\r\n  - Parameters\r\n  - Templates\r\n- Troubleshooting\r\n\r\n\
+  \r\n\r\n"
+comments: []
+id: 154651697
+labels: [state_verification, type_task]
+milestone: ''
+number: 140
+open: true
+state: open
+time: 2016/05/13 07:39:50
+title: 'whmcs-auth: Write documentation [3h]'
+url: https://github.com/gig-projects/org_development/issues/140

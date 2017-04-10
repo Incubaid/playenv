@@ -1,0 +1,34 @@
+assignee: ''
+body: '### Part of Story: #53
+
+
+  #### Part of Story: #53
+
+
+  ## GOAL:
+
+
+  Use Itsyou.online as mean of authentification during a cockpit deployment.
+
+
+  ## DESCRIPTION:
+
+
+  See full process at https://github.com/gig-projects/org_development/issues/53
+
+
+  '
+comments:
+- {body: "Test script for oauth workflow\r\nhttps://gist.github.com/robvanmieghem/d8606a18aec0b495a147d2ce8f0bc533",
+  id: 216465847, time: '2016/05/03 08:21:01', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216465847',
+  user: zaibon}
+id: 151573090
+labels: [type_task]
+milestone: ''
+number: 89
+open: true
+state: open
+time: 2016/04/28 08:00:18
+title: 'cockpit-itsyou.online: Implement Oauth workflow in telegram bot for cockpit
+  deployement'
+url: https://github.com/gig-projects/org_development/issues/89

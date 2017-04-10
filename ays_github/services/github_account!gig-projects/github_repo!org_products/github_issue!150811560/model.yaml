@@ -1,0 +1,38 @@
+assignee: despiegk
+body: "## what\n\n     - Pack of presentations in best possible format with best possible\
+  \ content for following:\n\n## deliverable\n\n     - G8 Technology Components (overview)\
+  \ - added\n     - G8 Operating System (with or without contextual switch) - updated\n\
+  \     - G8 Power and Uptime Management (former Racktivity/Whatinsight) - updated\n\
+  \     - G8 Storage Platform - updated (excludes vNAS for the moment, shall we include?)\n\
+  \     - G8 Workspaces (Linux)\n     - G8 Workspaces (Windows)\n     - G8 Identity\
+  \ Management (Itsyou.online)\n\n|status|title                              |link|\n\
+  |------|-----------------------------------|----|\n|open  |techoverview: itsyou.online\
+  \ preso  |#17 |\n|open  |techoverview: g8os preso           |#16 |\n|open  |techoverview:\
+  \ review desktop slides|#13 |\n\n"
+comments:
+- {body: "Pack is 80% ready.\r\nI would suggest to update the cover page of each slide\
+    \ deck to make it more uniform.", id: 214816393, time: '2016/04/26 17:17:13',
+  url: 'https://api.github.com/repos/gig-projects/org_products/issues/comments/214816393',
+  user: svekeman}
+- {body: 'Source to slide deck: https://docs.google.com/a/incubaid.com/presentation/d/1NREazV6OT-cPxKurqPq3wc0MTJK4jTXqqRSv-eB-FZo/edit?usp=sharing ',
+  id: 215011441, time: '2016/04/27 08:35:52', url: 'https://api.github.com/repos/gig-projects/org_products/issues/comments/215011441',
+  user: svekeman}
+- {body: "Technology Overview Introduction slides:\r\n- need to review input of Jurgen\
+    \ (10-11)\r\n- need to review architecture (12)\r\n- need to review components\
+    \ (13-17)\r\n- need to complete (18-19)\r\n\r\nSections look OK for:\r\n- Key\
+    \ Technology Highlights\r\n- Technology Components\r\n- Technology Sources\r\n\
+    \r\nThis deck is the foundation for the other slide-decks. Let's complete and\
+    \ validate ASAP.\r\n\r\nAlso consolidated the format with a new custom Green IT\
+    \ Globe Theme into this presentation. It has been checked against the huge variety\
+    \ of content and drawings, so it's pretty much bullet-proof for the other slide\
+    \ decks.\r\n", id: 215141463, time: '2016/04/27 16:36:35', url: 'https://api.github.com/repos/gig-projects/org_products/issues/comments/215141463',
+  user: svekeman}
+id: 150811560
+labels: [priority_critical, state_question, type_story]
+milestone: ''
+number: 7
+open: true
+state: open
+time: 2016/04/25 10:09:11
+title: GIG Technology Overview [usable for investors] (techoverview)
+url: https://github.com/gig-projects/org_products/issues/7

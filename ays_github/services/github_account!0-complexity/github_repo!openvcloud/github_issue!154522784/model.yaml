@@ -1,0 +1,16 @@
+assignee: ''
+body: "Please check that these published Vulnerablilities is not effected or system\
+  \ specially we are using the Nginx 1.4.6.\r\n\r\nCVE-2016-0742\r\nCVE-2016-0746\r\
+  \nCVE-2016-0747\r\nCVE 2014-3616\r\n\r\nYou can find a brief description in the\
+  \ following link\r\nhttp://vdb-web-staging.labs.rapid7.com/db/vulnerabilities/amazon-linux-ami-alas-2016-655\r\
+  \n\r\nHope our system doing well."
+comments: []
+id: 154522784
+labels: [priority_critical, type_question]
+milestone: ''
+number: 140
+open: true
+state: open
+time: 2016/05/12 16:13:57
+title: '#security: Nginx published security issues'
+url: https://github.com/0-complexity/openvcloud/issues/140

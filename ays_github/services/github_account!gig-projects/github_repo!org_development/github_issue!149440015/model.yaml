@@ -1,0 +1,25 @@
+assignee: rkhamis
+body: "- goal use our cockpit feature to deploy/maintain current G8's in the field\
+  \ and be compatible with ays7\r\n\r\n### How\r\n\r\n- in cockpit docker\r\n    -\
+  \ make sure python 2.7 & js7 is installed/works\r\n- make sure ays7 can work from\
+  \ just a subdir in the cockpit repo e.g. $cockpitrepo/ays7 ?\r\n- create ays8 to\r\
+  \n    - define/talk to local controller over ssh\r\n    - make sure local controller(s)\
+  \ do autossh to cockpit\r\n    - create some info fetcher in ays8 (1 aysi) which\
+  \ walks over ays7 and recreates the required ays8 instances, so we have some visibility\
+  \ \r\n    - on these auto generated aysi 8 implement some methods which work on\
+  \ top of ays7 to get things done (so they call ays7 where required)\r\n- improve\
+  \ our cockpit deployer so that we can deploy different types of cockpits e.g. this\
+  \ cockpit for mgmt G8 env\r\n"
+comments:
+- {body: 'Procedure proposed by @ashraffouda in #12 still being verified on 16.04.
+    Depends on #13 ', id: 218505632, time: '2016/05/11 16:00:44', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218505632',
+  user: rkhamis}
+id: 149440015
+labels: [type_story]
+milestone: ''
+number: 8
+open: true
+state: open
+time: 2016/04/19 12:06:34
+title: all testenv deployed in cockpit (testenv)
+url: https://github.com/gig-projects/org_development/issues/8

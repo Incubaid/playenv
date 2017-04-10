@@ -1,0 +1,46 @@
+assignee: zaibon
+body: "### Part of Story: #19\r\n\r\n- use aysfix branch\r\n- make sure we don't re-apply\
+  \ every time & it's reasonably fast process & uses representation of issues in mem\r\
+  \n- only re-apply when changes- make sure is done as nice table\r\n"
+comments:
+- {body: "Found the bugs, refactor the linking of the story and tasks\r\nhttps://github.com/Jumpscale/jumpscale_core8/commit/137be032da2784c9ce51b737e0ba0db0e6e8edc7",
+  id: 216482472, time: '2016/05/03 09:47:43', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216482472',
+  user: zaibon}
+- {body: "Tried to execute github blueprint to apply on all repos. got error\r\n```\r\
+    \nTraceback (most recent call last):\r\n  File \"/opt/code/test.py\", line 14,\
+    \ in <module>\r\n    repo.labels\r\n  File \"/opt/jumpscale8/lib/JumpScale/clients/github/Repository.py\"\
+    , line 54, in labels\r\n    self._labels = [item for item in self.api.get_labels()]\r\
+    \n  File \"/opt/jumpscale8/lib/JumpScale/clients/github/Repository.py\", line\
+    \ 54, in <listcomp>\r\n    self._labels = [item for item in self.api.get_labels()]\r\
+    \n  File \"/usr/local/lib/python3.5/dist-packages/github/PaginatedList.py\", line\
+    \ 48, in __iter__\r\n    newElements = self._grow()\r\n  File \"/usr/local/lib/python3.5/dist-packages/github/PaginatedList.py\"\
+    , line 60, in _grow\r\n    newElements = self._fetchNextPage()\r\n  File \"/usr/local/lib/python3.5/dist-packages/github/PaginatedList.py\"\
+    , line 181, in _fetchNextPage\r\n    for element in data if element is not None\r\
+    \n  File \"/usr/local/lib/python3.5/dist-packages/github/PaginatedList.py\", line\
+    \ 181, in <listcomp>\r\n    for element in data if element is not None\r\n  File\
+    \ \"/usr/local/lib/python3.5/dist-packages/github/GithubObject.py\", line 217,\
+    \ in __init__\r\n    GithubObject.__init__(self, requester, headers, attributes,\
+    \ completed)\r\n  File \"/usr/local/lib/python3.5/dist-packages/github/GithubObject.py\"\
+    , line 74, in __init__\r\n    self._storeAndUseAttributes(headers, attributes)\r\
+    \n  File \"/usr/local/lib/python3.5/dist-packages/github/GithubObject.py\", line\
+    \ 86, in _storeAndUseAttributes\r\n    self._useAttributes(attributes)\r\n  File\
+    \ \"/usr/local/lib/python3.5/dist-packages/github/Label.py\", line 107, in _useAttributes\r\
+    \n    self._url = self._makeStringAttribute(attributes[\"url\"])\r\nTypeError:\
+    \ string indices must be integers\r\n```\r\nI have no idea what is this error,\
+    \ it comes from the github lib itself not our code.", id: 216488998, time: '2016/05/03
+    10:22:11', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216488998',
+  user: zaibon}
+- {body: "Found the issue. The github library doesn't support moved repository.  \r\
+    \n Solution is to update the blueprint to have the correct location of every repo.\r\
+    \nhttps://github.com/gig-projects/playenv/commit/3213a671f1e4e28c10750a35fcd58cef6d006df6",
+  id: 216518497, time: '2016/05/03 12:56:30', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216518497',
+  user: zaibon}
+id: 152686158
+labels: [priority_critical, state_verification, type_task]
+milestone: ''
+number: 102
+open: true
+state: open
+time: 2016/05/03 02:17:11
+title: 'process: linking of tasks & stories needs to be applied & well working'
+url: https://github.com/gig-projects/org_development/issues/102

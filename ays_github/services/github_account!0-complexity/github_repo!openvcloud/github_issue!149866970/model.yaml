@@ -1,0 +1,66 @@
+assignee: karimal
+body: '## Description
+
+  - go to system portal
+
+  - press code
+
+  - press base actors
+
+
+  --> Table is not nice and needs improvement
+
+
+  ![base actor](https://cloud.githubusercontent.com/assets/15102982/14688023/9bc7cb6a-0740-11e6-83d9-2784027184bc.JPG)
+
+
+  - Same issue for Templates
+
+  - Same issue for System Actors
+
+  - Same issue for Jumpscripts
+
+
+  ## Version
+
+  JumpScale
+
+  Core: 7.0.5rc3
+
+  Portal: 7.0.5rc3
+
+  OpenvCloud
+
+  Core: 2.0.5rc3
+
+  OpenvStorage:
+
+  openvstorage-backend-core: 1.6.1-eugene-updates.4-1
+
+  alba: 0.8.1
+
+  openvstorage-webapps: 2.6.1-eugene-updates.20-1
+
+  openvstorage-backend-webapps: 1.6.1-eugene-updates.4-1
+
+  openvstorage-core: 2.6.1-eugene-updates.20-1
+
+  openvstorage-hc: 1.6.1-eugene-updates.4-1
+
+  openvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1
+
+  openvstorage: 2.6.1-eugene-updates.20-1
+
+  openvstorage-backend: 1.6.1-eugene-updates.4-1
+
+  openvstorage-sdm: 1.5.1-eugene-updates.1-1'
+comments: []
+id: 149866970
+labels: [priority_normal, type_bug]
+milestone: 3:ovc2.1_ga
+number: 79
+open: true
+state: open
+time: 2016/04/20 19:45:07
+title: Cosmetic change for base actor table
+url: https://github.com/0-complexity/openvcloud/issues/79

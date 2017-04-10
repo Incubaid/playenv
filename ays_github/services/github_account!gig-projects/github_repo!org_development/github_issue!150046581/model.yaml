@@ -1,0 +1,32 @@
+assignee: yveskerwyn
+body: "**GOAL:** Allow ordering of VDC through WHMCS, triggering blueprint-based deployment\
+  \ by Cockpit and management of VDC via VDC Control Panel, that can be embedded in\
+  \ WHMCS\r\n\r\n**DESCRIPTION:**\r\n- Define/create order templates and product definitions\
+  \ for ordering a virtual datacenter through WHMCS:\r\n  - Product/package 1: VDC\
+  \ + \"a\" number of virtual cores + \"b\" amount of memory + ...\r\n  - Product/package\
+  \ 2: VDC + \"x\" number of virtual cores + \"b\" amount of memory + ... \r\n- Implement\
+  \ (php) hooks in WHMCS that trigger the deployment of the ordered VDC through the\
+  \ Cockpit\r\n- Have one boilerplate blueprint templates available that map to a\
+  \ the available WHMCS VDC products/packages (including the specification of the\
+  \ cores/mem/storage/... resource limits)\r\n- Have a REST API on the Cockpit to\
+  \ receive a blueprint instance, creating a new VDC based on the blueprint instance\
+  \ specification\r\n- The VDC Control Panel needs to be embedded in the client area\
+  \ of WHMCS ([STORY: VDC Control Panel story card](https://github.com/gig-projects/org_development/issues/38))"
+comments:
+- {body: "@FastGeert @robvanmieghem \r\n\r\nInput for our discussion on user/account\
+    \ mapping, see below: http://docs.whmcs.com/Sub-Accounts\r\n\r\nWHMCS Account\
+    \ <-> OVC (Cloud) Account\r\nWHMCS Sub-Accounts <-> OVC User Accounts \r\n", id: 216465644,
+  time: '2016/05/03 08:19:36', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216465644',
+  user: yveskerwyn}
+- {body: 'Please let''s not complicate things right now, and leave WHMCS Sub-Accounts
+    out of scope for 2.1 (beta)', id: 216503814, time: '2016/05/03 11:44:28', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216503814',
+  user: FastGeert}
+id: 150046581
+labels: [state_question, type_story]
+milestone: 7:G8-2.1-beta
+number: 48
+open: true
+state: open
+time: 2016/04/21 11:29:45
+title: WHMCS Integration (whmcs-int)
+url: https://github.com/gig-projects/org_development/issues/48

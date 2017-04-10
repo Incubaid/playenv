@@ -1,0 +1,19 @@
+assignee: lzonneke
+body: "## Goal\r\nhave a real time power overview of our G8 which can be presented\
+  \ in the stakeholders meeting.\r\n\r\n## Description\r\nRacktivity is looking at\
+  \ his partner http://watticonsume.com/iwatt/\r\n\r\nThey made software on top of\
+  \ Racktivity hardware products which can be used in our G8.I have agreed with our\
+  \ partner to install this software on top of our G8 in order to have a clear view\
+  \ on power consumption.\r\n\r\n|status|title                               |link|\r\
+  \n|------|------------------------------------|----|\r\n|open  |G8_power: install\
+  \ WattIconsume on G8|#98 |\r\n\r\n"
+comments: []
+id: 151830065
+labels: [priority_minor, type_story]
+milestone: 6:summer
+number: 96
+open: true
+state: open
+time: 2016/04/29 09:47:08
+title: Integration of powermonitoring of our G8 (G8_power)
+url: https://github.com/gig-projects/org_development/issues/96

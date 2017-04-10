@@ -1,0 +1,58 @@
+assignee: ''
+body: "### Part of Story: #40\n\n#### Part of Story: #40\n\nrequirements\n\n - compression\
+  \ using i7 new instruction sets (to be checked which ones are best)\n - encryption\
+  \ using i7 new instruction sets (to be checked which ones are best)\n - encrypted\
+  \ uniquely using hash sha256? of file before compression\n - keys in metadata on\
+  \ git\n - big files cut into pieces of 10 MB (configurable)\n - metadata remembers:\
+  \ hashlist per file (can be more than 1)\n - files stored on attached HD (internal/external)\n\
+  \     - on $mountpoint/$storagespace/$a$b/$c$d/$hash....\n - retrieve just check\
+  \ different mountpoints until found\n - we need a feature to dump the metadata to\
+  \ a file & also put it in backend\n - key(s) for this are written with pub key of\
+  \ someone & send email/???\n - feedback mechanism to metadata server for when files\
+  \ arrived on central VNAS\n - workflow on changes\n - caching to be defined with\
+  \ regex on full path (what to remove from cache)\n - all data movement, deletion,\
+  \ caching defined as workflows which are kicked off based on file.dir changes &\
+  \ the regex\n - REST api for managements: communication with AYS Actions.\n"
+comments:
+- {body: "> big files cut into pieces of 10 MB (configurable)\r\n\r\nWhat is the benefits\
+    \ of splitting file ? We ship the entire disks anyway and compression could probably\
+    \ more efficient if we don't split. \r\n\r\n>all data movement, deletion, caching\
+    \ defined as workflows which are kicked off based on file.dir changes & the regex\r\
+    \n\r\nCan we have more detail about that.", id: 215061679, time: '2016/04/27 12:04:25',
+  url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/215061679',
+  user: zaibon}
+- {body: "@despiegk \r\nMe and @zaibon where discussing the requirements and we have\
+    \ few questions that need clearification. @zaibon can add more question or rephrase\
+    \ mine in case they are not clear.\r\n\r\n- Can we have multiple HD attached as\
+    \ backup disks? If yes, are we gonna `mirror` the files to all the backup disks,\
+    \ or just span the parts across them.\r\n- Are we gonna store the plain files\
+    \ on the SSD, or we gonna store them also as compressed, encrypted chunks.\r\n\
+    - Why do we need the local SSD in the first place? Can't we just have the backup\
+    \ disks? since the ssd can't have copy of all the backed up files due to space\
+    \ imitations.\r\n- If we need the SSD disks, what would happen if the SSD got\
+    \ full while the backup disks still have more space.\r\n- If we use the SSD disk\
+    \ as cache so when the backup disks are shipping we still can access the backedup\
+    \ files, doesn't this mean the ssd need to support storing ALL the files (again\
+    \ the space limitations)\r\n\r\nI hope my questions are clean and makes, sense.\
+    \ @zaibon  can elaborate more.", id: 215399933, time: '2016/04/28 11:49:32', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/215399933',
+  user: muhamadazmy}
+- {body: "splitting is files is required because\r\n- all handling should be done\
+    \ at start (not in datacenter side, encryption, compression, splitting)\r\n- otherwise\
+    \ security issue\r\n- at destination needs to be splitted, better for backend\
+    \ storage systems, because on classic object stores won't work otherwise", id: 216455444,
+  time: '2016/05/03 07:10:31', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216455444',
+  user: despiegk}
+- {body: explained over zoom, id: 216458186, time: '2016/05/03 07:30:42', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216458186',
+  user: despiegk}
+- {body: 'work tracking: implement filesystem tree and integration with mdserver.',
+  id: 217163094, time: '2016/05/05 14:04:05', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/217163094',
+  user: muhamadazmy}
+id: 150032786
+labels: [state_inprogress, type_task]
+milestone: ''
+number: 43
+open: true
+state: open
+time: 2016/04/21 10:32:15
+title: 'g8way: fuse layer with encryption/compression [9d]'
+url: https://github.com/gig-projects/org_development/issues/43

@@ -1,0 +1,20 @@
+assignee: zaibon
+body: "installed/managed through https://github.com/0-complexity/ays_g8_pub_reflector\r\
+  \n\r\n- 2 dockers on 2 of our storage machines\r\n- both have enough storage on\
+  \ a btrfs fs\r\n- connected to weave network\r\n- dns names\r\n    - reflector_pub_master.aydo.com\r\
+  \n    - reflector_pub_slave.aydo.com\r\n- 2 ssh keys\r\n   - g8_pub_reflector_rw\
+  \ -> for user: root\r\n   - g8_pub_reflector_r -> for user: guest\r\n- ays method\
+  \ which gets scheduled does\r\n   - rsync from master to slave for backup every\
+  \ 5 min\r\n- ays runs in master\r\n- also need caddy for http access\r\n\r\nwhat\
+  \ will store there\r\n- tgz for g8os\r\n- rsync version of tgz\r\n- kernels\r\n\
+  - rsync of our sandbox on multiple platforms\r\n- ..."
+comments: []
+id: 140461666
+labels: []
+milestone: ''
+number: 10
+open: true
+state: open
+time: 2016/03/13 07:41:42
+title: pub g8 reflector
+url: https://github.com/g8os/home/issues/10

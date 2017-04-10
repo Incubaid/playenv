@@ -1,0 +1,24 @@
+assignee: weynandkuijpers
+body: '### Part of Story: #7
+
+
+  '
+comments:
+- {body: "Changed the naming to cloud-desktop throughout the presentation.\r\n\r\n\
+    Consider this task done.", id: 214752015, time: '2016/04/26 13:52:21', url: 'https://api.github.com/repos/gig-projects/org_products/issues/comments/214752015',
+  user: weynandkuijpers}
+- {body: 'Awingu completely removed from the G8 Workspaces (Windows): https://docs.google.com/a/incubaid.com/presentation/d/1v6OSZdSvJ0DxwrL2pr0QhPdYcdPDqrVBCz8N86WxNOA/edit?usp=sharing ',
+  id: 214811417, time: '2016/04/26 17:00:06', url: 'https://api.github.com/repos/gig-projects/org_products/issues/comments/214811417',
+  user: svekeman}
+- {body: Will push new template of time left, id: 215142209, time: '2016/04/27 16:39:14',
+  url: 'https://api.github.com/repos/gig-projects/org_products/issues/comments/215142209',
+  user: svekeman}
+id: 150889111
+labels: [priority_critical, state_question, type_task]
+milestone: ''
+number: 13
+open: true
+state: open
+time: 2016/04/25 14:58:08
+title: 'techoverview: review desktop slides'
+url: https://github.com/gig-projects/org_products/issues/13

@@ -1,0 +1,13 @@
+assignee: ''
+body: "### Part of Story: #39\r\n\r\n## GOAL:\r\nvnas: CIFS working on top of ldap\
+  \ backend\r\n\r\n## DESCRIPTION:"
+comments: []
+id: 151380043
+labels: [type_task]
+milestone: ''
+number: 86
+open: true
+state: open
+time: 2016/04/27 13:05:54
+title: 'G8NAS: CIFS working on top of ldap backend'
+url: https://github.com/gig-projects/org_development/issues/86

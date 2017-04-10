@@ -1,0 +1,8 @@
+events: {}
+instanceHRDHash: 606e29efa37a30a6bc7390e1abe661df
+parent: ''
+producers: {}
+recipe: github_config
+recurring: {}
+state: {init: OK, install: OK}
+templateHRDHash: ''

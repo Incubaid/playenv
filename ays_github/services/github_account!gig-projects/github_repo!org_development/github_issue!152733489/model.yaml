@@ -1,0 +1,14 @@
+assignee: karimal
+body: "### Part of Story: #38\r\n\r\n## GOAL:\r\n\r\nUse bower packages instead of\
+  \ jslib libraries\r\n\r\n## DESCRIPTION:\r\n\r\n Use bower packages instead of jslib\
+  \ libraries\r\n Replace old links in HTML files\r\n"
+comments: []
+id: 152733489
+labels: [type_task]
+milestone: ''
+number: 109
+open: true
+state: open
+time: 2016/05/03 09:30:03
+title: 'vdc-control: Use bower packages instead of jslib libraries [3h]'
+url: https://github.com/gig-projects/org_development/issues/109

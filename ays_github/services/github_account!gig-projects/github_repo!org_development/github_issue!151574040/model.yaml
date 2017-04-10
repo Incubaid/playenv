@@ -1,0 +1,18 @@
+assignee: ''
+body: "### Part of Story: #53\n\n#### Part of Story: #53\n\n## GOAL:\n\nLogin to the\
+  \ cockpit portal should use itsyou.online oauth.\n\n## DESCRIPTION:\n\nDuring installation,\
+  \ portal should configure oauth to work against itsyou.online\n\nNeed to set :\n\
+  \n - Scope: user:memberof:organization\n - Client ID : created by telegram bot during\
+  \ installation of the cockpit ( see #88)\n - Client secret: created by telegram\
+  \ bot during installation of the cockpit ( see #88)\n"
+comments: []
+id: 151574040
+labels: [type_task]
+milestone: ''
+number: 90
+open: true
+state: open
+time: 2016/04/28 08:06:02
+title: 'cockpit-itsyou.online: Update cockpit blueprint to configure portal login
+  with itsyou.online oauth'
+url: https://github.com/gig-projects/org_development/issues/90

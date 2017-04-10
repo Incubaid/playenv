@@ -1,0 +1,22 @@
+assignee: willemhendrickx
+body: "Bart is CEO\r\nmaking case for 30m USD"
+comments:
+- {body: Setting up meeting with Bart week 25th April / waiting for time slot, id: 214214172,
+  time: '2016/04/25 08:54:10', url: 'https://api.github.com/repos/gig-projects/org_investments/issues/comments/214214172',
+  user: willemhendrickx}
+- {body: had a meeting with Alain this morning to dices options on residential / we
+    are good to make proposal for Bart / meeting need to be confirmed for this week,
+  id: 214698565, time: '2016/04/26 10:40:34', url: 'https://api.github.com/repos/gig-projects/org_investments/issues/comments/214698565',
+  user: willemhendrickx}
+- {body: Bart CEO confirmed Monday 2nd May meeting  15.00 pm office, id: 214757955,
+  time: '2016/04/26 14:10:50', url: 'https://api.github.com/repos/gig-projects/org_investments/issues/comments/214757955',
+  user: willemhendrickx}
+id: 150785293
+labels: [state_inprogress]
+milestone: ''
+number: 5
+open: true
+state: open
+time: 2016/04/25 08:22:51
+title: Artilium
+url: https://github.com/gig-projects/org_investments/issues/5

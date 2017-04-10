@@ -1,0 +1,29 @@
+assignee: svekeman
+body: '### Part of Story: #7
+
+
+  '
+comments:
+- {body: Full briefing received from Rob. Working on draft presentation. Will share
+    link soon., id: 214717112, time: '2016/04/26 11:59:15', url: 'https://api.github.com/repos/gig-projects/org_products/issues/comments/214717112',
+  user: svekeman}
+- {body: 'Draft in preparation: https://docs.google.com/a/incubaid.com/presentation/d/1uZGJtg95z2ZlyV7VQZD5JG-EHz83d6lkzPNbBH1tUoc/edit?usp=sharing ',
+  id: 214764447, time: '2016/04/26 14:31:08', url: 'https://api.github.com/repos/gig-projects/org_products/issues/comments/214764447',
+  user: svekeman}
+- {body: "Draft ready. Needs concept review to sharpen up / or rework certain concept\
+    \ 'thinking errors'\r\n", id: 214807073, time: '2016/04/26 16:45:20', url: 'https://api.github.com/repos/gig-projects/org_products/issues/comments/214807073',
+  user: svekeman}
+- {body: '@robvanmieghem we need to sit down tomorrow and include your feedback.',
+  id: 215141951, time: '2016/04/27 16:38:22', url: 'https://api.github.com/repos/gig-projects/org_products/issues/comments/215141951',
+  user: svekeman}
+- {body: '@svekeman sure', id: 215176741, time: '2016/04/27 18:10:18', url: 'https://api.github.com/repos/gig-projects/org_products/issues/comments/215176741',
+  user: robvanmieghem}
+id: 150900832
+labels: [priority_critical, state_question, type_task]
+milestone: ''
+number: 17
+open: true
+state: open
+time: 2016/04/25 15:32:22
+title: 'techoverview: itsyou.online preso'
+url: https://github.com/gig-projects/org_products/issues/17

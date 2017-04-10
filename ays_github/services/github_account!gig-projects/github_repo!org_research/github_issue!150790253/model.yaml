@@ -1,0 +1,13 @@
+assignee: ''
+body: "- deploy & run OVS in G8OS (arch)\r\n- first POC to get all working\r\n- based\
+  \ on ays8"
+comments: []
+id: 150790253
+labels: [type_story]
+milestone: 3:may
+number: 7
+open: true
+state: open
+time: 2016/04/25 08:44:45
+title: OVS AYS deployment on G8OS (OVS_G8OS)
+url: https://github.com/gig-projects/org_research/issues/7

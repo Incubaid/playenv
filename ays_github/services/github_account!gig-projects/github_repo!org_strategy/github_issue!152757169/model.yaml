@@ -1,0 +1,20 @@
+assignee: svekeman
+body: "**Goal**\r\nBudget and investment needed to launch South Africa. \r\n\r\n**Description**\r\
+  \nGet principles agreed for the launch of \"HyperCloud Africa\" based on the presentation\
+  \ and input from Chris Hutton. Presentation needs to be discussed and actioned."
+comments:
+- {body: Working on commercial proposition to close Ethiopia and Maghreb for total
+    of 6 G8 locations, id: 218967845, time: '2016/05/13 07:08:44', url: 'https://api.github.com/repos/gig-projects/org_strategy/issues/comments/218967845',
+  user: svekeman}
+- {body: 'https://docs.google.com/a/incubaid.com/presentation/d/1slrTUGftCbgok9QJT4cQBPcDvvLU_aWKZ1NSATNTtYM/edit?usp=sharing ',
+  id: 218967920, time: '2016/05/13 07:09:10', url: 'https://api.github.com/repos/gig-projects/org_strategy/issues/comments/218967920',
+  user: svekeman}
+id: 152757169
+labels: [priority_normal, state_question, type_story]
+milestone: ''
+number: 2
+open: true
+state: open
+time: 2016/05/03 12:00:20
+title: GTM Africa + South Africa Investment (execute2016)
+url: https://github.com/gig-projects/org_strategy/issues/2

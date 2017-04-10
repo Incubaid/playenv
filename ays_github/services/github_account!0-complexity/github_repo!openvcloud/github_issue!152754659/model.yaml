@@ -1,0 +1,19 @@
+assignee: ''
+body: "Instead of having two layer of proxies in case of using public ip virtual machines\
+  \ range can eliminate the need for local nginx proxification to the public ip \r\
+  \n\r\nso proxy - > routeros instead of proxy -> cpunode(nginx) -> routeros"
+comments:
+- {body: need to review networking, id: 218110779, time: '2016/05/10 09:51:11', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/218110779',
+  user: lzonneke}
+- {body: make sure we access router OS over https, id: 218441616, time: '2016/05/11
+    12:14:28', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/218441616',
+  user: lzonneke}
+id: 152754659
+labels: [priority_normal, state_question, type_feature]
+milestone: 3:ovc2.1_ga
+number: 105
+open: true
+state: open
+time: 2016/05/03 11:44:49
+title: Defense shield
+url: https://github.com/0-complexity/openvcloud/issues/105

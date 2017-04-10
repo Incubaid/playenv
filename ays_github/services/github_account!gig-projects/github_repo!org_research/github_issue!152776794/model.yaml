@@ -1,0 +1,14 @@
+assignee: ''
+body: "### Part of Story: #3\n\n## Goal\n\ncheck difference in performance between\
+  \ new and older environments\n\nperformance test will be done following\r\nhttps://github.com/0-complexity/openvcloud_quality_performancetest\n\
+  \n"
+comments: []
+id: 152776794
+labels: [type_task]
+milestone: ''
+number: 21
+open: true
+state: open
+time: 2016/05/03 13:45:02
+title: 'rdmaenv: do a complete performance test on the new environment [4h]'
+url: https://github.com/gig-projects/org_research/issues/21

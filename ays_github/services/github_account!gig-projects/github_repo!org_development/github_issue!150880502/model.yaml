@@ -1,0 +1,21 @@
+assignee: ''
+body: "### Part of Story: #16\r\n\r\n## GOAL:\r\nEnd user should be able to create\
+  \ a ticket in WHMCS linked to a certain location.\r\n\r\n## DESCRIPTION:\r\n* Create\
+  \ a new GAE project: rogerthat-gig-reseller\r\n* Ask rob if there's a python WHMCS\
+  \ client that we can use (or see WhmcsInstance in Yves his sample code)\r\n* Investigate\
+  \ the WHMCS API needed to create a ticket, if there are extra custom fields needed\r\
+  \n* After creating the ticket in WHMCS, store the info needed to update the user\
+  \ when an update arrives"
+comments:
+- {body: "@bart-at-mobicage, zie GitHub voor whmcstickets.py:\r\n\r\nhttps://github.com/Jumpscale/jumpscale_core8/tree/master/lib/JumpScale/clients/whmcs",
+  id: 214471149, time: '2016/04/25 18:28:07', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/214471149',
+  user: yveskerwyn}
+id: 150880502
+labels: [type_task]
+milestone: ''
+number: 74
+open: true
+state: open
+time: 2016/04/25 14:30:10
+title: 'resellerapp: Backend - Creating a ticket in WHMCS [32h]'
+url: https://github.com/gig-projects/org_development/issues/74

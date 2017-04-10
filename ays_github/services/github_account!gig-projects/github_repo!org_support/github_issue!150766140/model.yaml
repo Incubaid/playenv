@@ -1,0 +1,18 @@
+assignee: despiegk
+body: '### Part of Story: #3
+
+
+  '
+comments:
+- {body: "@despiegk see https://github.com/gig-projects/org_support/blob/master/Processes.md\
+    \  \r\n", id: 216550436, time: '2016/05/03 14:41:17', url: 'https://api.github.com/repos/gig-projects/org_support/issues/comments/216550436',
+  user: hofkensj}
+id: 150766140
+labels: [priority_normal, type_task]
+milestone: 6:may
+number: 4
+open: true
+state: open
+time: 2016/04/25 06:51:59
+title: 'supportprocess: review processes'
+url: https://github.com/gig-projects/org_support/issues/4

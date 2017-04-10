@@ -1,0 +1,21 @@
+assignee: weynandkuijpers
+body: '### Part of Story: #7
+
+
+  '
+comments:
+- {body: "First cut presentation for G8OS available here: https://drive.google.com/open?id=1pgW9_WQNVOD4t4FemJ5-d_Z1qNyyam4DndWquLZ1a5o\r\
+    \n", id: 214752445, time: '2016/04/26 13:53:51', url: 'https://api.github.com/repos/gig-projects/org_products/issues/comments/214752445',
+  user: weynandkuijpers}
+- {body: 'Concept. Needs review. Looks comprehensive for investors, maybe not enough
+    tech-benefits coming out.', id: 214814992, time: '2016/04/26 17:12:23', url: 'https://api.github.com/repos/gig-projects/org_products/issues/comments/214814992',
+  user: svekeman}
+id: 150900160
+labels: [priority_critical, state_question, type_task]
+milestone: ''
+number: 16
+open: true
+state: open
+time: 2016/04/25 15:30:38
+title: 'techoverview: g8os preso'
+url: https://github.com/gig-projects/org_products/issues/16

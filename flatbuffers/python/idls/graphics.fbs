@@ -1,0 +1,13 @@
+namespace graphics;
+
+struct Point2D{
+    x:int;
+    y:int;
+}
+table Vec2D{
+    p1: Point2D;
+    p2: Point2D;
+}
+
+
+root_type Vec2D;

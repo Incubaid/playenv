@@ -1,0 +1,23 @@
+assignee: hofkensj
+body: "info on\n\n     - https://github.com/gig-projects/org_support\n\n|status|title\
+  \                                                                              \
+  \       |link|\n|------|------------------------------------------------------------------------------------------|----|\n\
+  |open  |supportprocess: do session with the support team to train them / get buy\
+  \ in on the process|#13 |\n|open  |supportprocess: review processes            \
+  \                                              |#4  |\n|open  |supportprocess: Read\
+  \ / comment the processes / tools sections                             |#2  |\n\
+  |open  |supportprocess: Set up global support phone number                     \
+  \                   |#15 |\n\n"
+comments:
+- {body: Reviewed the full process and tools with David ... made agreement.   Now
+    needs to go to implementation., id: 216550875, time: '2016/05/03 14:42:48', url: 'https://api.github.com/repos/gig-projects/org_support/issues/comments/216550875',
+  user: hofkensj}
+id: 150765533
+labels: [state_inprogress, type_story]
+milestone: 6:may
+number: 3
+open: true
+state: open
+time: 2016/04/25 06:47:52
+title: Agree/Implement first support process (supportprocess)
+url: https://github.com/gig-projects/org_support/issues/3

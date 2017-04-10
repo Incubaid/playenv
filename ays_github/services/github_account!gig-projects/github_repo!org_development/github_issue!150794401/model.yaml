@@ -1,0 +1,16 @@
+assignee: lzonneke
+body: "- DCPM = raporting tool racktivity\r\n- DCPM has serious perf issue for loading\
+  \ of info\r\n- used by quite some serious customers"
+comments:
+- {body: "related ticket in the Racktivity repo\r\n\r\nhttps://github.com/racktivity/dcpm/issues/9",
+  id: 215678890, time: '2016/04/29 10:24:30', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/215678890',
+  user: lzonneke}
+id: 150794401
+labels: [type_story, type_task]
+milestone: ''
+number: 59
+open: true
+state: open
+time: 2016/04/25 09:02:17
+title: 'DCPM: performance issue (DCPM)'
+url: https://github.com/gig-projects/org_development/issues/59

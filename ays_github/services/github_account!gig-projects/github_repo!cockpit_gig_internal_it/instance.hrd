@@ -1,0 +1,20 @@
+code.path                      = '/Users/despiegk/optvar/var/codetmp/gig-projects/cockpit_gig_internal_it'
+
+github.client                  = 
+github.config                  = 
+
+kds.name                       = 'ss'
+
+milestone.category             =
+    'gig',
+
+milestones                     =
+    'june',
+    'may',
+    'q4',
+    'summer',
+
+repo.account                   = 'gig-projects'
+repo.name                      = 'cockpit_gig_internal_it'
+repo.type                      = 'cockpit'
+repo.url                       = 'https://github.com/gig-projects/cockpit_gig_internal_it'

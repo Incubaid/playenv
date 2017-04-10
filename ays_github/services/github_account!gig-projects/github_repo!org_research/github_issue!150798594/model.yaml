@@ -1,0 +1,13 @@
+assignee: robvanmieghem
+body: "Having alternative resources to create contracts and payments for (using g8coins)\
+  \ is needed.\r\nThese resources are the same as the ones measured in a g8."
+comments: []
+id: 150798594
+labels: [type_story]
+milestone: ''
+number: 11
+open: true
+state: open
+time: 2016/04/25 09:19:40
+title: Contracts and payments for alternative resources in SIA (siaresourcecontracts)
+url: https://github.com/gig-projects/org_research/issues/11

@@ -1,0 +1,62 @@
+assignee: maxux
+body: "Btrfs balance :\n\nfound correct thingies\nfor i in  find allocation -type\
+  \ f  ;do echo -n \"$i ->\" ; echo \" $(( cat $i  /1024/1024))\" ; done\n\nroot@cpu01:/sys/fs/btrfs/ad82b7e3-1003-4f0e-81d5-a7e9e1558802#\
+  \ for i in find allocation -type f  ;do echo -n \"$i ->\" ; echo \" $(( cat $i \
+  \ /1024/1024))\" ; done\nallocation/data/flags -> 0\nallocation/data/raid1/used_bytes\
+  \ -> 50483\nallocation/data/raid1/total_bytes -> 72704\nallocation/data/bytes_pinned\
+  \ -> 22\nallocation/data/bytes_may_use -> 65\nallocation/data/total_bytes_pinned\
+  \ -> 22\nallocation/data/bytes_reserved -> 1\nallocation/data/bytes_used -> 50483\n\
+  allocation/data/total_bytes -> 72704\nallocation/data/disk_total -> 145408\nallocation/data/disk_used\
+  \ -> 100966\nallocation/metadata/flags -> 0\nallocation/metadata/raid1/used_bytes\
+  \ -> 2329\nallocation/metadata/raid1/total_bytes -> 10240\nallocation/metadata/bytes_pinned\
+  \ -> 32\nallocation/metadata/bytes_may_use -> 12163\nallocation/metadata/total_bytes_pinned\
+  \ -> 34\nallocation/metadata/bytes_reserved -> 1\nallocation/metadata/bytes_used\
+  \ -> 2329\nallocation/metadata/total_bytes -> 10240\nallocation/metadata/disk_total\
+  \ -> 20480\nallocation/metadata/disk_used -> 4658\nallocation/global_rsv_size ->\
+  \ 512\nallocation/global_rsv_reserved -> 512\nallocation/system/flags -> 0\nallocation/system/raid1/used_bytes\
+  \ -> 0\nallocation/system/raid1/total_bytes -> 32\nallocation/system/bytes_pinned\
+  \ -> 0\nallocation/system/bytes_may_use -> 0\nallocation/system/total_bytes_pinned\
+  \ -> 0\nallocation/system/bytes_reserved -> 0\nallocation/system/bytes_used -> 0\n\
+  allocation/system/total_bytes -> 32\nallocation/system/disk_total -> 64\nallocation/system/disk_used\
+  \ -> 0\nroot@cpu01:/sys/fs/btrfs/ad82b7e3-1003-4f0e-81d5-a7e9e1558802# \n\nHence\
+  \ :\nfor all btrfs ( \n    read in /sys/fs/uuid_of_fs\n        used = allocation/data/raid1/used_bytes\
+  \ -> 50483 (in MB)\n        total (in fs allocated) = allocation/data/raid1/total_bytes\
+  \ -> 72704 (in MB)\n        disksize = smallest of devices/sd?/size /2/1024 (in\
+  \ MB)\n\n    calculate\n        \n        overused = total/used (= % of fs that\
+  \ hasn\u2019t been properly deallocated)\n        so:\n            if overused >\
+  \ 140 (percentage)\n                -> balance with -dusage=$(overused - 100)\n\
+  \            if disksize/total nears 80%\n                -> balance more aggressively\
+  \ with -dusage=$(disksize/total but smaller than 100)"
+comments:
+- {body: 'old youtrack ticket:
+
+    https://youtrack.incubaid.com/issue/CB-76', id: 200004117, time: '2016/03/22 20:20:48',
+  url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/200004117',
+  user: lzonneke}
+- {body: "let's make it simple:\r\n```\r\ncrontab -l | { cat ; echo \"14 02 12 * *\
+    \ /sbin/btrfs balance start /mnt/vmstor\" } | crontab -\r\n```\r\nrun a btrfs\
+    \ balance of /mnt/vmstor @02:14 local time every 12th of the month\r\nThe line\
+    \ reads in the crontab and adds the new line, preserving previous crontabs.\r\n\
+    NOTE: running this line multiple times adds as many entries\r\n\r\nSo: I'll add\
+    \ it to the installer, so no needs for development to add it", id: 211836073,
+  time: '2016/04/19 10:01:44', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/211836073',
+  user: delandtj}
+- {body: '@maxux Can you make sure this is part of the install script?', id: 212340163,
+  time: '2016/04/20 09:07:59', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/212340163',
+  user: lzonneke}
+- {body: '@maxux  is there an update on this', id: 216484428, time: '2016/05/03 09:57:51',
+  url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/216484428',
+  user: lzonneke}
+- {body: "@delandtj said: \xAB So: I'll add it to the installer, so no needs for development\
+    \ to add it \xBB\r\nYou want it anyway on the setup.sh ?", id: 216485874, time: '2016/05/03
+    10:06:00', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/216485874',
+  user: maxux}
+id: 142767921
+labels: [priority_normal, type_feature]
+milestone: 3:ovc2.1_ga
+number: 23
+open: true
+state: open
+time: 2016/03/22 20:20:15
+title: 'Operator actions: Rebalance btrfs'
+url: https://github.com/0-complexity/openvcloud/issues/23

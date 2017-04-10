@@ -1,0 +1,37 @@
+assignee: lzonneke
+body: '- based on mellanox/2 cpu per 1U env
+
+
+  |status|title                                                         |link|
+
+  |------|--------------------------------------------------------------|----|
+
+  |open  |rdmaenv: do a complete performance test on the new environment|#21 |
+
+  |open  |rdmaenv: order Controller                                     |#20 |
+
+  |open  |rdmaenv: Install new hardware                                 |#19 |
+
+  |open  |rdmaenv: order first 2 test env                               |#4  |'
+comments:
+- {body: "All hardware is ordered PO reference PO00040\r\n\r\nhttps://odoo.greenitglobe.com/web?db=complexity#id=40&view_type=form&model=purchase.order&menu_id=377&action=445\r\
+    \n", id: 214235672, time: '2016/04/25 09:40:15', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/214235672',
+  user: lzonneke}
+- {body: '@lzonneke please add tasks with estimates.
+
+
+    See https://gig.gitbooks.io/agile/content/tickets_tasks.html for more information
+    regarding the notation.', id: 216517867, time: '2016/05/03 12:53:53', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216517867',
+  user: FastGeert}
+- {body: '@lzonneke please add estimates to your tasks :)', id: 216838881, time: '2016/05/04
+    11:56:35', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216838881',
+  user: FastGeert}
+id: 150777788
+labels: [priority_critical, state_question, type_story]
+milestone: 3:may
+number: 3
+open: true
+state: open
+time: 2016/04/25 07:45:31
+title: Research first RDMA environment (rdmaenv)
+url: https://github.com/gig-projects/org_research/issues/3

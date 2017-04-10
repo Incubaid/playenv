@@ -1,0 +1,20 @@
+assignee: ''
+body: "Globally access the following link\r\n\r\nhttps://du-conv-2.demo.greenitglobe.com/restmachine/system/contentmanager/wikisave?text=&cachekey=\r\
+  \n"
+comments:
+- {body: "Agreed that the error condition response should be:\r\n - 403 (if not logged\
+    \ in user)\r\n - 404 (if user is logged in)", id: 217124101, time: '2016/05/05
+    10:52:36', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217124101',
+  user: ramezsaeed}
+- {body: 'https://github.com/jumpscale7/jumpscale_portal/commit/433960123fdc6794cf4dc72f094bec05b98babba',
+  id: 217874172, time: '2016/05/09 14:07:29', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217874172',
+  user: grimpy}
+id: 153208710
+labels: [state_verification, type_bug]
+milestone: 2:ovc2.1_beta
+number: 118
+open: true
+state: open
+time: 2016/05/05 10:49:37
+title: Security# Globally access
+url: https://github.com/0-complexity/openvcloud/issues/118

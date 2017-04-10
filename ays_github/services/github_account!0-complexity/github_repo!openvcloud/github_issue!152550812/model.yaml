@@ -1,0 +1,18 @@
+assignee: ''
+body: '## request
+
+  When you open the Error condition section on the portal it would be nice if you
+  could see the complete error message.
+
+
+  In the current set up we need toclick on every ECO to see the error detils'
+comments: []
+id: 152550812
+labels: [priority_normal, type_feature]
+milestone: 3:ovc2.1_ga
+number: 101
+open: true
+state: open
+time: 2016/05/02 13:17:39
+title: Hover over Error messag should rovide the full error message
+url: https://github.com/0-complexity/openvcloud/issues/101

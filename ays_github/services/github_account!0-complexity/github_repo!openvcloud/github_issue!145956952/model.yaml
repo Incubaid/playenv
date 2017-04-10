@@ -1,0 +1,18 @@
+assignee: karimal
+body: "**Description:**\r\nWhen I minimize the portal screen using the Firefox, The\
+  \ \"Burger menu\" in the top action bar in the right part of the screen will be\
+  \ appeared and It's not click-able. \r\n\r\n**Sequence:**\r\n- Login with admin\
+  \ credential\r\n- Minimize the screen\r\n- Press on the burger menu in the right\
+  \ of the top bar\r\n\r\n**Actual result:**\r\n- There is no drop down menu\r\n\r\
+  \n**Expected result:**\r\n- The drop down menu which has the actions of the top\
+  \ bar must be appeared \r\n\r\n![screenshot from 2016-04-05 13-05-38](https://cloud.githubusercontent.com/assets/17981089/14279712/83342c52-fb37-11e5-80f4-f138d637490f.png)"
+comments: []
+id: 145956952
+labels: [type_bug]
+milestone: 5:ovc_backlog
+number: 47
+open: true
+state: open
+time: 2016/04/05 11:09:35
+title: he "Burger menu" in the top action bar in the small screen is not clickable
+url: https://github.com/0-complexity/openvcloud/issues/47

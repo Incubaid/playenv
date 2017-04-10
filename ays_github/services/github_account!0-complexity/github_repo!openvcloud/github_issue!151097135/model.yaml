@@ -1,0 +1,36 @@
+assignee: karimal
+body: "Attacker can get a critical info about the system like usenrames, passwords,\
+  \ CS specs or VM specs by accessing the following link without need to login or\
+  \ any thing.\r\nhttps://du-conv-2.demo.greenitglobe.com/wiki_gcb/.files/test/e2e/apiStub.js"
+comments:
+- {body: This is fake data for frontend api mock., id: 214757828, time: '2016/04/26
+    14:10:23', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/214757828',
+  user: grimpy}
+- {body: '@grimpy so why this is packaged into the product?', id: 215408236, time: '2016/04/28
+    12:27:42', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/215408236',
+  user: FastGeert}
+- {body: '@FastGeert cause packaging works by symlinking the repo :)', id: 215410256,
+  time: '2016/04/28 12:37:12', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/215410256',
+  user: grimpy}
+- {body: '@grimpy please think about a solution to solve or remove this...', id: 216476318,
+  time: '2016/05/03 09:20:21', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/216476318',
+  user: lzonneke}
+- {body: "@lzonneke @grimpy It'll be solved as a part from other improvement ticket:\
+    \ [Use more standard angular architecture (vdc-control)](https://github.com/gig-projects/org_development/issues/110)\r\
+    \nAlthough @grimpy we need to discuss how will Jumpscale use grunt to build production\
+    \ folder \"If we still need Jumpscale to build it\"", id: 216483385, time: '2016/05/03
+    09:52:54', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/216483385',
+  user: karimal}
+- {body: '@karimal the question here is how will we deploy the new vdc control? But
+    good point no need to work on it as part of openvcloud needs to be fixed in vdc
+    though', id: 216514971, time: '2016/05/03 12:39:48', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/216514971',
+  user: grimpy}
+id: 151097135
+labels: [priority_minor, type_bug]
+milestone: 2:ovc2.1_beta
+number: 86
+open: true
+state: open
+time: 2016/04/26 10:23:02
+title: Leak of frontend API mock
+url: https://github.com/0-complexity/openvcloud/issues/86

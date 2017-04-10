@@ -1,0 +1,13 @@
+assignee: ''
+body: "## GOAL:\r\nAll components should use itsyou.online for authentication\r\n\r\
+  \n"
+comments: []
+id: 154220144
+labels: []
+milestone: ''
+number: 132
+open: true
+state: open
+time: 2016/05/11 11:24:49
+title: 'beta21env: Configure cockpit to authenticate against itsyou.online'
+url: https://github.com/gig-projects/org_development/issues/132

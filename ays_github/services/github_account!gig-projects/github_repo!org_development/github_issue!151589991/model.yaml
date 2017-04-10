@@ -1,0 +1,24 @@
+assignee: ''
+body: '### Part of Story: #13
+
+
+  #### Part of Story: #13
+
+
+  ## GOAL:
+
+
+  Use latest Ubuntu 16.04 in jenkins build
+
+
+  '
+comments: []
+id: 151589991
+labels: [type_task]
+milestone: ''
+number: 93
+open: true
+state: open
+time: 2016/04/28 09:24:57
+title: '1604: Update the jenkins build'
+url: https://github.com/gig-projects/org_development/issues/93

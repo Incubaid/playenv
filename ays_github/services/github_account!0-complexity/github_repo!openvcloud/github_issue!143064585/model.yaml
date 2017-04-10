@@ -1,0 +1,15 @@
+assignee: karimal
+body: null
+comments:
+- {body: "#31 \r\n#32\r\n#33\r\n#39", id: 202056476, time: '2016/03/27 12:42:18',
+  url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/202056476',
+  user: karimal}
+id: 143064585
+labels: [type_feature]
+milestone: 2:ovc2.1_beta
+number: 26
+open: true
+state: open
+time: 2016/03/23 19:59:25
+title: Revisit responsive design in openvcloud
+url: https://github.com/0-complexity/openvcloud/issues/26

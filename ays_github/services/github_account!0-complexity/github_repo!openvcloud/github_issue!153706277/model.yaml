@@ -1,0 +1,28 @@
+assignee: ''
+body: "# Scenario\r\n1- Go to cloudbroker/accounts page \r\n2- Click \"+ add account\"\
+  \ and put 8888 in the Max Memory Capacity (or add any values in the other fields)\r\
+  \n\r\n![accc3](https://cloud.githubusercontent.com/assets/15011431/15143536/ed670b9e-16b2-11e6-9c3b-8f83ec9a8107.png)\r\
+  \n\r\n\r\n![acc1](https://cloud.githubusercontent.com/assets/15011431/15104414/b80a730c-15c0-11e6-8dbd-ac5c35de085b.png)\r\
+  \n\r\n![acc2](https://cloud.githubusercontent.com/assets/15011431/15104415/b80becb4-15c0-11e6-8955-fa9392a512ce.png)"
+comments:
+- {body: "## Environment \r\ndu-conv-2\r\n## Software Version\r\nJumpScale\r\n\r\n\
+    Core: 7.1.0b3\r\nPortal: 7.1.0b3\r\nOpenvCloud\r\n\r\nCore: 2.1.0b3\r\nOpenvStorage:\r\
+    \n\r\nopenvstorage-backend-core: 1.6.1-eugene-updates.4-1\r\nalba: 0.8.1\r\nopenvstorage-webapps:\
+    \ 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-core: 2.6.1-eugene-updates.20-1\r\nopenvstorage-hc: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\nopenvstorage: 2.6.1-eugene-updates.20-1\r\
+    \nopenvstorage-backend: 1.6.1-eugene-updates.4-1\r\nopenvstorage-sdm: 1.5.1-eugene-updates.1-1",
+  id: 217779635, time: '2016/05/09 05:36:10', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217779635',
+  user: john-kheir}
+- {body: '@john-kheir please add the steps to reproduce', id: 218109363, time: '2016/05/10
+    09:44:58', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/218109363',
+  user: lzonneke}
+id: 153706277
+labels: [type_bug]
+milestone: ''
+number: 123
+open: true
+state: open
+time: 2016/05/09 05:35:26
+title: Unhandled error when trying to add account.
+url: https://github.com/0-complexity/openvcloud/issues/123

@@ -1,0 +1,21 @@
+
+#if not specified then will create a new key
+#if specified will look in ssh-agent to try and find
+sshkey__main:
+   key.name: 'ovh_install'
+
+#login does not have to be specified, if not specified then will be account
+g8client__main:
+  g8.url: 'du-conv-3.demo.greenitglobe.com'
+  g8.login: 'despiegk'
+  g8.password: 'kds007kds'
+
+
+os.ubuntu.openvcloud__mytestmachine:
+  #g8.location: ''
+  vdc.name: 'mytest'
+  mem.size: 4
+  disk.1.size: 100
+  disk.2.size: 2000
+  disk.3.size: 2000
+

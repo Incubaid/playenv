@@ -1,0 +1,31 @@
+assignee: thongkhacl
+body: ''
+comments:
+- {body: 'Initial stories are around:
+
+    - IAAS
+
+    - Storage (on premise, off premise, archive)
+
+    - CCTV
+
+    - Private and Public Cloud', id: 217217458, time: '2016/05/05 17:26:46', url: 'https://api.github.com/repos/gig-projects/proj_centrilogic/issues/comments/217217458',
+  user: weynandkuijpers}
+- {body: "We would like to have \r\n[Webscale Cloud PRD.xlsx](https://github.com/gig-projects/proj_centrilogic/files/261772/Webscale.Cloud.PRD.xlsx)\r\
+    \nthe following functionality on Day 1.  See full PRD attached.\r\n\r\n1) IAAS\r\
+    \n  - Resource limits (cloudspace level and account level)\r\n  - Audit logging\
+    \ of activities for IAAS resources\r\n  - Manual and automatic resource scaling\r\
+    \n  - Alerts and notifications for IAAS activities (create/start/stop VM, etc.)\r\
+    \n2) Private and Public cloud (white label for private cloud)\r\n3) Storage (on\
+    \ premise, off premise, archive, S3 storage API)\r\n4) Backups\r\n\r\n", id: 218806735,
+  time: '2016/05/12 16:11:28', url: 'https://api.github.com/repos/gig-projects/proj_centrilogic/issues/comments/218806735',
+  user: thongkhacl}
+id: 151443791
+labels: [type_story]
+milestone: 12:New offering live on G8
+number: 20
+open: true
+state: open
+time: 2016/04/27 17:30:17
+title: Stories written to secure new offering on G8
+url: https://github.com/gig-projects/proj_centrilogic/issues/20

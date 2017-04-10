@@ -1,0 +1,19 @@
+assignee: ''
+body: "### Part of Story: #53\r\n\r\n## GOAL:\r\nUpdate the telegram bot that deploy\
+  \ a cockpit to use the dedicated blueprint instead of using a deploy script.\r\n\
+  \r\n## DESCRIPTION:\r\nCurrently the telegram bot that deploy a cockpit (https://github.com/0-complexity/g8cockpit/blob/telegram_bot/scripts/cockpitbot.py)\
+  \ don't use AYS to deploy the cockpit. This need to be change now that we have a\
+  \ working blueprint. (https://github.com/gig-projects/playenv/tree/master/ays_cockpit)\r\
+  \n\r\n## Requirements:\r\n- [x] move the blueprint in the https://github.com/Jumpscale/jscockpit/\
+  \ repo\r\n- [x] update the code of the telegram bot to use the cockpit instead of\
+  \ the script.\r\n- [ ]  forward AYS logs to telegram to give visibility to the user"
+comments: []
+id: 151572661
+labels: [type_task]
+milestone: ''
+number: 88
+open: true
+state: open
+time: 2016/04/28 07:57:40
+title: 'cockpit-itsyou.online: Integrate cockpit blueprint in Telegram bot'
+url: https://github.com/gig-projects/org_development/issues/88

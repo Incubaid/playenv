@@ -1,0 +1,18 @@
+code.path                      = '/Users/despiegk/optvar/var/codetmp/0-complexity/openvcloud_ays'
+
+github.client                  = 
+github.config                  = 
+
+kds.name                       = 'ss'
+
+milestone.category             =
+    'code_ovc',
+
+milestones                     =
+    'ovc210',
+    'ovc210_beta',
+
+repo.account                   = '0-complexity'
+repo.name                      = 'openvcloud_ays'
+repo.type                      = 'ays'
+repo.url                       = 'https://github.com/0-complexity/openvcloud_ays'

@@ -1,0 +1,15 @@
+assignee: ''
+body: "### Part of Story: #16\r\n\r\n## GOAL:\r\nThe AE backend should receive notifications\
+  \ when WHMCS tickets have been updated.\r\n\r\n## DESCRIPTION:\r\n* Create hooks\
+  \ for WHMCS\r\n  * this is written in php  \r\n* ask Bart/Yves to see example hooks\
+  \ on be-scale-3"
+comments: []
+id: 150881298
+labels: [type_task]
+milestone: ''
+number: 75
+open: true
+state: open
+time: 2016/04/25 14:33:20
+title: 'resellerapp: WHMCS - Create hooks for tickets [20h]'
+url: https://github.com/gig-projects/org_development/issues/75

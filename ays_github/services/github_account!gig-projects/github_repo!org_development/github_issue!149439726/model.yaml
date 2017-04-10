@@ -1,0 +1,19 @@
+assignee: zaibon
+body: "### Part of Story: #3\r\n\r\n"
+comments:
+- {body: 'In pause at the moment. Waiting for proper API description that integrate
+    itsyou.online, support for multiple interface (REST, telegram, Email)', id: 215084596,
+  time: '2016/04/27 13:35:19', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/215084596',
+  user: zaibon}
+- {body: 'Specs are in progress at https://github.com/Jumpscale/jscockpit/blob/master/specs/geventbased_robot.md',
+  id: 216483061, time: '2016/05/03 09:50:59', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216483061',
+  user: zaibon}
+id: 149439726
+labels: [state_question, type_task]
+milestone: ''
+number: 7
+open: true
+state: open
+time: 2016/04/19 12:05:48
+title: 'cockpit: finish/review robot '
+url: https://github.com/gig-projects/org_development/issues/7

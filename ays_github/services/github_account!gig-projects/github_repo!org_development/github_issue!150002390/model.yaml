@@ -1,0 +1,53 @@
+assignee: karimal
+body: "GOAL:** Provide a control panel for customers to manage their virtual datacenters\
+  \ (VDC)\r\n DESCRIPTION:**\r\n\r\n     - Virtual datacenter (VDC) is the new name\
+  \ for cloud space\r\n     - The VDC Control Panel is the equivalent of the End User\
+  \ Portal, but then one Control Panel per  virtual datacenter (\"cloud space\"),\
+  \ so for each VDC there is only one VDC Control Panel\r\n     - VDC Control Panel\
+  \ users are authenticated by Itsyou.online\r\n     - VDC Control Panel can be stand-alone,\
+  \ or embedded in Cockpit portal, or in any other web front-end such as a WHMCS end\
+  \ user portal (\"WHMCS Client Area\")\r\n\r\n|status|title                     \
+  \                                               |link|\r\n|------|-------------------------------------------------------------------------|----|\r\
+  \n| open |vdc-control: ityou.online authentication for VDC Control Panel       \
+  \    |#113|\r\n|open  |vdc-control: Review VDC Control Panel documentation text\
+  \                 |#112|\r\n|open  |vdc-control: Use more standard angular architecture\
+  \ [1d]                 |#110|\r\n|open  |vdc-control: Use bower packages instead\
+  \ of jslib libraries [3h]          |#109|\r\n|open  |vdc-control: Make VDC Control\
+  \ Panel stand alone angular application [20h]|#107|"
+comments:
+- {body: 'what is the status here? @yveskerwyn @FastGeert  how much work left', id: 216417182,
+  time: '2016/05/03 02:07:18', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216417182',
+  user: despiegk}
+- {body: '@karimal can you share here where we are with the VDC Control Panel?', id: 216453614,
+  time: '2016/05/03 06:55:51', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216453614',
+  user: yveskerwyn}
+- {body: '@despiegk, @karimal freshly added the tasks in this story card. 5 days of
+    remaining work. @karimal will comment ETA daily after each Story meeting,', id: 216507648,
+  time: '2016/05/03 12:03:00', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216507648',
+  user: FastGeert}
+- {body: 'Pause here to switch work on [Greenboats](https://github.com/Incubaid/www_greenboats)
+    and [Midori](https://github.com/Incubaid/www_midori)', id: 217104799, time: '2016/05/05
+    08:45:30', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/217104799',
+  user: karimal}
+- {body: '@karimal @despiegk When will you be resuming work on VDC Panel?', id: 217793222,
+  time: '2016/05/09 07:23:35', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/217793222',
+  user: FastGeert}
+- {body: '@FastGeert I''ll back to work on it now', id: 218148095, time: '2016/05/10
+    12:53:31', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218148095',
+  user: karimal}
+- {body: '@karimal Please report how much remaing work. Thanks.', id: 218389219, time: '2016/05/11
+    08:00:39', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218389219',
+  user: FastGeert}
+- {body: "ETA: Thursday, May 12\r\nYesterday finished converting main app pages\r\n\
+    I will work today on convert pure wiki pages into html then I 'll start on public\
+    \ pages", id: 218698179, time: '2016/05/12 08:54:35', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218698179',
+  user: karimal}
+id: 150002390
+labels: [state_inprogress, type_story]
+milestone: 7:G8-2.1-beta
+number: 38
+open: true
+state: open
+time: 2016/04/21 08:26:03
+title: VDC Control Panel (vdc-control)
+url: https://github.com/gig-projects/org_development/issues/38

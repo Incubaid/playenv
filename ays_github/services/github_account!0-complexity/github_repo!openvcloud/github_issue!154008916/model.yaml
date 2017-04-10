@@ -1,0 +1,22 @@
+assignee: ''
+body: "I think this should be removed from the menu, check attached screen shots \r\
+  \n\r\n'''\r\nJumpScale\r\n\r\n    Core: 7.1.0b3\r\n    Portal: 7.1.0b3\r\n\r\nOpenvCloud\r\
+  \n\r\n    Core: 2.1.0b3\r\n\r\nOpenvStorage:\r\n\r\n    openvstorage-backend-core:\
+  \ 1.6.1-eugene-updates.4-1\r\n    alba: 0.8.1\r\n    openvstorage-webapps: 2.6.1-eugene-updates.20-1\r\
+  \n    openvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\n    openvstorage-core:\
+  \ 2.6.1-eugene-updates.20-1\r\n    openvstorage-hc: 1.6.1-eugene-updates.4-1\r\n\
+  \    openvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\n    openvstorage: 2.6.1-eugene-updates.20-1\r\
+  \n    openvstorage-backend: 1.6.1-eugene-updates.4-1\r\n    openvstorage-sdm: 1.5.1-eugene-updates.1-1\r\
+  \n'''\r\n\r\n\r\n![ssss](https://cloud.githubusercontent.com/assets/16098294/15148375/97570a90-16cd-11e6-913b-2ac164f3e544.png)\r\
+  \n![aa](https://cloud.githubusercontent.com/assets/16098294/15148376/975e73a2-16cd-11e6-8f59-48a4fecf2a79.png)\r\
+  \n"
+comments: []
+id: 154008916
+labels: []
+milestone: ''
+number: 129
+open: true
+state: open
+time: 2016/05/10 13:40:05
+title: Consumption page not found
+url: https://github.com/0-complexity/openvcloud/issues/129

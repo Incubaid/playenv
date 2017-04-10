@@ -1,0 +1,7 @@
+description                    = 
+
+service.domain                 = 'jumpscale'
+service.instance               = 'main'
+service.name                   = 'vdcfarm'
+service.role                   = 'vdcfarm'
+service.version                = 

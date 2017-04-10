@@ -1,0 +1,8 @@
+
+location = type:str  @ask
+description = 'is rack in form of table e.g. table in garage palm test purposes'
+
+datacenter = type:str parent:datacenter 
+
+
+

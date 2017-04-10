@@ -1,0 +1,14 @@
+assignee: despiegk
+body: "\r\n- make sure all has personal account with syncthing\r\n- store docs at\
+  \ backend NAS\r\n- make sure info get's archived and only relevant new info stays\
+  \ synced\r\n\r\nuses some ideas of what we will use for our customers too\r\n"
+comments: []
+id: 150768378
+labels: [type_story]
+milestone: 4:june
+number: 7
+open: true
+state: open
+time: 2016/04/25 07:03:17
+title: revive document infrastructure  syncthing (gigdocstor)
+url: https://github.com/gig-projects/org_internalit/issues/7

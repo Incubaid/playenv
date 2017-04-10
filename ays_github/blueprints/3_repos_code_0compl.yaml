@@ -1,0 +1,28 @@
+github_repo__openvcloud:
+  repo.name : 'openvcloud'
+  repo.type : 'code'
+  repo.account : '0-complexity'
+  milestone.category : 'code_ovc'
+
+github_repo__openvcloud_ays7:
+  repo.name : 'openvcloud_ays'
+  repo.type : 'ays'
+  repo.account : '0-complexity'
+  milestone.category : 'code_ovc'
+
+github_repo__home:
+  repo.name : 'home'
+  repo.type : 'home'
+  repo.account : '0-complexity'
+  milestone.category : 'code_ovc'
+
+github_repo__topicboard:
+  repo.name : 'topicboard'
+  repo.type : 'code'
+  repo.account : '0-complexity'
+  milestone.category : 'code_ovc'
+
+# github_repo__openvcloud_ays8_templates:
+#   repo.name : 'ays_openvcloud'
+#   repo.type : 'ays'
+#   repo.account : '0-complexity'

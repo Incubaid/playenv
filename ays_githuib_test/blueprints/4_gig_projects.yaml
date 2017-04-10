@@ -1,0 +1,6 @@
+
+
+github_repo__proj_gig_organization:
+  repo.type : 'proj'
+  repo.account : 'gig-projects'
+  milestone.category : 'gig'  

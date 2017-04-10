@@ -1,0 +1,21 @@
+assignee: svekeman
+body: "**Goal**\r\ncreate a plan and business dashboard with overview of targeted\
+  \ countries, potential, channels to market, competition, partners and investors,\
+  \ so we can track progress and brief our staff.\r\n\r\n**Description**\r\n- Numbers:\
+  \ http://bit.ly/gotomarketGIG \r\n- Presentation: http://bit.ly/G2M-GIG-Deck "
+comments:
+- {body: 'Finished draft prepared by Andreas. Needs review with @willemhendrickx ',
+  id: 216559190, time: '2016/05/03 15:09:48', url: 'https://api.github.com/repos/gig-projects/org_strategy/issues/comments/216559190',
+  user: svekeman}
+- {body: 'Updated country list available: https://docs.google.com/a/incubaid.com/spreadsheets/d/112wqezE_w0D9u3InKjSepagrPY_G_lxLU1-UPYbWM1o/edit?usp=sharing ',
+  id: 218459050, time: '2016/05/11 13:29:19', url: 'https://api.github.com/repos/gig-projects/org_strategy/issues/comments/218459050',
+  user: svekeman}
+id: 152520752
+labels: [priority_urgent, state_question, type_story]
+milestone: ''
+number: 1
+open: true
+state: open
+time: 2016/05/02 09:45:13
+title: GTM GIG + Country Dashboard (execute2016)
+url: https://github.com/gig-projects/org_strategy/issues/1

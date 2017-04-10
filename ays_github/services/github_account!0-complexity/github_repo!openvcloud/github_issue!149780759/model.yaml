@@ -1,0 +1,45 @@
+assignee: ''
+body: "## Description\r\nThere are still screenshots of Mothership1 in our end user\
+  \ portal. All links to mothership1 should be removed.\r\n\r\n- go to the end user\
+  \ portal\r\n- go to the Knowledge base section\r\n- select \"PPTP Connection To\
+  \ Space From Windows 8.1\"\r\n\r\nbelow screen shots from Mothership1\r\n\r\n![mothership1](https://cloud.githubusercontent.com/assets/15102982/14677708/fc8adb6e-0712-11e6-8570-8548d5675152.JPG)\r\
+  \n\r\n\r\n## Environment and version\r\ndu-conv-2\r\n\r\nJumpScale\r\n\r\nCore:\
+  \ 7.0.5rc3\r\nPortal: 7.0.5rc3\r\nOpenvCloud\r\n\r\nCore: 2.0.5rc3\r\nOpenvStorage:\r\
+  \n\r\nopenvstorage-backend-core: 1.6.1-eugene-updates.4-1\r\nalba: 0.8.1\r\nopenvstorage-webapps:\
+  \ 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\
+  \nopenvstorage-core: 2.6.1-eugene-updates.20-1\r\nopenvstorage-hc: 1.6.1-eugene-updates.4-1\r\
+  \nopenvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\nopenvstorage: 2.6.1-eugene-updates.20-1\r\
+  \nopenvstorage-backend: 1.6.1-eugene-updates.4-1\r\nopenvstorage-sdm: 1.5.1-eugene-updates.1-1\r\
+  \n\r\n## Expected result\r\nWe should have GreenITGlobe in those screen shots"
+comments:
+- {body: "I changed the screenshot...\r\n\r\nBut there is more work with this page...\r\
+    \n\r\nI will rewrite the whole thing with screenshots of Windows 10...", id: 215073680,
+  time: '2016/04/27 12:58:10', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/215073680',
+  user: yveskerwyn}
+- {body: '@grimpy thanks for reviewing', id: 215347451, time: '2016/04/28 08:19:43',
+  url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/215347451',
+  user: yveskerwyn}
+- {body: "## Tested on du-conv-2 \r\nIt seems that the new updates is not merged yet\r\
+    \n![ms1](https://cloud.githubusercontent.com/assets/15011431/15105448/f50f758a-15c1-11e6-93e8-9784cf436eef.png)\r\
+    \n\r\n## Software Version \r\nJumpScale\r\n\r\nCore: 7.1.0b3\r\nPortal: 7.1.0b3\r\
+    \nOpenvCloud\r\n\r\nCore: 2.1.0b3\r\nOpenvStorage:\r\n\r\nopenvstorage-backend-core:\
+    \ 1.6.1-eugene-updates.4-1\r\nalba: 0.8.1\r\nopenvstorage-webapps: 2.6.1-eugene-updates.20-1\r\
+    \nopenvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\nopenvstorage-core:\
+    \ 2.6.1-eugene-updates.20-1\r\nopenvstorage-hc: 1.6.1-eugene-updates.4-1\r\nopenvstorage-cinder-plugin:\
+    \ 1.1.1-eugene-updates.1-1\r\nopenvstorage: 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend:\
+    \ 1.6.1-eugene-updates.4-1\r\nopenvstorage-sdm: 1.5.1-eugene-updates.1-1", id: 217787501,
+  time: '2016/05/09 06:43:50', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217787501',
+  user: john-kheir}
+- {body: '@grimpy can you review the merge and put this on the correct branch', id: 218104917,
+  time: '2016/05/10 09:25:18', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/218104917',
+  user: lzonneke}
+id: 149780759
+labels: [priority_normal, state_verification, type_bug]
+milestone: 2:ovc2.1_beta
+number: 77
+open: true
+state: open
+time: 2016/04/20 14:16:14
+title: Remove Mothership1 related screen shots and replace with GreenITGlobe screen
+  shots
+url: https://github.com/0-complexity/openvcloud/issues/77

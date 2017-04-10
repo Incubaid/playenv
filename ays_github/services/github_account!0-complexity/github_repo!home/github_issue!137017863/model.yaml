@@ -1,0 +1,15 @@
+assignee: ''
+body: ''
+comments:
+- {body: 'bert OVS, needs to help to get OVS side going', id: 189804051, time: '2016/02/28
+    06:58:13', url: 'https://api.github.com/repos/g8os/home/issues/comments/189804051',
+  user: despiegk}
+id: 137017863
+labels: []
+milestone: '1:8.0'
+number: 7
+open: true
+state: open
+time: 2016/02/28 06:54:14
+title: get bert up to speed
+url: https://github.com/g8os/home/issues/7

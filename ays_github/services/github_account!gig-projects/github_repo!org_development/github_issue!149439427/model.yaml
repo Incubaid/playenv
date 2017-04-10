@@ -1,0 +1,14 @@
+assignee: ''
+body: "### Part of Story: #3 \r\n\r\n- do an example implementation for 1 test env\
+  \ in ghent\r\n- write specs which instrumentation would be nice to have (is ays8\
+  \ on top of ays7)"
+comments: []
+id: 149439427
+labels: [type_task]
+milestone: ''
+number: 6
+open: true
+state: open
+time: 2016/04/19 12:04:50
+title: 'cockpit: enable ays7 inside cockpit'
+url: https://github.com/gig-projects/org_development/issues/6

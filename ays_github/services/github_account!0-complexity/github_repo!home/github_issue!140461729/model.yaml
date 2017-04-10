@@ -1,0 +1,19 @@
+assignee: ''
+body: "see\r\n\r\nhttps://github.com/g8os/builder\r\n\r\nphase 1\r\n- build kernel\
+  \ (through docker)\r\n- build arch x64 and create tgz\r\n    - this tgz should install\
+  \ through our cuisine module\r\n- push to our pub gig reflectors https://github.com/g8os/home/issues/10\r\
+  \n- push the binaries over rsync to same reflector (allow easy update of stick)\r\
+  \n\r\n\r\n"
+comments:
+- {body: "Building is done.\r\nUpload still need tbd", id: 202062133, time: '2016/03/27
+    13:20:20', url: 'https://api.github.com/repos/g8os/home/issues/comments/202062133',
+  user: grimpy}
+id: 140461729
+labels: [priority_urgent, state_inprogress]
+milestone: '1:8.0'
+number: 11
+open: true
+state: open
+time: 2016/03/13 07:43:32
+title: auto build (cuisine) for G8OS
+url: https://github.com/g8os/home/issues/11

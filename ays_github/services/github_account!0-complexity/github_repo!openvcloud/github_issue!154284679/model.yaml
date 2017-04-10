@@ -1,0 +1,28 @@
+assignee: ''
+body: "Attacker can create a XSS attack by using \uFF1CSCRIPT\uFE65 instead of < script>\
+  \ and reload his malicious code. \r\n\r\n**Sequance:-**\r\n1- Create new account,\
+  \ CS or even a VM with a name look like this \uFF1CSCRIPT\uFE65alert(\"Helloo\"\
+  )\uFF1C/SCRIPT\uFE65\r\n![screenshot from 2016-05-11 18-17-38](https://cloud.githubusercontent.com/assets/17981089/15188185/1b314616-17ad-11e6-90dd-eefadf9391c5.png)\r\
+  \n\r\n2- load this account, CS or VM by pressing its ID\r\n![screenshot from 2016-05-11\
+  \ 18-18-37](https://cloud.githubusercontent.com/assets/17981089/15188262/62e34824-17ad-11e6-99ba-34e09f1e1d07.png)\r\
+  \n\r\n\r\nActual Result: \r\nThe script will be executed and their is a punish of\
+  \ error too.\r\n![screenshot from 2016-05-11 18-18-37](https://cloud.githubusercontent.com/assets/17981089/15188250/552ce758-17ad-11e6-99ca-5d1b79bf3723.png)\r\
+  \n![screenshot from 2016-05-11 18-19-18](https://cloud.githubusercontent.com/assets/17981089/15188249/552c8d30-17ad-11e6-9e20-6e7a9fa410a8.png)\r\
+  \n\r\nHint: Tested in a lot of env and its working I will add all URLs I found infected\
+  \ with unicode issue.\r\n\r\nSoftware:-\r\nJumpScale\r\n\r\nCore: 7.1.0b3\r\nPortal:\
+  \ 7.1.0b3\r\n\r\nOpenvCloud\r\n\r\nCore: 2.1.0b3\r\n\r\nOpenvStorage:\r\n\r\nopenvstorage-backend-core:\
+  \ 1.6.1-eugene-updates.4-1\r\nalba: 0.8.1\r\nopenvstorage-webapps: 2.6.1-eugene-updates.20-1\r\
+  \nopenvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\nopenvstorage-core: 2.6.1-eugene-updates.20-1\r\
+  \nopenvstorage-hc: 1.6.1-eugene-updates.4-1\r\nopenvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\
+  \nopenvstorage: 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend: 1.6.1-eugene-updates.4-1\r\
+  \nopenvstorage-sdm: 1.5.1-eugene-updates.1-1\r\n"
+comments: []
+id: 154284679
+labels: [priority_critical, type_bug]
+milestone: ''
+number: 137
+open: true
+state: open
+time: 2016/05/11 16:20:23
+title: Security# XSS vulnerability in accounts, CSs and VMs
+url: https://github.com/0-complexity/openvcloud/issues/137

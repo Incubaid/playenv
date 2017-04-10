@@ -1,0 +1,61 @@
+
+# G8OS
+github_repo__core:
+  repo.name : 'core'
+  repo.type : 'code'
+  repo.account : 'g8os'
+  milestone.category : 'code_g8os'
+
+github_repo__corectl:
+  repo.name : 'corectl'
+  repo.type : 'code'
+  repo.account : 'g8os'
+  milestone.category : 'code_g8os'
+
+github_repo__builder_arch_i64:
+  repo.name : 'builder_arch_i64'
+  repo.type : 'code'
+  repo.account : 'g8os'
+  milestone.category : 'code_g8os'
+
+github_repo__fs:
+  repo.name : 'fs'
+  repo.type : 'code'
+  repo.account : 'g8os'
+  milestone.category : 'code_g8os'
+
+github_repo__home:
+  repo.name : 'home'
+  repo.type : 'home'
+  repo.account : 'g8os'
+  milestone.category : 'code_g8os'
+
+github_repo__controller:
+  repo.name : 'controller'
+  repo.type : 'code'
+  repo.account : 'g8os'
+  milestone.category : 'code_g8os'
+
+github_repo__stor:
+    repo.name : 'stor'
+    repo.type : 'code'
+    repo.account : 'g8os'
+    milestone.category : 'code_g8os'
+
+github_repo__testenv:
+    repo.name : 'testenv'
+    repo.type : 'ays'
+    repo.account : 'g8os'
+    milestone.category : 'code_g8os'
+
+github_repo__manager:
+  repo.name : 'manager'
+  repo.type : 'ays'
+  repo.account : 'g8os'
+  milestone.category : 'code_g8os'
+
+github_repo__hubble:
+  repo.name : 'hubble'
+  repo.type : 'code'
+  repo.account : 'g8os'
+  milestone.category : 'code_g8os'

@@ -1,0 +1,30 @@
+assignee: davshafik
+body: David Is going to add some improvements here
+comments:
+- {body: '@davshafik this is incomplete ticket, please add requirements', id: 214686015,
+  time: '2016/04/26 09:43:49', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/214686015',
+  user: lzonneke}
+- {body: "1- make grid portal to send out telegram or mail or ... event when the status\
+    \ goes to RED / ORANGE.  Provide a simple link in the telegram to the error conditions\
+    \ that caused the status change\r\n\r\n2 - show traffic statistics for the networking\
+    \ traffic in influx db - not only taking information from the compute nodes, but\
+    \ also providing information on the switches.  Information required : bandwidth\
+    \ used over last x hours / days for each NIC / each port from the switch to the\
+    \ compute node / each port from the switch to the storage node / each port from\
+    \ the switch to the outside world ... add these to GRAFANA graphics\r\n\r\n3 -\
+    \ when networking traffic goes beyond threshold then create alarm in the portal\r\
+    \n- if internal traffic > 70% of a connection for > 10 mins then state orange\r\
+    \n- if internal traffic > 80% of a connection for > 20 mins then state red\r\n\
+    - if external traffic > 80% of a connection for > 20 mins then state red\r\n-\
+    \ if all packets dropped on external / internal interface > 30 secs then state\
+    \ red\r\n", id: 216388226, time: '2016/05/02 22:50:18', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/216388226',
+  user: davshafik}
+id: 148639514
+labels: [priority_normal, state_question, type_feature]
+milestone: 3:ovc2.1_ga
+number: 65
+open: true
+state: open
+time: 2016/04/15 11:46:36
+title: Monitoring improvements requested by Support for GRID Healthcheck
+url: https://github.com/0-complexity/openvcloud/issues/65

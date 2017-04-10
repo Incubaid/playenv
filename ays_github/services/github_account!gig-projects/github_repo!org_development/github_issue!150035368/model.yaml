@@ -1,0 +1,16 @@
+assignee: muhamadazmy
+body: "### Part of Story: #40\n\n#### Part of Story: #40\n\n - on new repo: 0-complexity/vnas_remote-\
+  \ specs ...\n - starts from existing code- put metadata & fuse layer on same\n"
+comments:
+- {body: "Specs: \r\nhttps://docs.google.com/a/incubaid.com/document/d/1Wg_QYDhFdM5eTHBh8RQFkosS7FIG3dzVoFoLO5odfDY/edit?usp=sharing",
+  id: 216505982, time: '2016/05/03 11:53:09', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216505982',
+  user: muhamadazmy}
+id: 150035368
+labels: [priority_urgent, state_inprogress, type_task]
+milestone: ''
+number: 47
+open: true
+state: open
+time: 2016/04/21 10:45:25
+title: 'g8way: write specs & architecture'
+url: https://github.com/gig-projects/org_development/issues/47

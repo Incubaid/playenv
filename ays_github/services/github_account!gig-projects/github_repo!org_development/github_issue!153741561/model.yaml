@@ -1,0 +1,15 @@
+assignee: maxux
+body: "## GOAL:\r\n- Build a comprehensive documentation of what exists actually\r\
+  \n- Build staging install script (in python or bash, not ays)\r\n\r\n## DESCRIPTION:\r\
+  \n- Make an install script to avoid long manual setup to deploy the staging version.\
+  \ Bash or python script will avoid ays unstable dependancies.\r\n\r\n"
+comments: []
+id: 153741561
+labels: [state_inprogress, type_task]
+milestone: ''
+number: 117
+open: true
+state: open
+time: 2016/05/09 09:57:14
+title: 'G8NAS: documentation and install script [2d]'
+url: https://github.com/gig-projects/org_development/issues/117

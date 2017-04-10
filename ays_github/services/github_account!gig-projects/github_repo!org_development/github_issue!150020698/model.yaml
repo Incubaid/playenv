@@ -1,0 +1,48 @@
+assignee: grimpy
+body: "GOAL :** Describe here what we want to achieve.\r\n\r\n## what\r\n\r\n    \
+  \ - a separate product requires OVC 2.1.0\r\n     - vnas running on top of any openvcloud\r\
+  \n     - managed from cockpit which runs in the ovc\r\n\r\n## features\r\n\r\n \
+  \    - security on share level\r\n     - ays configuration of shares & usermgmt\r\
+  \n     - workflows (ays actions) can be started based on file/directory changes\r\
+  \n     - monitoring build into the ays\r\n     - ftp & cifs\r\n     - ftp needs\
+  \ to use ldap backend\r\n     - cifs needs to use ldap backend\r\n     - encryption\
+  \ per nas backend (e.g. encfs): we need to test or we use encryption in OVS\r\n\r\
+  \n|status|title                                              |link|\r\n|------|---------------------------------------------------|----|\r\
+  \n|open  |vnas: CIFS working on top of ldap backend          |#86 |\r\n|open  |vnas:\
+  \ ftp working on top of ldap backend           |#85 |\r\n|open  |vnas: Test encfs\
+  \                                   |#84 |\r\n|open  |vnas: Telegram commands to\
+  \ deploy and manage a Vnas|#83 |\r\n|open  |vnas: Blueprint for Vnas deployement\
+  \               |#82 |\r\n|open  |vnas: Review actual implementation of vnaslb \
+  \      |#81 |\r\n|open  |vnas: specs & preparation                          |#51\
+  \ |\r\n\r\nMain repo: https://github.com/0-complexity/vnaslb"
+comments:
+- {body: "@muhamadazmy where are the specs? They need to be fully reviewed by me,\
+    \ please create task for me.\r\n@FastGeert\r\n\r\n- specs should describe what\
+    \ is missing, what needs to be done\r\n- also need estimate put in this story\r\
+    \n- where is the repo for this story\r\n", id: 216417428, time: '2016/05/03 02:09:35',
+  url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216417428',
+  user: despiegk}
+- {body: '@despiegk Here is the repo: https://github.com/0-complexity/vnaslb', id: 217822174,
+  time: '2016/05/09 09:50:42', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/217822174',
+  user: FastGeert}
+- {body: "name needs to become: G8NAS\r\nplease change repo as well\r\n", id: 217832338,
+  time: '2016/05/09 10:42:32', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/217832338',
+  user: despiegk}
+- {body: '@grimpy Jo, please move the specs to the repo (markdown format) and complete
+    them. Also make them complete as the google doc is very consize.
+
+    When an outsider reads the specifications they should understand how the G8NAS
+    works.', id: 217863122, time: '2016/05/09 13:25:58', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/217863122',
+  user: FastGeert}
+- {body: '@grimpy  Please document remainin workload.', id: 218163804, time: '2016/05/10
+    13:53:04', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218163804',
+  user: FastGeert}
+id: 150020698
+labels: [state_question, type_story]
+milestone: 7:G8-2.1-beta
+number: 39
+open: true
+state: open
+time: 2016/04/21 09:38:46
+title: G8NAS 1.0  (G8NAS)
+url: https://github.com/gig-projects/org_development/issues/39

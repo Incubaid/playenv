@@ -1,0 +1,35 @@
+assignee: grimpy
+body: "### Part of Story: #38\r\n\r\n## GOAL:\r\n\r\nHow will we integrate ityou.online\
+  \ authentication with Angular app of VDC Control Panel?\r\n\r\n## DESCRIPTION:\r\
+  \n\r\n"
+comments:
+- {body: "\r\n![whmcs-itsyou online-integration](https://cloud.githubusercontent.com/assets/3511318/14985607/88e9abd2-1148-11e6-81c3-5736aad3ac0d.png)\r\
+    \n\r\n# A Application login flow\r\nThis is the normal oauth2 code authorization\
+    \ grant type. \r\n1) User browses to the whmcs site\r\n2) User is redirected over\
+    \ the Itsyou.online website and on successfull login and if the user authorizes\
+    \ the whmcs site, is redirected to the whmcs site with a code. \r\n3) The whmcs\
+    \ application exchanges the code for an oauth token and starts a trusted session\
+    \ with the user.\r\n\r\n# B VDC access flow\r\n## B1 Minimal changes to the G8\
+    \ software\r\n4) User wants access to his VDC through the VDC control panel.\r\
+    \n5) Using the oauth token from step 3, the whmcs asks for a JWT token with only\
+    \ the \"user:read\" scope.\r\n6) Using the JWT from step 5, login in to the G8\
+    \ to get an api key\r\n7) Set the api key in the browser.\r\n8) The VDC control\
+    \ panel uses the apikey for cors requests to the G8\r\n\r\n## B2 G8 supports JWT\
+    \ as apikey\r\n4) User wants access to his VDC through the VDC control panel\r\
+    \n5) Using the oauth token from step 3, the whmcs asks for a JWT token with only\
+    \ the \"user:read\" scope.\r\n6) The JWT is set as api key in the browser\r\n\
+    7) The VDC control panel uses the JWT as apikey for cors requests to the G8",
+  id: 216538140, time: '2016/05/03 14:05:50', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216538140',
+  user: robvanmieghem}
+- {body: '@grimpy Can you give an estimate on the G8 workload for B1/B2 ?', id: 216551392,
+  time: '2016/05/03 14:44:29', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216551392',
+  user: robvanmieghem}
+id: 152745185
+labels: [priority_normal, state_question, type_task]
+milestone: ''
+number: 113
+open: true
+state: open
+time: 2016/05/03 10:41:23
+title: 'vdc-control: ityou.online authentication for VDC Control Panel [4d]'
+url: https://github.com/gig-projects/org_development/issues/113

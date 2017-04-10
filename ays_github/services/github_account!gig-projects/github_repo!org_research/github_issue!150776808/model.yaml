@@ -1,0 +1,38 @@
+assignee: delandtj
+body: "- test all required features asap\r\n- document how to configure\r\n- create\
+  \ ays8 to configure the switch"
+comments:
+- {body: '@despiegk is this critical to the 2.1 beta release, and to whom should this
+    story be assigned?', id: 216516619, time: '2016/05/03 12:48:10', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216516619',
+  user: FastGeert}
+- {body: "yes this is critical\nJan should do this asap\nshould be tested\n\nOn Tue,\
+    \ May 3, 2016 at 4:48 PM, Geert Audenaert <notifications@github.com>\nwrote:\n\
+    \n> @despiegk <https://github.com/despiegk> is this critical to the 2.1 beta\n\
+    > release, and to whom should this story be assigned?\n>\n> \u2014\n> You are\
+    \ receiving this because you were mentioned.\n> Reply to this email directly or\
+    \ view it on GitHub\n> <https://github.com/gig-projects/org_research/issues/2#issuecomment-216516619>\n\
+    >\n\n\n\n-- \n------------------------\nKristof De Spiegeleer\n+971525609014\n\
+    +201206927877\n+32 475405474\nskype: despiegk\n", id: 216605074, time: '2016/05/03
+    17:31:11', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216605074',
+  user: despiegk}
+- {body: '@delandtj can you please add the necessary tasks to this story.
+
+
+    Refer to the process bible for information how to create tasks linked to a story
+    and their notation.  See https://gig.gitbooks.io/agile/content/tickets_tasks.html
+
+    Do not forget to add estimates, thanks.', id: 216811965, time: '2016/05/04 09:38:17',
+  url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216811965',
+  user: FastGeert}
+- {body: '@delandtj can you also add the required tests and assign them to me... ',
+  id: 218146988, time: '2016/05/10 12:49:11', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/218146988',
+  user: lzonneke}
+id: 150776808
+labels: [priority_critical, state_question, type_story]
+milestone: 3:may
+number: 2
+open: true
+state: open
+time: 2016/04/25 07:39:38
+title: research mellanox switch (mellanox)
+url: https://github.com/gig-projects/org_research/issues/2

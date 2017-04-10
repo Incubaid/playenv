@@ -1,0 +1,11 @@
+events:
+  generic: [update_from_github]
+instanceHRDHash: 401c3c9bffdcf18d860deb20d8dfae23
+parent: github_repo!core
+producers:
+  github_repo: [github_repo!core]
+recipe: github_issue
+recurring: {}
+state: {getissuefromgithub: CHANGED, getissuesfromgithub: OK, init: OK, install: OK,
+  process: CHANGED, processissues: ERROR, update_from_github: CHANGED}
+templateHRDHash: 20bf91f2672a6dc530d912af52b9649f

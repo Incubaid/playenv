@@ -1,0 +1,13 @@
+assignee: ''
+body: "## requirements\r\n- very easy ui, too techy but is ok\r\n- jsportal based\r\
+  \n- on top of ays\r\n- some influxdb with some stats from fuse layer"
+comments: []
+id: 150034673
+labels: []
+milestone: ''
+number: 45
+open: true
+state: open
+time: 2016/04/21 10:41:44
+title: 'jsportal: management of vnas remote'
+url: https://github.com/gig-projects/org_development/issues/45

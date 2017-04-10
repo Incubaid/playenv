@@ -1,0 +1,30 @@
+assignee: lzonneke
+body: "## GOAL:\r\nGet the machines in optimal condition\r\n\r\n## PROBLEM:\r\nI heard\
+  \ from Stefaan (OVS) that the two chassis are now equipped with SMR disks of bad\
+  \ quality. If possible replace these SMR disks with normal sata disks (140 pieces\
+  \ / 4 times 35)\r\n"
+comments:
+- {body: "ok, we will use the microcloud using the 8 blades connected to the mellanox\
+    \ and to 2 quanta nodes...\r\n\r\nI'm waiting feed back of steven DP on HDD inventory\
+    \ in order to have a clear view on workable HDD...\r\n\r\nI'm pretty sure we do\
+    \ not have 140 disks available, so this would require an additional investment.\r\
+    \nI assume you would like to have 35 disks per server (2 servers in one node)\
+    \ so 2 quantas equipped with 70 disks... right...\r\n\r\n\r\n\r\n", id: 218456317,
+  time: '2016/05/11 13:19:09', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218456317',
+  user: lzonneke}
+- {body: "https://docs.google.com/spreadsheets/d/1bRMpwIfzD5LOQq62NMxYjxx_s1ELLsUAILj3Ss6uEh4/edit?ts=573339b8#gid=0\r\
+    \n\r\nabove link is what we have available,\r\n\r\nas you can see we have 69 approved\
+    \ disks but they are SMR's, I do not know where the other 1 disk went but we had\
+    \ 70...\r\n\r\nWe have 104 other disks in different types... as you can see...\r\
+    \n\r\nI have asked a quote for 140 disks \r\nST8000NM0055\r\nand requested a check\
+    \ on the compatibility\r\n\r\n", id: 218509415, time: '2016/05/11 16:13:31', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/218509415',
+  user: lzonneke}
+id: 154216553
+labels: [type_task]
+milestone: ''
+number: 129
+open: true
+state: open
+time: 2016/05/11 11:04:34
+title: 'beta21env: Prepare hardware '
+url: https://github.com/gig-projects/org_development/issues/129

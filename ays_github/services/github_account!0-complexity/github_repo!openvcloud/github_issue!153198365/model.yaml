@@ -1,0 +1,22 @@
+assignee: ''
+body: "The following link produce not handled error.\r\nhttps://du-conv-2.demo.greenitglobe.com/AYS/template?aysid=12345%27%22\\\
+  %27\\%22%29;|]*%00{%0d%0a%3C%00%3E%bf%27%27####&domain=jumpscale&name=postgresql\r\
+  \n\r\nThe same GET /AYS/template?aysid=12345%27%22\\%27\\%22%29;|]*%00{%0d%0a%3C%00%3E%bf%27%27####&domain=jumpscale&name=postgresql\
+  \ \r\nis producing the same error with others environment. \r\n\r\n**SW**\r\nJumpScale\r\
+  \n\r\n    Core: 7.1.0b2\r\n    Portal: 7.1.0b2\r\n\r\nOpenvCloud\r\n\r\n    Core:\
+  \ 2.1.0b2\r\n\r\nOpenvStorage:\r\n\r\n    openvstorage-backend-core: 1.6.1-eugene-updates.4-1\r\
+  \n    alba: 0.8.1\r\n    openvstorage-webapps: 2.6.1-eugene-updates.20-1\r\n   \
+  \ openvstorage-backend-webapps: 1.6.1-eugene-updates.4-1\r\n    openvstorage-core:\
+  \ 2.6.1-eugene-updates.20-1\r\n    openvstorage-hc: 1.6.1-eugene-updates.4-1\r\n\
+  \    openvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\n    openvstorage: 2.6.1-eugene-updates.20-1\r\
+  \n    openvstorage-backend: 1.6.1-eugene-updates.4-1\r\n    openvstorage-sdm: 1.5.1-eugene-updates.1-1"
+comments: []
+id: 153198365
+labels: [priority_normal, type_bug]
+milestone: 3:ovc2.1_ga
+number: 116
+open: true
+state: open
+time: 2016/05/05 09:32:10
+title: Not handled error message while browsing AYS
+url: https://github.com/0-complexity/openvcloud/issues/116

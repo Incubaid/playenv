@@ -1,0 +1,23 @@
+assignee: maxux
+body: '### Part of Story: #6
+
+
+  '
+comments:
+- {body: see pnode file in cuisine on aysfix branch, id: 216423233, time: '2016/05/03
+    02:46:23', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216423233',
+  user: despiegk}
+- {body: "please check\r\nhttps://github.com/Jumpscale/jumpscale_core8/blob/77e9a2c6685783dd296c93b68411f41d58582708/lib/JumpScale/tools/cuisine/CuisineStor.py\r\
+    \n\r\nspecs for the stor\r\nlets discuss\r\n", id: 216431373, time: '2016/05/03
+    04:15:11', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/216431373',
+  user: despiegk}
+id: 152689234
+labels: [type_task]
+milestone: ''
+number: 16
+open: true
+state: open
+time: 2016/05/03 02:44:38
+title: 'G8OSalfa: fix required methods in cuisine on pnode, to get import/export to
+  work'
+url: https://github.com/gig-projects/org_research/issues/16

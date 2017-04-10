@@ -1,0 +1,32 @@
+assignee: abdulrahmantkhalifa
+body: "Use our Jenkins [http://ci.codescalers.com/]() to daily test the cuisine \"\
+  all\" builder.\r\n\r\n1. Bootstrap with agent (would be a good opportunity to verify\
+  \ https://github.com/Jumpscale/jumpscale_core8/pull/117\r\n2. Use (and verify!)\
+  \ this script for testing: https://github.com/0-complexity/g8_lab_internal/pull/5\r\
+  \n3. Add reports\r\n"
+comments:
+- {body: 'convert jumpscale/dockers to support standard dockerfiles.
+
+    Build the images in order
+
+    In build image build cuisine.all
+
+    Push into stor (bleeding edge flist?)
+
+    Build g8os', id: 202067740, time: '2016/03/27 13:54:18', url: 'https://api.github.com/repos/Jumpscale/home/issues/comments/202067740',
+  user: grimpy}
+- {body: '@abdulrahmantkhalifa please add documentation before calling this done',
+  id: 209386234, time: '2016/04/13 11:45:11', url: 'https://api.github.com/repos/Jumpscale/home/issues/comments/209386234',
+  user: grimpy}
+- {body: 'documentation -->  https://gig.gitbooks.io/jumpscale8/content/Jenkins/Jenkins_intro.html',
+  id: 212307724, time: '2016/04/20 07:50:09', url: 'https://api.github.com/repos/Jumpscale/home/issues/comments/212307724',
+  user: abdulrahmantkhalifa}
+id: 143218492
+labels: [state_inprogress]
+milestone: ''
+number: 8
+open: true
+state: open
+time: 2016/03/24 11:10:55
+title: Daily Build Test
+url: https://github.com/Jumpscale/home/issues/8

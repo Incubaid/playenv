@@ -1,0 +1,32 @@
+assignee: grimpy
+body: https://youtrack.incubaid.com/issue/CB-936
+comments:
+- {body: "When trying to create a port forwarding to a VM and in case of slow network\
+    \ so I had to click the OK button three times and this triggered three jobs to\
+    \ create the same port forwarding !!\r\n![image](https://cloud.githubusercontent.com/assets/15102982/13842810/884e2ece-ec30-11e5-9792-c4d08d03961a.png)\r\
+    \nAlso the delete for these redundant port forwarding is failing.\r\n![image](https://cloud.githubusercontent.com/assets/15102982/13842788/68ccab0c-ec30-11e5-87e8-c32f3a25be67.png)",
+  id: 197801322, time: '2016/03/17 10:08:49', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/197801322',
+  user: lzonneke}
+- {body: "## Tested on du-conv\r\nCan not be reproduced. However by coincidence i\
+    \ have a slow network one time and this issue came back.\r\nI think this issue\
+    \ can be solved by forcing a loading page after adding a port forward that should\
+    \ be solved in this [ticket:](https://github.com/0-complexity/openvcloud/issues/48)\
+    \ https://github.com/0-complexity/openvcloud/issues/48 \r\n\r\n## Software Version\r\
+    \nJumpScale\r\n\r\nCore: 7.1.0b2\r\nPortal: 7.1.0b2\r\nOpenvCloud\r\n\r\nCore:\
+    \ 2.1.0b2\r\nOpenvStorage:\r\n\r\nopenvstorage-backend-core: 1.6.1-eugene-updates.4-1\r\
+    \nalba: 0.8.1\r\nopenvstorage-webapps: 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend-webapps:\
+    \ 1.6.1-eugene-updates.4-1\r\nopenvstorage-core: 2.6.1-eugene-updates.20-1\r\n\
+    openvstorage-hc: 1.6.1-eugene-updates.4-1\r\nopenvstorage-cinder-plugin: 1.1.1-eugene-updates.1-1\r\
+    \nopenvstorage: 2.6.1-eugene-updates.20-1\r\nopenvstorage-backend: 1.6.1-eugene-updates.4-1\r\
+    \nopenvstorage-sdm: 1.5.1-eugene-updates.1-1", id: 217107311, time: '2016/05/05
+    09:04:14', url: 'https://api.github.com/repos/0-complexity/openvcloud/issues/comments/217107311',
+  user: john-kheir}
+id: 141410170
+labels: [type_bug]
+milestone: 1:cb2.0.4
+number: 13
+open: true
+state: open
+time: 2016/03/16 21:42:17
+title: Should prevent creating port forwarding with the same port to the same VM
+url: https://github.com/0-complexity/openvcloud/issues/13

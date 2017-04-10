@@ -1,0 +1,7 @@
+milestone.category             =
+    'code_ovc',
+
+milestone.deadline             = '+1m'
+milestone.description          = 'beta version of ovc 2.1.0'
+milestone.owner                = 'despiegk'
+milestone.title                = 'ovc210_beta'

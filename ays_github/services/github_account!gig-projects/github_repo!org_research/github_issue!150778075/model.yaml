@@ -1,0 +1,22 @@
+assignee: lzonneke
+body: "### Part of Story: #3\n\n - 1 x 1CPU\n - 1x 2CPU\n"
+comments:
+- {body: "First Test environment is ordered on PO00040\r\n1x 2CPU (5 pieces)\r\nfor\
+    \ this set up we will use the quanta box which is available in the Microblade\
+    \ set up...\r\n\r\n## 1 x 1CPU\r\nHow many devices do we require for the next\
+    \ set up\r\nDo we include quanta?\r\n\r\n\r\n\r\n", id: 214237912, time: '2016/04/25
+    09:45:36', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/214237912',
+  user: lzonneke}
+- {body: "@despiegk still question for the 1x 1CPU...\r\n\r\nHow many devices do we\
+    \ require for the next set up\r\nDo we include quanta?", id: 218139621, time: '2016/05/10
+    12:14:36', url: 'https://api.github.com/repos/gig-projects/org_research/issues/comments/218139621',
+  user: lzonneke}
+id: 150778075
+labels: [state_question, type_task]
+milestone: ''
+number: 4
+open: true
+state: open
+time: 2016/04/25 07:46:27
+title: 'rdmaenv: order first 2 test env [1h]'
+url: https://github.com/gig-projects/org_research/issues/4

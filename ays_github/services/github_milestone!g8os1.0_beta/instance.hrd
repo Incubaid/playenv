@@ -1,0 +1,7 @@
+milestone.category             =
+    'code_g8os',
+
+milestone.deadline             = '+1m'
+milestone.description          = 
+milestone.owner                = 'despiegk'
+milestone.title                = 'g8os1.0_beta'

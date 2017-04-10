@@ -1,0 +1,36 @@
+assignee: maxux
+body: "### Part of Story: #70\r\n\r\n## GOAL:\r\nHave a first/mvp (minimal viable\
+  \ product) version of a blueprint template for deploying a Drupal environment \r\
+  \n\r\n## DESCRIPTION:\r\n- Review the requirements in the story\r\n- Provide feedback\r\
+  \n- Create first version\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\
+  \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+comments:
+- {body: "@maxux  I just finished a manual setup of a Drupal environment using two\
+    \ Docker containers, one for MySQL and one for Drupal, all is documented [here](https://github.com/0-complexity/ovcdoc_public/blob/master/BootCamp/Docker/Docker.md)\r\
+    \n\r\nThe actual docker machine hosting the containers is on [be-conv-2](https://be-conv-2.demo.greenitglobe.com/CBGrid/Virtual%20Machine?id=55)\r\
+    \n\r\nThe result can be seen [here](http://10.101.104.120:9080/)\r\n\r\nCan you\
+    \ start the work to create a blueprint template that provides the same result?",
+  id: 216287859, time: '2016/05/02 16:41:29', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216287859',
+  user: yveskerwyn}
+- {body: "It's already done. Some unstable result to fix is still to improve but a\n\
+    blueprint which deploy all of that is already made. Link to the repository\nwill\
+    \ follow.\n\nOn Monday, 2 May 2016, Yves Kerwyn <notifications@github.com> wrote:\n\
+    \n> @maxux <https://github.com/maxux> I just finished a manual setup of a\n> Drupal\
+    \ environment using two Docker containers, one for MySQL and one for\n> Drupal,\
+    \ all is documented here\n> <https://github.com/0-complexity/ovcdoc_public/blob/master/BootCamp/Docker/Docker.md>\n\
+    >\n> The actual docker machine hosting the containers is on be-conv-2\n> <https://be-conv-2.demo.greenitglobe.com/CBGrid/Virtual%20Machine?id=55>\n\
+    >\n> The result can be seen here <http://10.101.104.120:9080/>\n>\n> Can you start\
+    \ the work to create a blueprint template that provides the\n> same result?\n\
+    >\n> \u2014\n> You are receiving this because you were mentioned.\n> Reply to\
+    \ this email directly or view it on GitHub\n> <https://github.com/gig-projects/org_development/issues/71#issuecomment-216287859>\n\
+    >\n", id: 216288424, time: '2016/05/02 16:43:45', url: 'https://api.github.com/repos/gig-projects/org_development/issues/comments/216288424',
+  user: maxux}
+id: 150869186
+labels: [type_task]
+milestone: ''
+number: 71
+open: true
+state: open
+time: 2016/04/25 14:02:28
+title: 'drupal-blueprint: create first version of Drupal blueprint template'
+url: https://github.com/gig-projects/org_development/issues/71

@@ -1,0 +1,77 @@
+assignee: abdulrahmantkhalifa
+body: "After installing JS8 on a fresh machine, tried to install the portal on vm-189\
+  \ on be-scale-3 (https://be-scale-3.demo.greenitglobe.com/CBGrid/Virtual%20Machine?id=189)\r\
+  \n\r\nExecuting:\r\nj.tools.cuisine.local.apps.portal.install()\r\n\r\nResult:\r\
+  \n[Tue26 15:29] - ...lib/JumpScale/tools/actions/Action.py:513  - INFO     -   *\
+  \ run                 : pip3 install --upgrade pip\r\nE:sudo: unable to resolve\
+  \ host vm-189\r\nE:Traceback (most recent call last):\r\nE:File \"/usr/local/bin/pip3\"\
+  , line 11, in <module>\r\nE:sys.exit(main())\r\nE:File \"/usr/local/lib/python3.5/dist-packages/pip/__init__.py\"\
+  , line 215, in main\r\nE:locale.setlocale(locale.LC_ALL, '')\r\nE:File \"/usr/lib/python3.5/locale.py\"\
+  , line 595, in setlocale\r\nE:return _setlocale(category, locale)\r\nE:locale.Error:\
+  \ unsupported locale setting\r\n\r\n\r\n*ERROR***********************************************************************************\r\
+  \naction: run                  runid:localhost            (ERROR)\r\n    CuisineCore.run.pip3\
+  \ install --upgrade pip|\r\n    path: /opt/jumpscale8/lib/JumpScale/tools/cuisine/CuisineCore.py\r\
+  \nDOC:\r\n    @param profile, execute the bash profile first\r\nERROR:\r\n    could\
+  \ not execute echo  | sudo -S bash -c \"pip3 install --upgrade pip\",OUT:\r\n  \
+  \  STDERR:\r\n    sudo: unable to resolve host vm-189\r\n    Traceback (most recent\
+  \ call last):\r\n      File \"/usr/local/bin/pip3\", line 11, in <module>\r\n  \
+  \      sys.exit(main())\r\n      File \"/usr/local/lib/python3.5/dist-packages/pip/__init__.py\"\
+  , line 215, in main\r\n        locale.setlocale(locale.LC_ALL, '')\r\n      File\
+  \ \"/usr/lib/python3.5/locale.py\", line 595, in setlocale\r\n        return _setlocale(category,\
+  \ locale)\r\n    locale.Error: unsupported locale setting\r\n[Tue26 15:29] - ...lib/JumpScale/tools/actions/Action.py:749\
+  \  - ERROR    -\r\n\r\n******************************************************************************************\r\
+  \n\r\n[Tue26 15:29] - ...lib/JumpScale/tools/actions/Action.py:621  - ERROR    -\
+  \ error in action: action: run                  runid:localhost       (ERROR)\r\n\
+  \    pip3 install --upgrade pip\r\n\r\nAn exception has occurred, use %tb to see\
+  \ the full traceback.\r\n\r\nSystemExit: 1\r\n\r\nWhen trying: root@vm-189:/tmp#\
+  \ pip3 install --upgrade pip\r\n\r\n  File \"/usr/local/bin/pip3\", line 11, in\
+  \ <module>\r\n    sys.exit(main())\r\n  File \"/usr/local/lib/python3.5/dist-packages/pip/__init__.py\"\
+  , line 215, in main\r\n    locale.setlocale(locale.LC_ALL, '')\r\n  File \"/usr/lib/python3.5/locale.py\"\
+  , line 595, in setlocale\r\n    return _setlocale(category, locale)\r\nlocale.Error:\
+  \ unsupported locale setting\r\n\r\nBug?\r\n\r\nThanks for your help"
+comments:
+- {body: "Cannot reproduce error, maybe method of installation of jumpscale is different,\
+    \ what method was used ?\r\nbut either way the portal requires a mongodb instance\
+    \ to connect to , either \r\ninstall on the vm through : \r\n`j.tools.cuisine.local.apps.mongo.build()`\r\
+    \nand then run the portal install command \r\nor \r\n\r\nconnect to\r\nrunning\
+    \ instance on the network while installing  through : `j.toolls.cuisine.apps.portal.install(mongodbip=\"\
+    \", mongoport=\"\")`\r\n", id: 215350575, time: '2016/04/28 08:26:47', url: 'https://api.github.com/repos/Jumpscale/jumpscale_portal8/issues/comments/215350575',
+  user: abdulrahmantkhalifa}
+- {body: "Very easy to reproduce @abdulrahmantkhalifa :\r\n- Start from fresh VM on\
+    \ be-scale-3\r\n- Follow the documentation to install JS8: https://gig.gitbooks.io/jumpscale8/content/GettingStarted/Install.html\r\
+    \n- Follow the documentation to install the Portal: https://gig.gitbooks.io/jumpscale8/content/Portal/Install.html\r\
+    \n\r\nThanks for updating the documentation\r\n\r\nThat being said, retried on\
+    \ my existing VM:\r\nj.tools.cuisine.local.apps.mongodb.build()\r\nj.tools.cuisine.local.apps.portal.install()\r\
+    \n\r\nExists with error:\r\n\r\nTraceback (most recent call last):\r\n  File \"\
+    /tmp/actions/localhost/changeEve.py\", line 25, in changeEve\r\n    raise j.exceptions.RuntimeError(\"\
+    Cannot find:%s, to convert to python 3\" % path)\r\nOurExceptions.RuntimeError:\
+    \ ERROR: Cannot find:/usr/local/lib/python3.5/dist-packages\r\n\r\nSTDERR:\r\n\
+    sudo: unable to resolve host vm-189/eve_docs/config.py, to convert to python 3\
+    \ ((type:runtime.error)\r\n[Thu28 09:13] - ...lib/JumpScale/tools/actions/Action.py:749\
+    \  - ERROR    -\r\n\r\n******************************************************************************************\r\
+    \n\r\n[Thu28 09:13] - ...lib/JumpScale/tools/actions/Action.py:621  - ERROR  \
+    \  - error in action: action: changeEve            runid:localhost       (ERROR)\r\
+    \n\r\n\r\nAn exception has occurred, use %tb to see the full traceback.\r\n\r\n\
+    SystemExit: 1\r\n\r\n", id: 215362838, time: '2016/04/28 09:19:19', url: 'https://api.github.com/repos/Jumpscale/jumpscale_portal8/issues/comments/215362838',
+  user: yveskerwyn}
+- {body: "k so this is a current issue being fixed , if u need jumpscale on the machine\
+    \ it can be manually fixed by editing \r\nthe /etc/hosts file to have :\r\n`127.0.0.1\
+    \ localhost localhost.localdomain <your machine name usually vm-number >`\r\n\r\
+    \n", id: 215370605, time: '2016/04/28 09:46:36', url: 'https://api.github.com/repos/Jumpscale/jumpscale_portal8/issues/comments/215370605',
+  user: abdulrahmantkhalifa}
+- {body: "@abdulrahmantkhalifa, after updating /etc/hosts and re-running the JS8 installation,\
+    \ still got an error, see https://github.com/Jumpscale/jumpscale_core8/issues/208\
+    \ \r\n\r\nPlease also update the [documentation](https://gig.gitbooks.io/jumpscale8/content/Portal/Install.html):\r\
+    \n\r\nj.tools.cuisine.local.apps.mongo.build() -> j.tools.cuisine.local.apps.mongodb.build()\r\
+    \nj.tools.cuisine.local.portal.install() -> j.tools.cuisine.local.apps.portal.install()",
+  id: 215652224, time: '2016/04/29 07:54:19', url: 'https://api.github.com/repos/Jumpscale/jumpscale_portal8/issues/comments/215652224',
+  user: yveskerwyn}
+id: 151170986
+labels: [state_inprogress, state_question, type_bug]
+milestone: ''
+number: 51
+open: true
+state: open
+time: 2016/04/26 15:49:19
+title: Failing to install portal
+url: https://github.com/Jumpscale/jumpscale_portal8/issues/51

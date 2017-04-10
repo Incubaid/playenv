@@ -1,0 +1,20 @@
+assignee: rkhamis
+body: "release jumpscale in a good enough beta format which means\r\n\r\n     -  good\
+  \ enough documentation\r\n     - some good tests running in cockpit_gig_js8_test\
+  \ (recurring)\r\n     -  all remaining issues resolved linked to beta: [see issues](https://github.com/Jumpscale/jumpscale_core8/milestones/js8.0_beta)\r\
+  \n     -  decent set of documented ays templates\r\n\r\n|status|title          \
+  \                     |link|\r\n|------|------------------------------------|----|\r\
+  \n|open  |js8beta: improve ays8               |#99 |\r\n|closed  |js8beta: fix branches\
+  \               |#52 |\r\n|open  |js8beta: create cockpit for js8 test|#2  |\r\n\
+  |open  |js8beta: Improve JS Framework documentation|#121  |\r\n|open  |js8beta:\
+  \ basic testing of core modules|#122  |\r\n"
+comments: []
+id: 149336330
+labels: [state_inprogress, type_story]
+milestone: 7:G8-2.1-beta
+number: 1
+open: true
+state: open
+time: 2016/04/19 03:15:21
+title: jumpscale 8.0 Beta (js8beta)
+url: https://github.com/gig-projects/org_development/issues/1

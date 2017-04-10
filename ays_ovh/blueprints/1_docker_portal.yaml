@@ -1,0 +1,51 @@
+
+
+datacenter__ovh_germany1:
+  location:
+    - '...'
+  description:
+    - '...'
+
+rack__ovh_1:
+  location:
+    - '...'
+  datacenter: 'ovh_germany1'
+
+#make sure we use the ovh_install key
+sshkey__ovh_install:
+  key.path: '/root/.ssh/ovh_rsa'
+
+#no need to specify a sshkey, because there is only 1 will use that one
+node.physical__ovh4:
+  rack: 'ovh_1'
+
+os.ssh.ubuntu__ovh4:
+  ssh.addr: '94.23.38.89'
+  ssh.port: 9022
+  ssh.key: 'ovh_install' 
+  node: 'ovh4'
+  aysfs: false
+
+
+node.docker__ubuntutest:
+  ssh.key: 'ovh_install' 
+  image: 'ubuntu'
+  ports:
+    - 80
+  os: 'ovh4'
+
+os.ssh.ubuntu__docker_ovh4:
+  ssh.addr: '94.23.38.89'
+  ssh.port: 9022
+  ssh.key: 'ovh_install' 
+  node: 'ubuntutest'
+  aysfs: true
+
+#needs to be created, a full app which install js8, jsportal, ...
+portal__myportal:
+  os: 'docker_ovh4'
+  admin.passwd: 'rooter'
+  admin.login: 'admin'
+
+
+

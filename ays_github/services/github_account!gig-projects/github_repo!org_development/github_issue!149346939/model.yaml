@@ -1,0 +1,14 @@
+assignee: ''
+body: "### Part of Story: #1\r\n\r\n- see story\r\n- deploy cockpit running on MS1\r\
+  \n- define some tests which are implemented as ays templates\r\n    - kristof is\
+  \ preparing some examples\r\n\r\n"
+comments: []
+id: 149346939
+labels: [type_task]
+milestone: ''
+number: 2
+open: true
+state: open
+time: 2016/04/19 04:42:46
+title: 'js8beta: create cockpit for js8 test'
+url: https://github.com/gig-projects/org_development/issues/2
