@@ -1,22 +1,23 @@
 set -ex
 
-
 curl http://download.tarantool.org/tarantool/1.7/gpgkey | sudo apt-key add -
 release=`lsb_release -c -s`
 
 # install https download transport for APT
-apt-get -y install apt-transport-https
+sudo apt-get -y install apt-transport-https
 
 # append two lines to a list of source repositories
-rm -f /etc/apt/sources.list.d/*tarantool*.list
-tee /etc/apt/sources.list.d/tarantool_1_7.list <<- EOF
+sudo rm -f /etc/apt/sources.list.d/*tarantool*.list
+sudo tee /etc/apt/sources.list.d/tarantool_1_7.list <<- EOF
 deb http://download.tarantool.org/tarantool/1.7/ubuntu/ $release main
 deb-src http://download.tarantool.org/tarantool/1.7/ubuntu/ $release main
 EOF
 
 # install
-apt-get update
-apt-get -y install tarantool
+sudo apt-get update
+sudo apt-get -y install tarantool
+
+TMPDIR=/tmp
 
 pushd $TMPDIR
 git clone http://luajit.org/git/luajit-2.0.git
@@ -40,7 +41,7 @@ tarantoolctl rocks install expirationd
 tarantoolctl rocks install connpool
 tarantoolctl rocks install http
 
-apt install luarocks
+apt install -y luarocks
 luarocks install redis-lua
 luarocks install yaml
 luarocks install penlight
@@ -50,10 +51,10 @@ luarocks install lua-cjson
 luarocks install luafilesystem
 luarocks install siphash --from=http://mah0x211.github.io/rocks/
 
-apt install libsodium-dev
+apt install -y libsodium-dev
 luarocks install symmetric
 
-apt install libb2-dev
+apt install -y libb2-dev
 luarocks install --from=http://mah0x211.github.io/rocks/ blake2
 
 #NEED TARANTOOL INSTALL
