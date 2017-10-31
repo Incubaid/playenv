@@ -44,9 +44,14 @@ apt install luarocks
 luarocks install redis-lua
 luarocks install yaml
 luarocks install penlight
-luarocks install luasec OPENSSL_DIR=/usr//local/opt/openssl@1.1
+luarocks install luasec
 luarocks install luatweetnacl
 luarocks install lua-cjson
+luarocks install luafilesystem
+luarocks install siphash --from=http://mah0x211.github.io/rocks/
+
+apt install libsodium-dev
+luarocks install symmetric
 
 #NEED TARANTOOL INSTALL
 
