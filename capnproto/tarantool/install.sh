@@ -40,7 +40,7 @@ tarantoolctl rocks install expirationd
 tarantoolctl rocks install connpool
 tarantoolctl rocks install http
 
-#TODO: luarocks not installed yet
+apt install luarocks
 luarocks install redis-lua
 luarocks install yaml
 luarocks install penlight
