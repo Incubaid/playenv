@@ -53,6 +53,9 @@ luarocks install siphash --from=http://mah0x211.github.io/rocks/
 apt install libsodium-dev
 luarocks install symmetric
 
+apt install libb2-dev
+luarocks install --from=http://mah0x211.github.io/rocks/ blake2
+
 #NEED TARANTOOL INSTALL
 
 popd
