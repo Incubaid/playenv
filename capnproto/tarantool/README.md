@@ -43,12 +43,16 @@ tarantool> benchmark()
 start with memtx_memory =       488281.25        kbytes
 number of data =        1000000
 length of one data =    248      bytes
-total time :   6.564344 seconds
-memory overhead =       7868548ULL       bytes
+total time :   6.212417 seconds
+number of data * lengt of one data =    242187.5         kbytes
+tarantool memory usage =        249871ULL        kbytes
+tarantool memory overhead =     7868548ULL       bytes
+Lua memory used:        197621.6640625   kbytes
 ---
 ...
 
 tarantool> 
+
 ```
 
 ## lua-capnproto

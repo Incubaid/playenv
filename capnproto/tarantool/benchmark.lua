@@ -1,5 +1,6 @@
 local big = require "Big_capnp"
 local capnp = require "capnp"
+local collectgarbage = collectgarbage
 
 local num_data = 1000 * 1000
 
@@ -39,17 +40,22 @@ function write_data(num)
 end
 
 function benchmark()
-	local start1, start2
-	
 	local data = serialize_data()
 	print('start with memtx_memory = ', box.cfg.memtx_memory / 1024, ' kbytes')
 	print('number of data = ', num_data)
 	print('length of one data = ', #data, ' bytes')
+	
+	-- call the GC
+	collectgarbage"collect"
+	-- stop gc
+	collectgarbage"stop"
 
-	start_clock = os.clock()
+	local start_clock = os.clock()
+	local start_mem = (collectgarbage"count" * 1024)
 	
 	write_data(num_data)
-
+	
+	local end_mem = (collectgarbage"count" * 1024)
 	local elapsed = (os.clock() - start_clock)
 
 	print(string.format("total time : %10.6f seconds", elapsed))
@@ -57,7 +63,15 @@ function benchmark()
 	local actual_data_size = num_data * #data
 	local bin_size = box.space.tester:bsize()
 
-	print("memory overhead = ", bin_size - actual_data_size, " bytes")
+	print('number of data * lengt of one data = ', actual_data_size / 1024, ' kbytes')
+	print("tarantool memory usage = ", bin_size / 1024, " kbytes")
+	print("tarantool memory overhead = ", bin_size - actual_data_size, " bytes")
+	print('Lua memory used:', (end_mem - start_mem) / 1024, ' kbytes')
+	
+	-- restart GC
+	collectgarbage"restart"
+	-- call the GC
+	collectgarbage"collect"
 end
 
 require('console').start()
