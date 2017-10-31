@@ -2,20 +2,13 @@
 
 ## Tarantool
 
-Install tarantool
+Install tarantool and all dependencies:
+- luajit
+- tarantool modules
+- lua-capnproto
 
 ```
-curl http://download.tarantool.org/tarantool/1.6/gpgkey | sudo apt-key add -
-release=`lsb_release -c -s`
-
-sudo rm -f /etc/apt/sources.list.d/*tarantool*.list
-sudo tee /etc/apt/sources.list.d/tarantool_1_6.list <<- EOF
-deb http://download.tarantool.org/tarantool/1.6/ubuntu/ $release main
-deb-src http://download.tarantool.org/tarantool/1.6/ubuntu/ $release main
-EOF
-
-sudo apt-get update
-sudo apt-get -y install tarantool git build-essential
+bash install.sh
 ```
 
 ## capnproto
@@ -24,24 +17,44 @@ sudo apt-get -y install tarantool git build-essential
 sudo apt-get install capnproto
 ```
 
+## benchmark test
 
-## Luajit
+Benchmark file can be found in [benchmark.lua](./benchmark.lua).
 
-we will use lua-capnproto library which need luajit to run.
+The benchmark function is `benchmark`, we can execute the benchmark by
+execute `tarantool benchmark.lua` and then type `benchmark` in Tarantool console
 
 ```
-git clone http://luajit.org/git/luajit-2.0.git
-cd luajit-2.0/
-git checkout v2.1
-make && sudo make install
-sudo ln -sf luajit-2.1.0-alpha /usr/local/bin/luajit
+# tarantool benchmark.lua 
+2017-10-31 10:01:19.354 [2623] main/101/benchmark.lua I> systemd: NOTIFY_SOCKET variable is empty, skipping
+2017-10-31 10:01:19.355 [2623] main/101/benchmark.lua C> Tarantool 1.7.5-255-gc383806
+2017-10-31 10:01:19.357 [2623] main/101/benchmark.lua C> log level 5
+2017-10-31 10:01:19.358 [2623] main/101/benchmark.lua I> mapping 503316480 bytes for memtx tuple arena...
+2017-10-31 10:01:19.359 [2623] main/101/benchmark.lua I> mapping 134217728 bytes for vinyl tuple arena...
+2017-10-31 10:01:19.361 [2623] iproto/101/main I> binary: bound to 0.0.0.0:3313
+2017-10-31 10:01:19.363 [2623] main/101/benchmark.lua I> initializing an empty data directory
+2017-10-31 10:01:19.368 [2623] snapshot/101/main I> saving snapshot `./00000000000000000000.snap.inprogress'
+2017-10-31 10:01:19.370 [2623] snapshot/101/main I> done
+2017-10-31 10:01:19.371 [2623] main/101/benchmark.lua I> ready to accept requests
+2017-10-31 10:01:19.373 [2623] main/104/checkpoint_daemon I> started
+2017-10-31 10:01:19.374 [2623] main/104/checkpoint_daemon I> scheduled the next snapshot at Tue Oct 31 11:23:16 2017
+bootstraping database...
+tarantool> benchmark()
+start with memtx_memory =       488281.25        kbytes
+number of data =        1000000
+length of one data =    248      bytes
+total time :   6.564344 seconds
+memory overhead =       7868548ULL       bytes
+---
+...
+
+tarantool> 
 ```
 
 ## lua-capnproto
 
 ```
 sudo apt-get install lua5.3 luarocks
-sudo luarocks install lua-capnproto
 sudo luarocks install lua-cjson
 ```
 

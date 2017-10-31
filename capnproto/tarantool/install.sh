@@ -42,6 +42,7 @@ tarantoolctl rocks install connpool
 tarantoolctl rocks install http
 
 apt install -y luarocks
+luarocks install lua-capnproto
 luarocks install redis-lua
 luarocks install yaml
 luarocks install penlight
