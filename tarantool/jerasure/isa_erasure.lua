@@ -53,23 +53,11 @@ end
 function IsaErasure.decode(self, blocks, broken_idx)
 	local block_size = #blocks[1]
 
-	-- init broken_table
-	local is_broken = {}
-	for i=1, self:num_shards() do
-		is_broken[i] = false
-	end
-
-	for i=1, #broken_idx do
-		is_broken[broken_idx[i]] = true
-	end
-
 	-- copy blocks to C
-	local c_blocks = ffi.cast(C_BLOCK_SHARDS_TYPE, ffi.C.malloc(C_BLOCK_POINTER_SIZE * self:num_shards()))
+	local c_blocks = ffi.cast(C_BLOCK_SHARDS_TYPE, ffi.C.malloc(C_BLOCK_POINTER_SIZE * #blocks))
 	for i = 1, #blocks do
 		c_blocks[i-1] = ffi.cast(C_BLOCK_TYPE, ffi.C.malloc(block_size))
-		if is_broken[i] == false then
-			ffi.copy(c_blocks[i-1], blocks[i], block_size)
-		end
+		ffi.copy(c_blocks[i-1], blocks[i], block_size)
 	end
 
 	-- decoding tables
@@ -83,16 +71,14 @@ function IsaErasure.decode(self, blocks, broken_idx)
 
 	isal.ec_encode_data(block_size, self.data_shards, #broken_idx, c_decode_tab, c_blocks, c_results)
 
-	ffi.C.free(c_decode_tab)
 
-	-- copy results
-	for i, val in pairs(broken_idx) do
-		blocks[val] = ffi.string(c_results[i-1], block_size)
+	local recovered = {}
+	for i=0, #broken_idx -1 do
+		print("copy recovered data from idx = ", i)
+		recovered[i+1] = ffi.string(c_results[i], block_size)
 	end
-
-	self:do_free(c_results, #broken_idx)
-
-	return blocks
+	ffi.C.free(c_decode_tab)
+	return recovered
 end
 
 -- decoding table initialization
@@ -136,7 +122,8 @@ function IsaErasure.init_decode_tab(self, broken_idx)
 	local c_decode_matrix = ffi.cast(C_BLOCK_TYPE, ffi.C.malloc(self.data_shards * self:num_shards()))
 	for i=0, #broken_idx - 1 do
 		for j=0, self.data_shards -1 do
-			c_decode_matrix[self.data_shards *i + j] = c_invmatrix[self.data_shards * i + j]
+			local idx = self.data_shards * i + j
+			c_decode_matrix[idx] = c_invmatrix[idx]
 		end
 	end
 
@@ -158,30 +145,25 @@ end
 -- encode lua string
 function IsaErasure.encode(self, data)
 	local chunk_size = self:get_chunk_size(#data)
-	local c_encoded_data = self:allocate_encoded_data(data)
-	local c_encoded_parity = self:allocate_encoded_parity(chunk_size)
+	local c_encoded = self:allocate_encoded(data)
 	
-	isal.ec_encode_data(chunk_size, self.data_shards, self.parity_shards, self.encode_tab, c_encoded_data, c_encoded_parity)
+	isal.ec_encode_data(chunk_size, self.data_shards, self.parity_shards, self.encode_tab, c_encoded, c_encoded+self.data_shards)
 
 	-- copy the result to Lua table
 	local encoded = {}
-	for i = 1, self.data_shards do
-		encoded[i] = ffi.string(c_encoded_data[i-1], chunk_size)
+	for i = 1, self:num_shards() do
+		encoded[i] = ffi.string(c_encoded[i-1], chunk_size)
 	end
-	for i = 1, self.parity_shards do
-		encoded[i+self.data_shards] = ffi.string(c_encoded_parity[i-1], chunk_size)
-	end
-	self:do_free(c_encoded_data, self.data_shards)
-	self:do_free(c_encoded_parity, self.parity_shards)
+	self:do_free(c_encoded, self:num_shards())
 	return encoded
 end
 
 -- allocate encoded result
-function IsaErasure.allocate_encoded_data(self, data)
+function IsaErasure.allocate_encoded(self, data)
 	local chunk_size = self:get_chunk_size(#data)
 	local encoded_len = chunk_size * self.data_shards
 
-	c_encoded = ffi.cast(C_BLOCK_SHARDS_TYPE, ffi.C.malloc(C_BLOCK_POINTER_SIZE * self.data_shards))
+	c_encoded = ffi.cast(C_BLOCK_SHARDS_TYPE, ffi.C.malloc(C_BLOCK_POINTER_SIZE * self:num_shards()))
 
 	-- check whether we need to add padding
 	local pad_len = encoded_len - #data
@@ -203,20 +185,14 @@ function IsaErasure.allocate_encoded_data(self, data)
 		ffi.C.memcpy(c_encoded[i], c_data + (i * chunk_size), chunk_size)
 	end
 
+	for i=self.data_shards, self:num_shards()-1 do
+		c_encoded[i] = ffi.cast(C_BLOCK_TYPE, ffi.C.malloc(chunk_size))
+	end
+
 	ffi.C.free(c_data)
 	return c_encoded
 end
 
-function IsaErasure.allocate_encoded_parity(self, chunk_size)
-	local c_encoded = ffi.cast(C_BLOCK_SHARDS_TYPE, ffi.C.malloc(self.parity_shards))
-	
-	-- allocate parity/coding blocks
-	for i=0, self.parity_shards-1 do
-		c_encoded[i] = ffi.cast(C_BLOCK_TYPE, ffi.C.malloc(chunk_size))
-	end
-	
-	return c_encoded
-end
 
 function IsaErasure.do_free(self, data_ptrs, n)
 	for i = 0, n-1 do
