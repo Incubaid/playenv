@@ -9,6 +9,19 @@ function test_encode_decode(filename)
 	
 	local encoded = isa_erasure:encode(data)
 	print("encode OK")
+
+	local ori_blocks = encoded[2]
+	encoded[2] = ""
+	local broken_idx = {2}
+	local recovered = isa_erasure:decode(encoded, broken_idx)
+	print("recovery OK")
+	print("checking recovered data")
+	print("num of recovered data = ", #recovered)
+	print("checking recovered = ", recovered[2] == ori_blocks)
+	print("len recovered = ", #recovered[2])
+	print("len ori blocks = ", #ori_blocks)
+	print("ori_blocks = ", string.sub(ori_blocks,1, 10))
+	print("recovered = ", string.sub(recovered[2],1, 10))
 end
 
 test_encode_decode("luajer.lua")
