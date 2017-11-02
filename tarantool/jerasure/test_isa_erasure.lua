@@ -22,7 +22,7 @@ function test_encode_decode(filename)
 	print("encoded len =", #encoded, ", . corrupted len = ", #corrupteds)
 	local ori_blocks = encoded[corrupt_idx]
 	local broken_idx = {corrupt_idx}
-	local recovered = isa_erasure:decode(encoded, broken_idx)
+	local recovered = isa_erasure:decode(corrupteds, broken_idx)
 	print("recovery finished")
 	print("checking recovered data")
 	print("num of recovered data = ", #recovered)
