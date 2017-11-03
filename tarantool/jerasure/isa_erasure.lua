@@ -20,7 +20,7 @@ local C_BLOCK_TYPE = "unsigned char *"
 local C_BLOCK_SHARDS_TYPE = "unsigned char **"
 local C_BLOCK_POINTER_SIZE = 8 -- sizeof(unsigned char *)
 
-
+-- creates Isa-l erasurer object
 function IsaErasure.new(data_shards, parity_shards)
 	local self = setmetatable({}, IsaErasure)
 
@@ -28,6 +28,7 @@ function IsaErasure.new(data_shards, parity_shards)
 	self.parity_shards = parity_shards
 
 	-- init encoding table
+	-- we can do it multiple times for encoding
 	local c_encode_tab = ffi.cast(C_BLOCK_TYPE, ffi.C.malloc(32 * data_shards * (data_shards+parity_shards)))
 	local c_encode_matrix = ffi.cast(C_BLOCK_TYPE, ffi.C.malloc(data_shards * (data_shards + parity_shards)))
 
@@ -45,6 +46,7 @@ function IsaErasure.free(self)
 	ffi.C.free(self.encode_tab)
 end
 
+-- return total number of shards
 function IsaErasure.num_shards(self)
 	return self.data_shards + self.parity_shards
 end
@@ -77,7 +79,7 @@ function IsaErasure.decode(self, blocks)
 	-- decoding tables
 	local c_decode_tab = self:init_decode_tab(broken_idx)
 
-	-- allocate results
+	-- allocate C results
 	local c_results = ffi.cast(C_BLOCK_SHARDS_TYPE, ffi.C.malloc(C_BLOCK_POINTER_SIZE * #broken_idx))
 	for i=0, #broken_idx - 1 do
 		c_results[i] = ffi.cast(C_BLOCK_TYPE, ffi.C.malloc(block_size))
