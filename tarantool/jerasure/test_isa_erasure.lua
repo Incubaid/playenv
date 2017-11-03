@@ -4,33 +4,33 @@ local data_shards = 4
 local parity_shards = 2
 local isa_erasure = IsaErasure.new(data_shards, parity_shards)
 
-function test_encode_decode(filename)
+function test_encode_decode(filename, broken_idx)
 	local data = io.open(filename, "r"):read("*all")
 	
-	local encoded = isa_erasure:encode(data)
+	local blocks = isa_erasure:encode(data)
 	print("encode OK")
 
-	-- simulate first data corrupted
-	local corrupt_idx = 1
-	local corrupteds = {}
-	for i=2, #encoded do
-		corrupteds[i-1] = encoded[i]
+	-- corrupts the data
+	local ori_blocks = {}
+	for k, v in pairs(broken_idx) do
+		ori_blocks[v] = blocks[v]
+		blocks[v] = ""
+		assert(ori_blocks[v] ~= "")
 	end
-	for i = 1, #corrupteds do
-		assert(corrupteds[i] == encoded[i+1])
+
+	-- recover the data
+	print("recover data")
+	local recovered = isa_erasure:decode(blocks)
+
+	print("checking recovered data ")
+	local succeed = true
+	for k, v in pairs(broken_idx) do
+		if recovered[v] ~= ori_blocks[v] then
+			print("failed to recover idx : ", idx)
+			succeed = false
+		end
 	end
-	print("encoded len =", #encoded, ", . corrupted len = ", #corrupteds)
-	local ori_blocks = encoded[corrupt_idx]
-	local broken_idx = {corrupt_idx}
-	local recovered = isa_erasure:decode(corrupteds, broken_idx)
-	print("recovery finished")
-	print("checking recovered data")
-	print("num of recovered data = ", #recovered)
-	print("checking recovered = ", recovered[1] == ori_blocks)
-	print("len recovered = ", #recovered[1])
-	print("len ori blocks = ", #ori_blocks)
-	print("ori_blocks = ", string.sub(ori_blocks,1, 10))
-	print("recovered = ", string.sub(recovered[1],1, 10))
+	print("recovery result = ", succeed)
 end
 
-test_encode_decode("luajer.lua")
+test_encode_decode("luajer.lua", {1, 2})

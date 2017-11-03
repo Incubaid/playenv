@@ -20,7 +20,7 @@ local C_BLOCK_TYPE = "unsigned char *"
 local C_BLOCK_SHARDS_TYPE = "unsigned char **"
 local C_BLOCK_POINTER_SIZE = 8 -- sizeof(unsigned char *)
 
-
+-- creates Isa-l erasurer object
 function IsaErasure.new(data_shards, parity_shards)
 	local self = setmetatable({}, IsaErasure)
 
@@ -28,6 +28,7 @@ function IsaErasure.new(data_shards, parity_shards)
 	self.parity_shards = parity_shards
 
 	-- init encoding table
+	-- we can do it multiple times for encoding
 	local c_encode_tab = ffi.cast(C_BLOCK_TYPE, ffi.C.malloc(32 * data_shards * (data_shards+parity_shards)))
 	local c_encode_matrix = ffi.cast(C_BLOCK_TYPE, ffi.C.malloc(data_shards * (data_shards + parity_shards)))
 
@@ -45,40 +46,56 @@ function IsaErasure.free(self)
 	ffi.C.free(self.encode_tab)
 end
 
+-- return total number of shards
 function IsaErasure.num_shards(self)
 	return self.data_shards + self.parity_shards
 end
 
 -- decode data
-function IsaErasure.decode(self, blocks, broken_idx)
-	local block_size = #blocks[1]
+function IsaErasure.decode(self, blocks)
+	local block_size = 0
+
+	-- creates broken index table
+	local broken_idx = {}
+	for i = 1, #blocks do
+		if blocks[i] == "" then
+			table.insert(broken_idx, i)
+		else
+			block_size = #blocks[i]
+		end
+	end
 
 	-- copy blocks to C
-	local c_blocks = ffi.cast(C_BLOCK_SHARDS_TYPE, ffi.C.malloc(C_BLOCK_POINTER_SIZE * #blocks))
+	local c_blocks = ffi.cast(C_BLOCK_SHARDS_TYPE, ffi.C.malloc(C_BLOCK_POINTER_SIZE * (#blocks-#broken_idx)))
+	local c_row = 0
 	for i = 1, #blocks do
-		c_blocks[i-1] = ffi.cast(C_BLOCK_TYPE, ffi.C.malloc(block_size))
-		ffi.copy(c_blocks[i-1], blocks[i], block_size)
+		if blocks[i] ~= "" then
+			c_blocks[c_row] = ffi.cast(C_BLOCK_TYPE, ffi.C.malloc(block_size))
+			ffi.copy(c_blocks[c_row], blocks[i], block_size)
+			c_row = c_row + 1
+		end
 	end
 
 	-- decoding tables
 	local c_decode_tab = self:init_decode_tab(broken_idx)
 
-	-- allocate results
+	-- allocate C results
 	local c_results = ffi.cast(C_BLOCK_SHARDS_TYPE, ffi.C.malloc(C_BLOCK_POINTER_SIZE * #broken_idx))
 	for i=0, #broken_idx - 1 do
 		c_results[i] = ffi.cast(C_BLOCK_TYPE, ffi.C.malloc(block_size))
 	end
 
+	-- erasure decode
 	isal.ec_encode_data(block_size, self.data_shards, #broken_idx, c_decode_tab, c_blocks, c_results)
 
 
-	local recovered = {}
-	for i=0, #broken_idx -1 do
-		print("copy recovered data from idx = ", i)
-		recovered[i+1] = ffi.string(c_results[i], block_size)
+	-- repair the data
+	for i, idx in pairs(broken_idx) do
+		blocks[idx] = ffi.string(c_results[i-1], block_size)
 	end
+
 	ffi.C.free(c_decode_tab)
-	return recovered
+	return blocks
 end
 
 -- decoding table initialization
