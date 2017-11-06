@@ -1,1 +1,0 @@
-capnpc -olua Big.capnp
